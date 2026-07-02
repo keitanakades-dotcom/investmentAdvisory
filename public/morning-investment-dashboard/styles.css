@@ -1729,6 +1729,9 @@ h1 {
 .public-records-table td {
   vertical-align: top;
 }
+.history-delete-btn {
+  white-space: nowrap;
+}
 .public-records-table ul {
   margin: 4px 0 0 18px;
   padding: 0;
