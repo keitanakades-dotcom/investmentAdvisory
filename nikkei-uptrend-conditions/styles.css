@@ -1369,8 +1369,6 @@ section[id] {
 .weekly-risk-card > div span { color: var(--muted); font-size: 12px; }
 .weekly-risk-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
 .weekly-risk-action { color: var(--text) !important; }
-.weekly-risk-detail { grid-column: 3 / -1; color: var(--text) !important; }
-.weekly-risk-detail b { color: var(--muted); }
 .weekly-risk-level { min-width: 72px; border-radius: 5px; padding: 5px 7px; color: #fff; font-size: 12px; font-weight: 800; text-align: center; }
 .weekly-risk-card.risk-s { border-left: 4px solid var(--bad); background: var(--bad-soft); }
 .weekly-risk-card.risk-s .weekly-risk-level { background: var(--bad); }
