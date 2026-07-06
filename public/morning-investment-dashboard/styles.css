@@ -567,6 +567,23 @@ h1 {
   background: #fff;
   padding: 14px;
 }
+
+.momentum-rotation-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 12px;
+}
+
+.rotation-card {
+  min-width: 0;
+  border-left: 4px solid #7c3aed;
+}
+
+.rotation-card p {
+  overflow-wrap: anywhere;
+}
+
 .market-theme-summary-card p {
   margin-bottom: 6px;
   line-height: 1.65;
@@ -1410,6 +1427,20 @@ h1 {
 .check-field input {
   margin-top: 5px;
 }
+.check-field input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: auto;
+  min-height: 0;
+  margin-top: 5px;
+  accent-color: var(--accent);
+}
+.check-field span {
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+}
 .public-notice-status-grid {
   display: grid;
   gap: 8px;
@@ -1950,7 +1981,7 @@ button:hover {
 .register-form input,
 .register-form select,
 .register-form textarea,
-.public-notice-settings-form input,
+.public-notice-settings-form input:not([type="checkbox"]),
 .public-notice-settings-form select,
 .public-notice-settings-form textarea,
 .public-records-search input {
@@ -1973,7 +2004,7 @@ button:hover {
 .register-form input:focus,
 .register-form select:focus,
 .register-form textarea:focus,
-.public-notice-settings-form input:focus,
+.public-notice-settings-form input:not([type="checkbox"]):focus,
 .public-notice-settings-form select:focus,
 .public-notice-settings-form textarea:focus,
 .public-records-search input:focus {
@@ -2128,5 +2159,9 @@ button:hover {
   .today-action-card,
   .diagnosis-card {
     border-radius: 18px;
+  }
+
+  .momentum-rotation-grid {
+    grid-template-columns: 1fr;
   }
 }

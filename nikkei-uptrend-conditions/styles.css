@@ -666,6 +666,34 @@ button:hover {
   margin: 14px 0;
 }
 
+.momentum-rotation-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 12px 0 14px;
+}
+
+.rotation-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-left: 4px solid #7c3aed;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px;
+}
+
+.rotation-card h3 {
+  margin: 4px 0 8px;
+  font-size: 15px;
+}
+
+.rotation-card p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
 .investment-horizon-card {
   border: 1px solid var(--line);
   border-left: 4px solid #2557d6;
@@ -1486,6 +1514,7 @@ section[id] {
 
 @media (max-width: 900px) {
   .decision-grid,
+  .momentum-rotation-grid,
   .diagnosis-group-list {
     grid-template-columns: 1fr;
   }
