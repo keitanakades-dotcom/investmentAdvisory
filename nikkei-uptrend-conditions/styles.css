@@ -250,6 +250,11 @@ button:hover {
   color: var(--bad);
 }
 
+.badge.neutral {
+  background: #eef2f7;
+  color: var(--muted);
+}
+
 .item-value {
   font-size: 20px;
   font-weight: 700;
@@ -1043,6 +1048,51 @@ section[id] {
   line-height: 1.65;
 }
 
+.agent-status-section {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--info);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.agent-status-section.tone-good { border-left-color: var(--good); }
+.agent-status-section.tone-warn { border-left-color: #ca8a04; }
+.agent-status-section.tone-bad { border-left-color: var(--bad); }
+
+.agent-status-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.agent-status-card {
+  min-width: 0;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.agent-status-card-primary {
+  background: #fff;
+}
+
+.agent-status-card strong {
+  display: block;
+  margin: 2px 0 7px;
+  overflow-wrap: anywhere;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.agent-status-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .conditions-table-wrap {
   margin-top: 0;
   overflow-x: auto;
@@ -1552,10 +1602,12 @@ section[id] {
   .hero-meta { grid-template-columns: 1fr; }
   .dashboard-nav { margin-bottom: 14px; }
   .decision-section,
+  .agent-status-section,
   .conditions-section,
   .holdings-summary-section { padding: 13px; }
   .decision-grid { gap: 8px; }
   .decision-card { min-height: 0; padding: 12px; }
+  .agent-status-grid { grid-template-columns: 1fr; }
   .market-tabs, .ratio-chart-tabs { margin-top: 14px; padding: 6px; }
   .ratio-metric-summary { grid-template-columns: 1fr; }
   .conditions-table-wrap { overflow: visible; }

@@ -216,17 +216,18 @@ h1 {
 }
 .morning-workbench > .masthead { order: 0; }
 .morning-workbench > #today-actions { order: 1; }
-.morning-workbench > .inpage-nav { order: 2; }
-.morning-workbench > #tradingview-alert-notice { order: 3; }
-.morning-workbench > #tradingview-alerts { order: 4; }
-.morning-workbench > #guide { order: 5; }
-.morning-workbench > #candidates { order: 6; }
-.morning-workbench > #market-themes { order: 7; }
-.morning-workbench > #market { order: 8; }
-.morning-workbench > #diagnosis { order: 9; }
-.morning-workbench > #register { order: 10; }
-.morning-workbench > #public-notice-settings { order: 11; }
-.morning-workbench > #sources { order: 12; }
+.morning-workbench > #multi-agent-check { order: 2; }
+.morning-workbench > .inpage-nav { order: 3; }
+.morning-workbench > #tradingview-alert-notice { order: 4; }
+.morning-workbench > #tradingview-alerts { order: 5; }
+.morning-workbench > #guide { order: 6; }
+.morning-workbench > #candidates { order: 7; }
+.morning-workbench > #market-themes { order: 8; }
+.morning-workbench > #market { order: 9; }
+.morning-workbench > #diagnosis { order: 10; }
+.morning-workbench > #register { order: 11; }
+.morning-workbench > #public-notice-settings { order: 12; }
+.morning-workbench > #sources { order: 13; }
 .morning-guidance-details {
   border-top: 1px solid var(--line);
   margin-top: 12px;
@@ -275,6 +276,113 @@ h1 {
 .today-action-card.tone-warn { border-left-color: var(--warn); }
 .today-action-card.tone-bad { border-left-color: var(--bad); }
 .today-action-card.tone-info { border-left-color: var(--accent); }
+.multi-agent-check-section {
+  background:
+    linear-gradient(135deg, rgba(239, 68, 68, 0.07), rgba(255, 255, 255, 0.96) 44%),
+    #fff;
+}
+.multi-agent-check-section[hidden] {
+  display: none;
+}
+.agent-check-meta {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.agent-check-updated {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.agent-check-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.agent-check-card {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.94);
+  padding: 14px;
+  box-shadow: var(--shadow-card);
+}
+.agent-check-card-primary {
+  grid-column: span 2;
+  border-left: 4px solid var(--bad);
+}
+.agent-check-card > span {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.agent-check-card > strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.agent-check-card > p {
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 8px 0 0;
+}
+.agent-check-details {
+  border-top: 1px solid var(--line);
+  margin-top: 14px;
+  padding-top: 12px;
+}
+.agent-check-details summary {
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+}
+.agent-check-matrix {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.agent-check-matrix-card {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fbfdff;
+  padding: 12px;
+}
+.agent-check-matrix-head {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.agent-check-matrix-card p,
+.agent-check-matrix-card small {
+  color: #475569;
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+.agent-check-matrix-card small {
+  color: #b45309;
+  margin-top: 6px;
+}
+.agent-check-actions {
+  color: #334155;
+  display: grid;
+  gap: 6px;
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+.agent-check-actions li {
+  line-height: 1.65;
+}
 .morning-workbench .supplemental-market-section[hidden] {
   display: none;
 }
@@ -1502,6 +1610,8 @@ h1 {
 @media (max-width: 1100px) {
   .masthead, .signal-summary, .nt-ratio-grid, .nt-summary, .diagnosis-summary, .guide-grid, .source-grid, .public-notice-settings-grid, .tradingview-alert-summary { grid-template-columns: 1fr; }
   .today-action-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .agent-check-grid,
+  .agent-check-matrix { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .diagnosis-advanced-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tradingview-alert-card summary { grid-template-columns: 1fr; }
   .tradingview-alert-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1543,7 +1653,11 @@ h1 {
   }
   .diagnosis-toolbar { grid-template-columns: 1fr; }
   .today-action-grid,
+  .agent-check-grid,
+  .agent-check-matrix,
   .diagnosis-advanced-grid { grid-template-columns: 1fr; }
+  .agent-check-card-primary { grid-column: auto; }
+  .agent-check-meta { justify-content: flex-start; }
   .today-action-card { min-height: auto; }
   .inpage-nav {
     flex-wrap: nowrap;
