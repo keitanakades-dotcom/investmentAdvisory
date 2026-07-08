@@ -148,10 +148,17 @@ h1 {
 }
 
 .market-tab {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
   border-radius: 999px;
   background: transparent;
   color: var(--muted);
+  padding: 10px 14px;
+  text-decoration: none;
   font-weight: 700;
+  font: inherit;
+  cursor: pointer;
 }
 
 .market-tab.active,
@@ -1060,6 +1067,156 @@ section[id] {
 .agent-status-section.tone-warn { border-left-color: #ca8a04; }
 .agent-status-section.tone-bad { border-left-color: var(--bad); }
 
+.agent-status-meta {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.agent-memo-link {
+  align-items: center;
+  border: 1px solid rgba(37, 99, 235, 0.24);
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.agent-memo-link:hover,
+.agent-memo-link:focus-visible {
+  background: #dbeafe;
+  text-decoration: underline;
+}
+
+.agent-memo-link[hidden] {
+  display: none;
+}
+
+.agent-memo-summary {
+  border: 1px solid #dbeafe;
+  border-left: 4px solid var(--info);
+  border-radius: 8px;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.55;
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  overflow-wrap: anywhere;
+}
+
+.agent-memo-checks {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+  margin: -4px 0 12px;
+  padding: 10px 12px;
+}
+
+.agent-memo-checks[hidden] {
+  display: none;
+}
+
+.agent-memo-checks-head {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.agent-memo-checks-head span {
+  color: #334155;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.agent-memo-checks-head strong {
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #334155;
+  font-size: 12px;
+  padding: 4px 9px;
+}
+
+.agent-memo-checks-head strong.complete {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.agent-memo-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.agent-memo-checks-grid label {
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2937;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  padding: 8px 9px;
+}
+
+.agent-memo-checks-grid input {
+  accent-color: #2563eb;
+  flex: 0 0 auto;
+  height: 16px;
+  width: 16px;
+}
+
+.agent-memo-checks-footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+.agent-memo-checks-footer p {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.agent-memo-checks-footer button {
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  color: #475569;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 5px 9px;
+}
+
+.agent-memo-checks-footer button:hover,
+.agent-memo-checks-footer button:focus-visible {
+  background: #f1f5f9;
+}
+
+.agent-memo-checks-footer button[hidden] {
+  display: none;
+}
+
 .agent-status-grid {
   display: grid;
   grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
@@ -1091,6 +1248,287 @@ section[id] {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.6;
+}
+
+.agent-financial-panel {
+  border: 1px solid #dbeafe;
+  border-left: 5px solid var(--info);
+  border-radius: 8px;
+  background: #eff6ff;
+  margin-top: 12px;
+  padding: 13px;
+}
+
+.agent-financial-panel[hidden] {
+  display: none;
+}
+
+.agent-financial-head {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.agent-financial-head h3 {
+  color: #0f172a;
+  font-size: 16px;
+  margin: 0;
+}
+
+.agent-financial-head p:not(.eyebrow) {
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 6px 0 0;
+}
+
+.agent-financial-meta {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: max-content;
+}
+
+.agent-financial-meta span:last-child {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.agent-financial-chip {
+  border: 1px solid #fde68a;
+  border-radius: 999px;
+  background: #fffbeb;
+  color: #b45309;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+  padding: 5px 8px;
+}
+
+.agent-financial-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.agent-financial-summary-grid article {
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  background: #fff;
+  padding: 11px;
+}
+
+.agent-financial-summary-grid span {
+  color: #64748b;
+  display: block;
+  font-size: 11px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.agent-financial-summary-grid strong {
+  color: #0f172a;
+  display: block;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.agent-financial-summary-grid p {
+  color: #475569;
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 6px 0 0;
+}
+
+.agent-financial-note {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.55;
+  margin: 10px 0 0;
+}
+
+.agent-decision-status-details {
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+  padding-top: 10px;
+}
+
+.agent-decision-status-details summary {
+  color: var(--info);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.agent-decision-status-details > p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 8px 0 10px;
+}
+
+.agent-decision-focus {
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.agent-decision-focus-head {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.agent-decision-focus-head strong {
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.agent-decision-focus-head span {
+  border-radius: 999px;
+  background: #fee2e2;
+  color: #991b1b;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 5px 9px;
+}
+
+.agent-decision-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.agent-decision-focus-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 10px;
+}
+
+.agent-decision-focus-card strong {
+  color: #0f172a;
+  display: block;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 7px;
+}
+
+.agent-decision-focus-card p,
+.agent-decision-focus-card small {
+  color: #475569;
+  display: block;
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 5px 0 0;
+}
+
+.agent-decision-focus-card small {
+  color: #64748b;
+}
+
+.agent-decision-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.agent-decision-view summary {
+  align-items: center;
+  color: var(--info);
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.agent-decision-view summary small {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.agent-decision-view[open] summary {
+  margin-bottom: 8px;
+}
+
+.agent-decision-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.agent-decision-table table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 860px;
+  width: 100%;
+}
+
+.agent-decision-table th,
+.agent-decision-table td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 12px;
+  line-height: 1.55;
+  padding: 9px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.agent-decision-table thead th {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 900;
+}
+
+.agent-decision-table tbody tr:last-child th,
+.agent-decision-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.agent-decision-table tbody th span,
+.agent-decision-table td strong {
+  color: #0f172a;
+  display: block;
+  font-size: 13px;
+}
+
+.agent-decision-table small {
+  color: #64748b;
+  display: block;
+  font-size: 11px;
+  line-height: 1.45;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+
+.agent-decision-step {
+  color: #1d4ed8;
+  font-weight: 900;
+  width: 36px;
+}
+
+.agent-decision-note {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 9px 0 0;
 }
 
 .conditions-table-wrap {
@@ -1608,6 +2046,10 @@ section[id] {
   .decision-grid { gap: 8px; }
   .decision-card { min-height: 0; padding: 12px; }
   .agent-status-grid { grid-template-columns: 1fr; }
+  .agent-financial-summary-grid { grid-template-columns: 1fr; }
+  .agent-financial-head { flex-direction: column; }
+  .agent-financial-meta { align-items: flex-start; min-width: 0; }
+  .agent-decision-focus-grid { grid-template-columns: 1fr; }
   .market-tabs, .ratio-chart-tabs { margin-top: 14px; padding: 6px; }
   .ratio-metric-summary { grid-template-columns: 1fr; }
   .conditions-table-wrap { overflow: visible; }
@@ -1621,6 +2063,30 @@ section[id] {
   .conditions-table td:nth-of-type(3)::before { content: '数値'; }
   .conditions-table td:nth-of-type(4)::before { content: '判定'; }
   .conditions-table td:nth-of-type(5)::before { content: '詳細'; }
+  .agent-decision-table-scroll { overflow-x: visible; }
+  .agent-decision-table table,
+  .agent-decision-table thead,
+  .agent-decision-table tbody,
+  .agent-decision-table tr,
+  .agent-decision-table th,
+  .agent-decision-table td {
+    display: block;
+    min-width: 0;
+    width: 100%;
+  }
+  .agent-decision-table thead { display: none; }
+  .agent-decision-table tbody tr {
+    border: 1px solid #dbeafe;
+    border-radius: 8px;
+    background: #fff;
+    margin-top: 8px;
+    padding: 8px;
+  }
+  .agent-decision-table th,
+  .agent-decision-table td {
+    border-bottom: 0;
+    padding: 5px 0;
+  }
   .diagnosis-quick-grid { grid-template-columns: 1fr; }
   .diagnosis-quick-reasons { grid-column: auto; }
   .diagnosis-data-list { grid-template-columns: 1fr; }
