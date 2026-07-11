@@ -39016,5 +39016,24 @@
   });
 })();
 </script>
+<script>
+(() => {
+  const button = document.getElementById('back-to-top');
+  if (!button) return;
+
+  const updateVisibility = () => {
+    const visible = window.scrollY > 320;
+    button.hidden = !visible;
+    button.classList.toggle('is-visible', visible);
+  };
+
+  button.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('scroll', updateVisibility, { passive: true });
+  window.addEventListener('resize', updateVisibility, { passive: true });
+  updateVisibility();
+})();
+</script>
 </body>
 </html>
