@@ -223,11 +223,12 @@ h1 {
 .morning-workbench > #guide { order: 6; }
 .morning-workbench > #candidates { order: 7; }
 .morning-workbench > #market-themes { order: 8; }
-.morning-workbench > #market { order: 9; }
-.morning-workbench > #diagnosis { order: 10; }
-.morning-workbench > #register { order: 11; }
-.morning-workbench > #public-notice-settings { order: 12; }
-.morning-workbench > #sources { order: 13; }
+.morning-workbench > #company-disclosures { order: 9; }
+.morning-workbench > #market { order: 10; }
+.morning-workbench > #diagnosis { order: 11; }
+.morning-workbench > #register { order: 12; }
+.morning-workbench > #public-notice-settings { order: 13; }
+.morning-workbench > #sources { order: 14; }
 .morning-guidance-details {
   border-top: 1px solid var(--line);
   margin-top: 12px;
@@ -800,6 +801,133 @@ h1 {
 }
 .agent-check-actions li {
   line-height: 1.65;
+}
+.company-disclosure-section {
+  background: #fbfdff;
+}
+.company-disclosure-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+.company-disclosure-summary {
+  margin-top: 14px;
+}
+.company-disclosure-headline,
+.company-disclosure-card,
+.company-disclosure-event {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+.company-disclosure-headline {
+  padding: 16px;
+  border-left: 4px solid var(--accent);
+}
+.company-disclosure-headline strong {
+  display: block;
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 6px;
+}
+.company-disclosure-headline p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.company-disclosure-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 14px;
+  margin-top: 14px;
+}
+.company-disclosure-card {
+  padding: 16px;
+}
+.company-disclosure-card h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+.company-disclosure-source-list,
+.company-disclosure-check-list {
+  display: grid;
+  gap: 10px;
+}
+.company-disclosure-source {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.company-disclosure-source strong {
+  color: var(--text);
+  font-size: 14px;
+}
+.company-disclosure-source p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.company-disclosure-check-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text);
+}
+.company-disclosure-check-list li {
+  line-height: 1.65;
+}
+.company-disclosure-events {
+  margin-top: 14px;
+}
+.company-disclosure-event-list {
+  display: grid;
+  gap: 12px;
+}
+.company-disclosure-event {
+  padding: 14px;
+  border-left: 4px solid var(--warn);
+}
+.company-disclosure-event-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: start;
+}
+.company-disclosure-event-head strong {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.company-disclosure-event-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+.company-disclosure-event-grid span {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: var(--muted);
+  display: grid;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 9px 10px;
+}
+.company-disclosure-event-grid b {
+  color: var(--text);
+  font-size: 12px;
 }
 .morning-workbench .supplemental-market-section[hidden] {
   display: none;
@@ -2031,7 +2159,9 @@ h1 {
   .agent-check-grid,
   .agent-check-matrix,
   .agent-financial-summary-grid,
-  .agent-financial-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .agent-financial-category-grid,
+  .company-disclosure-event-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .company-disclosure-grid { grid-template-columns: 1fr; }
   .diagnosis-advanced-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tradingview-alert-card summary { grid-template-columns: 1fr; }
   .tradingview-alert-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -2077,6 +2207,8 @@ h1 {
   .agent-check-matrix,
   .agent-financial-summary-grid,
   .agent-financial-category-grid,
+  .company-disclosure-grid,
+  .company-disclosure-event-grid,
   .diagnosis-advanced-grid { grid-template-columns: 1fr; }
   .agent-check-card-primary { grid-column: auto; }
   .agent-check-meta { justify-content: flex-start; }
