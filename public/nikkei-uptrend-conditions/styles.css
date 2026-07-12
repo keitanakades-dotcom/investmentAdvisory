@@ -1660,6 +1660,31 @@ section[id] {
 .diagnosis-rank-head p { margin-top: 3px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .diagnosis-rank-head > span { flex: 0 0 auto; color: var(--muted); font-size: 13px; font-weight: 700; }
 
+.extraction-source-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 14px;
+}
+
+.extraction-source-chip {
+  align-items: center;
+  border: 1px solid #c7d2fe;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+  display: inline-flex;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 6px 9px;
+}
+
+.extraction-source-chip span {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
 .diagnosis-group-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -1991,7 +2016,8 @@ section[id] {
 .diagnosis-card[open] .diagnosis-card-summary { border-bottom: 1px solid var(--line); background: #f8fafc; }
 .diagnosis-card[open] .diagnosis-card-summary::after { content: '−'; }
 .diagnosis-card-summary .item-title { min-width: 0; font-size: 15px; font-weight: 800; overflow-wrap: anywhere; }
-.diagnosis-card-summary .badge { margin-left: auto; }
+.diagnosis-card-summary .badge { margin-left: 0; }
+.diagnosis-card-summary .source-badge { margin-left: auto; }
 .diagnosis-card-summary:focus-visible { outline: 3px solid #bfdbfe; outline-offset: -3px; }
 .diagnosis-card-content {
   min-width: 0;
