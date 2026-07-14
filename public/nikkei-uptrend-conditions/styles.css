@@ -2026,6 +2026,32 @@ section[id] {
   padding: 14px;
 }
 
+.bond-yield-equity-panel {
+  margin-top: 14px;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  background: #f8fbff;
+  overflow: hidden;
+}
+
+.bond-yield-equity-panel > summary {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr) max-content;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 14px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.bond-yield-equity-panel > summary::-webkit-details-marker { display: none; }
+.bond-yield-equity-panel > summary > span:first-child { color: var(--info); font-weight: 800; }
+.bond-yield-equity-panel > summary strong { min-width: 0; color: var(--text); font-size: 13px; overflow-wrap: anywhere; }
+.bond-yield-equity-panel[open] > summary { border-bottom: 1px solid #bfdbfe; }
+.shadow-badge { color: #1d4ed8; font-size: 11px; font-weight: 800; }
+.bond-yield-equity-body { display: grid; gap: 12px; padding: 14px; }
+.bond-yield-summary-grid strong { font-size: 12px; line-height: 1.45; }
+
 @media (max-width: 900px) {
   .decision-grid,
   .momentum-rotation-grid,
@@ -2136,4 +2162,6 @@ section[id] {
   .diagnosis-card { padding: 0; }
   .diagnosis-card-summary { padding: 12px; }
   .diagnosis-card-content { padding: 12px; }
+  .bond-yield-equity-panel > summary { grid-template-columns: 1fr; gap: 4px; }
+  .bond-yield-equity-body { padding: 12px; }
 }
