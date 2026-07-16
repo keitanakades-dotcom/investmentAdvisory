@@ -3124,6 +3124,45 @@ button:hover {
   color: #fff;
 }
 
+.bond-yield-equity-panel {
+  margin-top: 16px;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  background: #f8fbff;
+  overflow: hidden;
+}
+
+.bond-yield-equity-panel > summary {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr) max-content;
+  gap: 10px;
+  align-items: center;
+  padding: 13px 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.bond-yield-equity-panel > summary::-webkit-details-marker { display: none; }
+.bond-yield-equity-panel > summary > span:first-child { color: var(--accent-strong); font-weight: 800; }
+.bond-yield-equity-panel > summary strong { min-width: 0; font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.bond-yield-equity-panel[open] > summary { border-bottom: 1px solid #bfdbfe; }
+.shadow-badge { color: var(--accent-strong); font-size: 11px; font-weight: 800; }
+.bond-yield-equity-body { display: grid; gap: 12px; padding: 15px; }
+.bond-yield-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.bond-yield-metrics > div,
+.bond-yield-grid > article { min-width: 0; border: 1px solid var(--line); border-radius: 6px; background: #fff; padding: 11px; }
+.bond-yield-metrics span { display: block; color: var(--muted); font-size: 11px; font-weight: 700; }
+.bond-yield-metrics strong { display: block; margin-top: 4px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
+.bond-yield-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.bond-yield-grid h3 { margin: 0 0 8px; font-size: 13px; }
+.bond-yield-list { display: grid; gap: 6px; }
+.bond-yield-list > div { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 8px; align-items: start; }
+.bond-yield-list span { color: var(--muted); font-size: 11px; font-weight: 700; }
+.bond-yield-list strong { font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+.bond-yield-impact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.bond-yield-impact-grid ul { margin: 0; padding-left: 18px; }
+.bond-yield-impact-grid li { margin-bottom: 5px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+
 @media (max-width: 720px) {
   .page {
     padding: 14px 10px 34px;
@@ -3153,6 +3192,13 @@ button:hover {
   }
 
   .momentum-rotation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bond-yield-equity-panel > summary,
+  .bond-yield-metrics,
+  .bond-yield-grid,
+  .bond-yield-impact-grid {
     grid-template-columns: 1fr;
   }
 }
