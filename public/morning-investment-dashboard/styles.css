@@ -1000,6 +1000,9 @@ h1 {
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+.tradingview-alert-notice:not(.has-alerts) #tradingview-alert-notice-dismiss {
+  display: none;
+}
 .text-link {
   color: var(--accent);
   font-weight: 700;
@@ -1321,6 +1324,88 @@ h1 {
 .tradingview-alert-summary .muted {
   grid-column: 1 / -1;
   margin: 0;
+}
+.tradingview-alert-analysis {
+  margin: 12px 0 14px;
+}
+.tradingview-analysis-block {
+  display: grid;
+  gap: 14px;
+}
+.tradingview-analysis-overall,
+.tradingview-analysis-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px;
+}
+.tradingview-analysis-overall {
+  border-left: 4px solid var(--accent);
+}
+.tradingview-analysis-card.good { border-color: #bfe8d8; }
+.tradingview-analysis-card.warn { border-color: #f4d095; }
+.tradingview-analysis-card.bad { border-color: #f5b5ae; }
+.tradingview-analysis-head,
+.tradingview-analysis-card-head,
+.tradingview-analysis-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.tradingview-analysis-head {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.tradingview-analysis-head strong {
+  font-size: 18px;
+}
+.tradingview-analysis-section-head h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.tradingview-analysis-columns,
+.tradingview-stock-analysis-grid {
+  display: grid;
+  gap: 8px;
+}
+.tradingview-analysis-columns {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 12px 0;
+}
+.tradingview-stock-analysis-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 10px;
+}
+.tradingview-analysis-columns > div,
+.tradingview-stock-analysis-grid > div,
+.tradingview-analysis-next {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 10px;
+}
+.tradingview-analysis-columns span,
+.tradingview-stock-analysis-grid span,
+.tradingview-analysis-next span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.tradingview-alert-analysis ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.tradingview-alert-analysis li {
+  line-height: 1.55;
+}
+.tradingview-analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
 }
 .tradingview-alert-list {
   display: grid;
@@ -2409,7 +2494,7 @@ h1 {
   fill: currentColor;
 }
 @media (max-width: 1100px) {
-  .masthead, .signal-summary, .nt-ratio-grid, .nt-summary, .diagnosis-summary, .guide-grid, .source-grid, .public-notice-settings-grid, .tradingview-alert-summary { grid-template-columns: 1fr; }
+  .masthead, .signal-summary, .nt-ratio-grid, .nt-summary, .diagnosis-summary, .guide-grid, .source-grid, .public-notice-settings-grid, .tradingview-alert-summary, .tradingview-analysis-columns, .tradingview-analysis-grid { grid-template-columns: 1fr; }
   .today-action-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .news-link-grid,
   .stock-news-panel .news-link-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -2446,6 +2531,7 @@ h1 {
     justify-content: flex-start;
   }
   .tradingview-alert-grid { grid-template-columns: 1fr; }
+  .tradingview-stock-analysis-grid { grid-template-columns: 1fr; }
   .meta-grid,
   .meta-panel .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .diagnosis-card-head { grid-template-columns: 1fr; }
