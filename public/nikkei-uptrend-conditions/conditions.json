@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T04:34:26.159Z",
-  "asOf": "2026-07-17",
-  "updatedAt": "2026/7/17 11:44:25",
+  "generatedAt": "2026-07-18T06:47:52.502Z",
+  "asOf": "2026-07-18",
+  "updatedAt": "2026/7/18 15:37:57",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -31,7 +31,7 @@
     {
       "label": "日経平均理論値（EPS）",
       "status": "未達",
-      "value": "約3,715円"
+      "value": "約3,682円"
     },
     {
       "label": "海外投資家フロー",
@@ -55,10 +55,11 @@
   "strategy": {
     "policy": "対角投資ベース",
     "target": "TOPIX主力・バリュー",
-    "eventRisk": "高",
+    "eventRisk": "中",
     "overheating": "低",
     "prefer": [
-      "輸出大型・自動車・電機",
+      "銀行・保険",
+      "資源・商社・石油",
       "配当",
       "バリュー",
       "出遅れ",
@@ -69,62 +70,63 @@
     "avoid": [
       "グロース・高PER",
       "半導体・電子部品",
-      "高ベータ・信用買い残が多い銘柄",
+      "輸出大型・自動車・電機",
+      "化学・空運・電力",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 64,075.00 / -5.48% / 下落",
-      "NASDAQ: 25,881.95 / -1.47% / 下落",
-      "SOX指数: 11,867.50 / -4.29% / 下落",
+      "日経平均先物(CME円建て): 64,975.00 / -1.39% / 下落",
+      "NASDAQ: 25,520.24 / -1.40% / 下落",
+      "SOX指数: 11,673.89 / -1.63% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-07-17",
-    "updatedAt": "2026/7/17 11:44:25",
+    "asOfDate": "2026-07-18",
+    "updatedAt": "2026/7/18 15:37:57",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "日米金利の方向乖離。日米金利の方向が異なるため、日米金利差とドル円を優先確認。",
+    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
     "stance": {
-      "label": "日米金利の方向乖離",
-      "riskLevel": "medium",
-      "reason": "日米金利の方向が異なるため、日米金利差とドル円を優先確認。"
+      "label": "金利方向は中立",
+      "riskLevel": "low",
+      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
     },
     "rates": {
       "us": {
         "2y": {
-          "value": 4.16,
-          "observationDate": "2026-07-16",
-          "direction": "横ばい",
-          "changeBp": {
-            "oneDay": 3,
-            "fiveDay": 0,
-            "twentyDay": 11
-          }
-        },
-        "10y": {
-          "value": 4.57,
-          "observationDate": "2026-07-16",
+          "value": 4.18,
+          "observationDate": "2026-07-17",
           "direction": "横ばい",
           "changeBp": {
             "oneDay": 2,
-            "fiveDay": 3,
-            "twentyDay": 14
+            "fiveDay": -3,
+            "twentyDay": -2
+          }
+        },
+        "10y": {
+          "value": 4.55,
+          "observationDate": "2026-07-17",
+          "direction": "横ばい",
+          "changeBp": {
+            "oneDay": -2,
+            "fiveDay": -1,
+            "twentyDay": 6
           }
         },
         "30y": {
-          "value": 5.09,
-          "observationDate": "2026-07-16",
+          "value": 5.06,
+          "observationDate": "2026-07-17",
           "direction": "横ばい",
           "changeBp": {
-            "oneDay": 1,
-            "fiveDay": 4,
-            "twentyDay": 16
+            "oneDay": -3,
+            "fiveDay": 0,
+            "twentyDay": 13
           }
         }
       },
@@ -184,22 +186,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 41,
+        "spreadBp": 37,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -1,
-          "fiveDay": 3,
-          "twentyDay": 3
+          "oneDay": -4,
+          "fiveDay": 2,
+          "twentyDay": 8
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 52,
+        "spreadBp": 51,
         "direction": "横ばい",
         "changeBp": {
           "oneDay": -1,
           "fiveDay": 1,
-          "twentyDay": 2
+          "twentyDay": 7
         }
       },
       "japan2y10y": {
@@ -234,19 +236,20 @@
       }
     },
     "currency": {
-      "usdJpy": 162.41,
-      "changePct": 0.21,
-      "direction": "円安"
+      "usdJpy": 162.35,
+      "changePct": -0.02,
+      "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
         "REIT",
         "高PERグロース",
-        "自動車・電機など輸出大型株"
+        "内需・小売・電力ガス"
       ],
       "headwind": [
         "銀行",
         "銀行・保険の利ざや改善期待は後退（日本2年-10年がフラット化）",
+        "自動車・電機など輸出大型株",
         "半導体・AI"
       ],
       "watch": [
@@ -256,7 +259,7 @@
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 5,
+      "observations": 6,
       "minimumObservations": 10
     },
     "sources": [
@@ -280,14 +283,14 @@
   },
   "weekly": {
     "headline": "対角投資ベースを基本に、保有リスクを先に点検してから主力テーマ要確認の押し目・初動を検討する。",
-    "status": "週明け計画確定",
+    "status": "土曜下書き",
     "primaryPolicy": "対角投資ベース",
     "nextWeekActions": [
-      "寄り付き前: CME/日経先物、USD/JPY、SOX、VIXの方向を確認。",
-      "前場: 268A リガク・ホールディングス 信用600株。含み損益 ▲331,200円 (▲20.4%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。を先に確認し、支持線・出来高・信用需給で対応を再判定。",
-      "新規: 8750 第一ライフグループは「バンドウォーク判定: 特例B: 押し目待ち。高値追い禁止。MA5反発、短期調整、出来高再増加を待つ。最新株価、支持線、移動平均、出来高を確認し…」が揃う場合だけ検討。",
+      "寄り付き前: 週末時点の市場構造と信用需給を確認。",
+      "前場: 268A リガク・ホールディングス 信用600株。含み損益 ▲262,800円 (▲16.2%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。を先に確認し、支持線・出来高・信用需給で対応を再判定。",
+      "新規: 8630 ＳＯＭＰＯホールディングスは「バンドウォーク判定: 特例B: 押し目待ち。高値追い禁止。MA5反発、短期調整、出来高再増加を待つ。最新株価、支持線、移動平均、出来高を確認し…」が揃う場合だけ検討。",
       "見送り: グロース・高PER・半導体・電子部品",
-      "円高が続く場合は輸出株の戻りの弱さを再確認。"
+      "円安が続く場合も寄り付きの飛びつきは避け、輸出大型の出来高を確認。"
     ],
     "invalidConditions": [
       "25日線割れ、出来高不足、信用需給悪化、イベント前の急騰は見送り。",
@@ -296,14 +299,14 @@
       "週末ニュースだけで保有・新規候補を主力化しない。"
     ],
     "thesis": {
-      "conclusion": "対角投資ベース。TOPIX・バリュー優位。翌週は 防衛・重工・資源・非鉄・素材・電力インフラ・電線 への資金移動を、金融・バリュー・資源・非鉄・素材 と個別候補 8015 豊田通商・8766 東京海上ホールディングス・8551 (株)北日本銀行 で検証する。 半導体・AIインフラは主役継続確認。ただし一辺倒ではなく資金循環の変化を警戒は週次資料の補助仮説。最新テーマ判定で再確認。保有リスクを先に確認し、主役の押し目と次の資金流入候補は発動条件がそろうまで監視する。",
+      "conclusion": "対角投資ベース。TOPIX・バリュー優位。翌週は 防衛・重工・資源・非鉄・素材・電力インフラ・電線 への資金移動を、金融・バリュー・資源・非鉄・素材 と個別候補 7309 シマノ・8630 ＳＯＭＰＯホールディングス・8750 第一ライフグループ で検証する。 半導体・AIインフラは主役継続確認。ただし一辺倒ではなく資金循環の変化を警戒は週次資料の補助仮説。最新テーマ判定で再確認。保有リスクを先に確認し、主役の押し目と次の資金流入候補は発動条件がそろうまで監視する。",
       "riskPosture": "過熱・イベント負荷を踏まえ、新規は小さく、現金余力と損切り条件を優先",
       "validation": "NVIDIA、SOX、TSMC月次売上、半導体主役株の出来高維持、25日線上、周辺・三次受益者への波及を確認。成立条件: 金融・バリュー・資源・非鉄・素材の出来高増加、25日線回復、信用需給改善、個別候補の発動条件確認。",
-      "invalidation": "NVIDIAのネックライン割れ継続、SOX安、HBM/メモリ需給悪化、AIインフラ投資減速懸念、出来高を伴う高値更新失敗、25日線割れが重なる場合。不成立条件: 夜間市場が弱気寄りのため寄り付きの飛びつき禁止 / 見送りテーマ: AI・半導体・データセンター、内需・ディフェンシブ / IP・内需・インバウンド / AI・半導体・データセンター"
+      "invalidation": "NVIDIAのネックライン割れ継続、SOX安、HBM/メモリ需給悪化、AIインフラ投資減速懸念、出来高を伴う高値更新失敗、25日線割れが重なる場合。不成立条件: 夜間市場が弱気寄りのため寄り付きの飛びつき禁止 / 高ボラ業種が5件あり、指数上昇でも急反転を警戒 / 見送りテーマ: AI・半導体・データセンター / AI・半導体・データセンター"
     },
     "holdings": {
       "summary": "2銘柄が利益側、2銘柄が含み損側。信用建玉は1件あり、明日は損失限定と信用整理を先に見る。",
-      "maxRisk": "268A リガク・ホールディングス 信用600株。含み損益 ▲331,200円 (▲20.4%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。",
+      "maxRisk": "268A リガク・ホールディングス 信用600株。含み損益 ▲262,800円 (▲16.2%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。",
       "actions": [
         {
           "code": "268A",
@@ -313,17 +316,10 @@
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
-          "code": "6506",
-          "name": "安川電機",
-          "action": "損切り・撤退検討",
-          "reason": "業績は中立 / 需給は中立 / 保有理由は再確認。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
-          "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
-        },
-        {
           "code": "7416",
           "name": "はるやまホールディングス",
           "action": "売り検討優先",
-          "reason": "業績は中立 / 需給は中立 / 保有理由は再確認。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
+          "reason": "業績は中立 / 需給は中立 / 保有理由は再確認。 需給の壁突破、信用買残減少、出来高を伴う陽線を待つ",
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
@@ -347,15 +343,15 @@
         "AI・半導体・データセンター",
         "防衛・重工",
         "資源・非鉄・素材",
-        "IP・内需・インバウンド"
+        "TOPIX主力・大型"
       ],
       "leading": [
         "AI・半導体・データセンター",
         "防衛・重工",
         "資源・非鉄・素材",
-        "IP・内需・インバウンド",
         "TOPIX主力・大型",
-        "内需・ディフェンシブ"
+        "内需・ディフェンシブ",
+        "IP・内需・インバウンド"
       ],
       "consider": [
         "電力インフラ・電線",
@@ -365,10 +361,10 @@
         "資源・非鉄・素材"
       ],
       "overheated": [
-        "IP・内需・インバウンド",
         "AI・半導体・データセンター",
         "TOPIX主力・大型",
         "半導体三次受益・インフラ",
+        "IP・内需・インバウンド",
         "防衛・重工"
       ]
     },
@@ -377,13 +373,13 @@
       "strength": 38,
       "phase": "支持線と需給の再点検",
       "style": "TOPIX・バリュー優位",
-      "fxSummary": "USD/JPY 162.319 (円高) / EUR/JPY 185.047 (円高)"
+      "fxSummary": "USD/JPY 162.41 (円安) / EUR/JPY 185.77 (円高)"
     },
     "momentumRotation": {
       "market": {
         "style": "TOPIX・バリュー優位",
         "status": "見送り",
-        "score": 54,
+        "score": 50,
         "nextDestinationCandidates": [
           {
             "name": "防衛・重工",
@@ -392,7 +388,7 @@
           },
           {
             "name": "資源・非鉄・素材",
-            "score": 85,
+            "score": 70,
             "reason": "資金流入の確認待ち"
           },
           {
@@ -413,7 +409,8 @@
         ],
         "risks": [
           "夜間市場が弱気寄りのため寄り付きの飛びつき禁止",
-          "見送りテーマ: AI・半導体・データセンター、内需・ディフェンシブ"
+          "高ボラ業種が5件あり、指数上昇でも急反転を警戒",
+          "見送りテーマ: AI・半導体・データセンター"
         ]
       },
       "sectors": {
@@ -424,10 +421,10 @@
           "資源・非鉄・素材"
         ],
         "avoid": [
-          "IP・内需・インバウンド",
           "AI・半導体・データセンター",
           "TOPIX主力・大型",
           "半導体三次受益・インフラ",
+          "IP・内需・インバウンド",
           "防衛・重工"
         ],
         "top": [
@@ -439,25 +436,25 @@
           },
           {
             "name": "資源・非鉄・素材",
-            "score": 65,
-            "label": "見送り",
+            "score": 78,
+            "label": "監視",
             "currentWave": "主役中心"
           },
           {
-            "name": "IP・内需・インバウンド",
-            "score": 24,
-            "label": "見送り",
-            "currentWave": "出遅れ監視"
-          },
-          {
             "name": "AI・半導体・データセンター",
-            "score": 22,
+            "score": 43,
             "label": "見送り",
             "currentWave": "主役中心"
           },
           {
             "name": "TOPIX主力・大型",
-            "score": 5,
+            "score": 39,
+            "label": "見送り",
+            "currentWave": "出遅れ監視"
+          },
+          {
+            "name": "半導体三次受益・インフラ",
+            "score": 34,
             "label": "見送り",
             "currentWave": "出遅れ監視"
           }
@@ -466,69 +463,69 @@
       "stocks": {
         "buyCandidates": [
           {
-            "code": "8015",
-            "name": "豊田通商",
+            "code": "7309",
+            "name": "シマノ",
             "judgment": "監視",
             "stage": "資金流入初期",
-            "score": 74,
-            "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
-          },
-          {
-            "code": "8766",
-            "name": "東京海上ホールディングス",
-            "judgment": "監視",
-            "stage": "資金流入初期",
-            "score": 70,
-            "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
-          }
-        ],
-        "watchCandidates": [
-          {
-            "code": "8551",
-            "name": "(株)北日本銀行",
-            "judgment": "見送り",
-            "stage": "資金流入前",
-            "score": 67,
+            "score": 78,
             "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
           },
           {
             "code": "8630",
             "name": "ＳＯＭＰＯホールディングス",
+            "judgment": "監視",
+            "stage": "資金流入初期",
+            "score": 76,
+            "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
+          }
+        ],
+        "watchCandidates": [
+          {
+            "code": "8750",
+            "name": "第一ライフグループ",
+            "judgment": "見送り",
+            "stage": "資金流入前",
+            "score": 69,
+            "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
+          },
+          {
+            "code": "8604",
+            "name": "野村ホールディングス",
             "judgment": "見送り",
             "stage": "利益確定局面",
             "score": 66,
             "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
           },
           {
-            "code": "8795",
-            "name": "Ｔ＆Ｄホールディングス",
+            "code": "8015",
+            "name": "豊田通商",
             "judgment": "見送り",
             "stage": "資金流入前",
-            "score": 65,
+            "score": 63,
             "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
           },
           {
-            "code": "8058",
-            "name": "三菱商事",
+            "code": "2914",
+            "name": "日本たばこ産業",
             "judgment": "見送り",
             "stage": "資金流入前",
-            "score": 64,
+            "score": 62,
             "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
           },
           {
-            "code": "8309",
-            "name": "三井住友トラストグループ",
+            "code": "4503",
+            "name": "アステラス製薬",
             "judgment": "見送り",
             "stage": "資金流入前",
-            "score": 64,
+            "score": 62,
             "buyCondition": "出来高増加、25日線回復、信用需給改善、テーマ継続を確認してから検討"
           }
         ]
       },
       "thesis": {
-        "headline": "TOPIX・バリュー優位。翌週は 防衛・重工・資源・非鉄・素材・電力インフラ・電線 への資金移動を、金融・バリュー・資源・非鉄・素材 と個別候補 8015 豊田通商・8766 東京海上ホールディングス・8551 (株)北日本銀行 で検証する。",
+        "headline": "TOPIX・バリュー優位。翌週は 防衛・重工・資源・非鉄・素材・電力インフラ・電線 への資金移動を、金融・バリュー・資源・非鉄・素材 と個別候補 7309 シマノ・8630 ＳＯＭＰＯホールディングス・8750 第一ライフグループ で検証する。",
         "validation": "成立条件: 金融・バリュー・資源・非鉄・素材の出来高増加、25日線回復、信用需給改善、個別候補の発動条件確認。",
-        "invalidation": "不成立条件: 夜間市場が弱気寄りのため寄り付きの飛びつき禁止 / 見送りテーマ: AI・半導体・データセンター、内需・ディフェンシブ / IP・内需・インバウンド / AI・半導体・データセンター",
+        "invalidation": "不成立条件: 夜間市場が弱気寄りのため寄り付きの飛びつき禁止 / 高ボラ業種が5件あり、指数上昇でも急反転を警戒 / 見送りテーマ: AI・半導体・データセンター / AI・半導体・データセンター",
         "weeklyUse": "週次では「現在人気」ではなく「次に資金が向かう可能性」を仮説化し、月曜以降に出来高・価格・需給で検証する。"
       }
     },
@@ -537,7 +534,7 @@
         "time": "寄り付き前",
         "checks": [
           "CME日経先物、NASDAQ、SOX、VIX、USD/JPY、原油の方向と取得日時を確認。",
-          "最大リスク: 268A リガク・ホールディングス 信用600株。含み損益 ▲331,200円 (▲20.4%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。"
+          "最大リスク: 268A リガク・ホールディングス 信用600株。含み損益 ▲262,800円 (▲16.2%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。"
         ]
       },
       {
@@ -551,7 +548,7 @@
         "time": "前場引け前",
         "checks": [
           "高値更新失敗、上ヒゲ、出来高を伴う陰線、5日線割れの有無を確認。",
-          "8750 第一ライフグループは バンドウォーク判定: 特例B: 押し目待ち。高値追い禁止。MA5反発、短期調整、出来高再増加を待つ。最新株価、支持線、移動平均、出来高を確認してから検討。 現物は資金配分を小さく… を満たすか確認。"
+          "8630 ＳＯＭＰＯホールディングスは バンドウォーク判定: 特例B: 押し目待ち。高値追い禁止。MA5反発、短期調整、出来高再増加を待つ。最新株価、支持線、移動平均、出来高を確認してから検討。 現物は資金配分を小さく… を満たすか確認。"
         ]
       },
       {
@@ -565,7 +562,7 @@
     "scenarios": [
       {
         "name": "継続上昇: 主役テーマが地合いをけん引",
-        "condition": "CME日経先物が金曜水準に対して底堅い（現状 低下）。 / NASDAQ・SOXが同方向で、主役テーマの寄り後30分の出来高が続く。 / 半導体・AIインフラは主役継続確認。ただし一辺倒ではなく資金循環の変化を警戒で主役だけでなく周辺銘柄にも広がりがある。",
+        "condition": "CME日経先物が金曜水準に対して底堅い（現状 下落）。 / NASDAQ・SOXが同方向で、主役テーマの寄り後30分の出来高が続く。 / 半導体・AIインフラは主役継続確認。ただし一辺倒ではなく資金循環の変化を警戒で主役だけでなく周辺銘柄にも広がりがある。",
         "action": "保有株の利益保護ラインを先に確認。新規は寄り付きで追わず、5日線・支持線での反応と出来高を確認してから個別分析へ進む。",
         "avoid": "主役テーマの急騰初動だけを理由に、信用・大玉・高値追いを増やさない。"
       },
@@ -577,146 +574,118 @@
       },
       {
         "name": "ギャップダウン・リスクオフ: 守りと確認を優先",
-        "condition": "CME日経先物、NASDAQ、SOX、VIX、為替（USD/JPY 円高）の複数が逆風。 / 保有株が寄り後に戻せず、出来高を伴って支持線を割る。 / 地政学・政策ニュースが事実確認を待つ状況で、原油・金・VIXが同時に上振れる。",
-        "action": "268A リガク・ホールディングス 信用600株。含み損益 ▲331,200円 (▲20.4%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。を最優先で点検。新規購入は原則待機し、反発は出来高・安値維持・地合い改善の確認後に再評価する。",
+        "condition": "CME日経先物、NASDAQ、SOX、VIX、為替（USD/JPY 円安）の複数が逆風。 / 保有株が寄り後に戻せず、出来高を伴って支持線を割る。 / 地政学・政策ニュースが事実確認を待つ状況で、原油・金・VIXが同時に上振れる。",
+        "action": "268A リガク・ホールディングス 信用600株。含み損益 ▲262,800円 (▲16.2%)。テーマ性が残っても、信用600株は依然重い。戻りで整理する戦略を持つ必要があります。を最優先で点検。新規購入は原則待機し、反発は出来高・安値維持・地合い改善の確認後に再評価する。",
         "avoid": "急落初日や未確認ニュースだけで反発狙いをしない。"
       }
     ],
     "external": {
       "cme": {
         "status": "取得済み",
-        "label": "CME日経先物",
-        "symbol": "NIY=F",
-        "value": 67910,
-        "changePct": -1.62,
-        "direction": "低下",
-        "asOf": "2026-07-13",
+        "value": 64075,
+        "changePct": -5.48,
+        "direction": "下落",
+        "asOf": "2026-07-17",
         "source": {
-          "name": "Yahoo Finance CME日経先物",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIY%3DF?range=5d&interval=1d"
-        }
+          "name": "Yahoo Finance 日経平均先物(CME円建て)",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIY%3DF?range=2mo&interval=1d"
+        },
+        "note": "日経平均先物(CME円建て): 64,075.00 / -5.48% / 下落"
       },
       "fx": {
         "usdJpy": {
           "status": "取得済み",
-          "label": "USD/JPY",
-          "symbol": "JPY=X",
-          "value": 162.319,
-          "changePct": -0.03,
-          "direction": "円高",
-          "asOf": "2026-07-13",
+          "value": 162.41,
+          "changePct": 0.21,
+          "direction": "円安",
+          "asOf": "2026-07-17",
           "source": {
             "name": "Yahoo Finance USD/JPY",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPY%3DX?range=5d&interval=1d"
-          }
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPY%3DX?range=2mo&interval=1d"
+          },
+          "note": "USD/JPY: 162.410円 / +0.21% / 円安"
         },
         "eurJpy": {
           "status": "取得済み",
-          "label": "EUR/JPY",
-          "symbol": "EURJPY=X",
-          "value": 185.047,
-          "changePct": -0.31,
+          "value": 185.77,
+          "changePct": -0.06,
           "direction": "円高",
-          "asOf": "2026-07-13",
+          "asOf": "2026-07-17",
           "source": {
             "name": "Yahoo Finance EUR/JPY",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURJPY%3DX?range=5d&interval=1d"
-          }
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURJPY%3DX?range=2mo&interval=1d"
+          },
+          "note": "EUR/JPY: 185.770円 / -0.06% / 円高"
         }
       },
       "usMarket": {
         "nasdaq": {
-          "status": "取得済み",
-          "label": "NASDAQ",
-          "symbol": "^IXIC",
-          "value": 26057.137,
-          "changePct": -0.85,
-          "direction": "低下",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance NASDAQ",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         },
         "sox": {
-          "status": "取得済み",
-          "label": "SOX指数",
-          "symbol": "^SOX",
-          "value": 12579.349,
-          "changePct": -2.99,
-          "direction": "低下",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance SOX指数",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         },
         "sp500": {
-          "status": "取得済み",
-          "label": "S&P500",
-          "symbol": "^GSPC",
-          "value": 7546.99,
-          "changePct": -0.37,
-          "direction": "低下",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance S&P500",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         },
         "vix": {
-          "status": "取得済み",
-          "label": "VIX指数",
-          "symbol": "^VIX",
-          "value": 16.19,
-          "changePct": 7.72,
-          "direction": "上昇",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance VIX指数",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         },
         "us10y": {
           "status": "取得済み",
-          "label": "米10年債利回り",
-          "symbol": "^TNX",
-          "value": 4.601,
-          "changePct": 0.7,
-          "direction": "上昇",
-          "asOf": "2026-07-13",
+          "value": 4.55,
+          "changePct": null,
+          "direction": "低下",
+          "asOf": "2026-07-15",
           "source": {
-            "name": "Yahoo Finance 米10年債利回り",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d"
-          }
+            "name": "FRED DGS10",
+            "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+          },
+          "note": "米10年債利回り: 4.55% / -3.0bp / 低下"
         }
       },
       "commodities": {
         "oil": {
-          "status": "取得済み",
-          "label": "WTI原油",
-          "symbol": "CL=F",
-          "value": 74.89,
-          "changePct": 4.87,
-          "direction": "上昇",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance WTI原油",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         },
         "gold": {
-          "status": "取得済み",
-          "label": "金",
-          "symbol": "GC=F",
-          "value": 4022.6,
-          "changePct": -1.99,
-          "direction": "低下",
-          "asOf": "2026-07-13",
-          "source": {
-            "name": "Yahoo Finance 金",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=5d&interval=1d"
-          }
+          "status": "要確認",
+          "value": null,
+          "changePct": null,
+          "direction": "要確認",
+          "asOf": "",
+          "source": null,
+          "note": ""
         }
       }
     }
@@ -724,8 +693,8 @@
   "marketTabs": {
     "sentiment": {
       "investorFlow": "海外 買い越し +4,929.7億円 / 個人 売り越し -637.9億円 / 投信 売り越し -6,273.4億円 / 信託銀行 買い越し +2,315.2億円 / 証券自己 売り越し -420.3億円",
-      "advanceDecline": "25日 120.71 (過熱) / 15日 129.64 (過熱) / 10日 125.12 (過熱) / 6日 109.74 (中立)。25日・15日・10日が120超で過熱。",
-      "vixSqRisk": "VIX 16.73、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
+      "advanceDecline": "25日 114.22 (中立) / 15日 119.31 (中立) / 10日 101.67 (中立) / 6日 102.71 (中立)。80-120の範囲で中立。",
+      "vixSqRisk": "VIX 18.77、MACDはゴールデンクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は中。"
     },
     "technical": {
       "action": "待つ",
@@ -738,17 +707,17 @@
         "NT倍率の優位性は要継続確認。",
         "6条件は 3 / 6 で追い風は限定的。",
         "一目均衡表の雲下限割れは自動判定上なし。",
-        "投資主体別では海外投資家が買い越し（4,929.7億円）で指数需給を確認。",
-        "USD/JPYは円安方向で輸出大型の追い風を確認。"
+        "投資主体別では海外投資家が買い越し（4,929.7億円）で指数需給を確認。"
       ],
       "cautions": [
         "25日線乖離は極端ではないが継続確認。",
         "行動方針は 待つ。追い買いより押し目や支持確認を優先。",
-        "当落レシオは過熱。25日 120.71、短期レシオも確認。",
+        "USD/JPYは円高方向。輸出大型の戻りの弱さを確認。",
         "バンドウォーク判定: 下落バンドウォーク継続",
         "大暴落リスク: 中。現時点の自動取得範囲では大暴落条件の重なりは限定的。",
-        "VIX/SQリスク: VIX 16.73、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
-        "弱気ダイバージェンス: 弱気12点。利益保護を優先。"
+        "VIX/SQリスク: VIX 18.77、MACDはゴールデンクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は中。",
+        "弱気ダイバージェンス: 弱気12点。利益保護を優先。",
+        "新規は小さく、SQ通過後の方向とVIX MACDの変化を確認。"
       ]
     },
     "ratio": {
