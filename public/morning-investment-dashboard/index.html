@@ -63942,8 +63942,9 @@ strategy
   const lists = Array.from(root.querySelectorAll('.diagnosis-action-group-list'));
   const cards = Array.from(root.querySelectorAll('.diagnosis-action-group-list > .diagnosis-card'));
   if (!cards.length) return;
-  cards.forEach((card) => {
+  cards.forEach((card, index) => {
     card.__publicOriginalList = card.parentElement;
+    card.__publicOriginalIndex = index;
   });
 
   const optionLabel = (select, value) => {
@@ -63957,6 +63958,7 @@ strategy
     return direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY;
   };
   const str = (card, key) => String(card.dataset[key] || '');
+  const originalDomOrder = (a, b) => Number(a.__publicOriginalIndex || 0) - Number(b.__publicOriginalIndex || 0);
   const state = () => ({
     search: text(controls.search && controls.search.value),
     position: controls.position ? controls.position.value : 'all',
@@ -63992,6 +63994,8 @@ strategy
   const sorter = (current) => {
     const sort = current.sort || 'recommended';
     const rules = {
+      recommended: originalDomOrder,
+      action: originalDomOrder,
       registration: (a, b) => num(a, 'originalOrder', 'asc') - num(b, 'originalOrder', 'asc'),
       scoreDesc: (a, b) => num(b, 'score', 'desc') - num(a, 'score', 'desc'),
       scoreAsc: (a, b) => num(a, 'score', 'asc') - num(b, 'score', 'asc'),
@@ -64011,7 +64015,7 @@ strategy
         return (ranks[a.dataset.creditStatus] || 9) - (ranks[b.dataset.creditStatus] || 9);
       },
     };
-    return rules[sort] || ((a, b) => num(a, 'originalOrder', 'asc') - num(b, 'originalOrder', 'asc'));
+    return rules[sort] || originalDomOrder;
   };
   const updateActiveFilters = (current) => {
     if (!controls.active) return;
