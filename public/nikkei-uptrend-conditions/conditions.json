@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-22T21:04:10.501Z",
+  "generatedAt": "2026-07-23T00:19:31.081Z",
   "asOf": "2026-07-23",
-  "updatedAt": "2026/7/23 6:01:49",
+  "updatedAt": "2026/7/23 9:17:01",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -55,10 +55,11 @@
   "strategy": {
     "policy": "対角投資ベース",
     "target": "TOPIX主力・バリュー",
-    "eventRisk": "低",
+    "eventRisk": "中",
     "overheating": "低",
     "prefer": [
       "銀行・保険",
+      "資源・商社・石油",
       "配当",
       "バリュー",
       "出遅れ",
@@ -69,13 +70,14 @@
     "avoid": [
       "グロース・高PER",
       "輸出大型・自動車・電機",
+      "化学・空運・電力",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 66,390.00 / -1.18% / 下落",
+      "日経平均先物(CME円建て): 66,710.00 / -0.71% / 下落",
       "NASDAQ: 25,690.90 / -0.57% / 下落",
       "SOX指数: 12,410.67 / +0.44% / 上昇",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
@@ -84,7 +86,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-07-23",
-    "updatedAt": "2026/7/23 6:01:49",
+    "updatedAt": "2026/7/23 9:17:01",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -233,8 +235,8 @@
       }
     },
     "currency": {
-      "usdJpy": 163.08,
-      "changePct": -0.07,
+      "usdJpy": 163.1,
+      "changePct": -0.06,
       "direction": "円高"
     },
     "marketImpact": {
