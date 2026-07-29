@@ -869,6 +869,50 @@ h1 {
   font-weight: 700;
   margin-bottom: 5px;
 }
+.tradingview-response-policy {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 10px;
+  margin: 10px 0;
+}
+.tradingview-response-policy.good { border-left-color: var(--good); background: #f6fffb; }
+.tradingview-response-policy.warn { border-left-color: var(--warn); background: #fffaf0; }
+.tradingview-response-policy.bad { border-left-color: var(--bad); background: #fff7f6; }
+.tradingview-response-policy.neutral { border-left-color: var(--muted); background: #f8fafc; }
+.tradingview-response-policy-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.tradingview-response-policy-head span,
+.tradingview-response-policy-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.tradingview-response-policy-head strong {
+  font-size: 16px;
+}
+.tradingview-response-policy p {
+  margin: 0 0 8px;
+  line-height: 1.6;
+}
+.tradingview-response-policy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.tradingview-response-policy-grid > div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.74);
+  padding: 8px;
+}
 .tradingview-alert-analysis ul {
   margin: 0;
   padding-left: 18px;
@@ -1968,7 +2012,7 @@ h1 {
   fill: currentColor;
 }
 @media (max-width: 1100px) {
-  .masthead, .signal-summary, .nt-ratio-grid, .nt-summary, .diagnosis-summary, .guide-grid, .source-grid, .public-notice-settings-grid, .tradingview-alert-summary, .tradingview-analysis-columns, .tradingview-analysis-grid { grid-template-columns: 1fr; }
+  .masthead, .signal-summary, .nt-ratio-grid, .nt-summary, .diagnosis-summary, .guide-grid, .source-grid, .public-notice-settings-grid, .tradingview-alert-summary, .tradingview-analysis-columns, .tradingview-analysis-grid, .tradingview-response-policy-grid { grid-template-columns: 1fr; }
   .today-action-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .news-link-grid,
   .stock-news-panel .news-link-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
