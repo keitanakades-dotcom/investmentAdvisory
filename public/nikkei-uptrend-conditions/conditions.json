@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T16:20:43.198Z",
+  "generatedAt": "2026-07-29T21:05:11.332Z",
   "asOf": "2026-07-30",
-  "updatedAt": "2026/7/30 1:10:09",
+  "updatedAt": "2026/7/30 6:03:08",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -41,7 +41,7 @@
     {
       "label": "原油スプレッド",
       "status": "達成",
-      "value": "約2.61ドル"
+      "value": "約7.57ドル"
     }
   ],
   "trend": {
@@ -58,7 +58,6 @@
     "eventRisk": "高",
     "overheating": "低",
     "prefer": [
-      "輸出大型・自動車・電機",
       "資源・商社・石油",
       "配当",
       "バリュー",
@@ -70,63 +69,63 @@
     "avoid": [
       "グロース・高PER",
       "半導体・電子部品",
+      "輸出大型・自動車・電機",
       "化学・空運・電力",
-      "高ベータ・信用買い残が多い銘柄",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 61,760.00 / -1.13% / 下落",
-      "NASDAQ: 24,528.79 / -1.40% / 下落",
-      "SOX指数: 10,520.58 / -4.67% / 下落",
+      "日経平均先物(CME円建て): 61,055.00 / -2.26% / 下落",
+      "NASDAQ: 24,442.94 / -1.74% / 下落",
+      "SOX指数: 10,447.49 / -5.33% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-07-30",
-    "updatedAt": "2026/7/30 1:10:09",
+    "updatedAt": "2026/7/30 6:03:08",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "日米金利の方向乖離。日米金利の方向が異なるため、日米金利差とドル円を優先確認。",
+    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
     "stance": {
-      "label": "日米金利の方向乖離",
-      "riskLevel": "medium",
-      "reason": "日米金利の方向が異なるため、日米金利差とドル円を優先確認。"
+      "label": "金利方向は中立",
+      "riskLevel": "low",
+      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
     },
     "rates": {
       "us": {
         "2y": {
-          "value": 4.26,
-          "observationDate": "2026-07-28",
-          "direction": "横ばい",
+          "value": 4.22,
+          "observationDate": "2026-07-29",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -5,
-            "fiveDay": 0,
-            "twentyDay": 16
+            "oneDay": -4,
+            "fiveDay": -9,
+            "twentyDay": 8
           }
         },
         "10y": {
-          "value": 4.61,
-          "observationDate": "2026-07-28",
+          "value": 4.67,
+          "observationDate": "2026-07-29",
           "direction": "横ばい",
           "changeBp": {
-            "oneDay": -4,
-            "fiveDay": -2,
+            "oneDay": 6,
+            "fiveDay": 0,
             "twentyDay": 23
           }
         },
         "30y": {
-          "value": 5.09,
-          "observationDate": "2026-07-28",
-          "direction": "横ばい",
+          "value": 5.2,
+          "observationDate": "2026-07-29",
+          "direction": "上昇",
           "changeBp": {
-            "oneDay": -3,
-            "fiveDay": -4,
-            "twentyDay": 23
+            "oneDay": 11,
+            "fiveDay": 5,
+            "twentyDay": 29
           }
         }
       },
@@ -186,22 +185,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 35,
-        "direction": "横ばい",
+        "spreadBp": 45,
+        "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": -2,
-          "twentyDay": 7
+          "oneDay": 10,
+          "fiveDay": 9,
+          "twentyDay": 15
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 48,
-        "direction": "横ばい",
+        "spreadBp": 53,
+        "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": -2,
-          "twentyDay": 0
+          "oneDay": 5,
+          "fiveDay": 5,
+          "twentyDay": 6
         }
       },
       "japan2y10y": {
@@ -236,15 +235,16 @@
       }
     },
     "currency": {
-      "usdJpy": 163.89,
-      "changePct": 0.07,
-      "direction": "円安"
+      "usdJpy": 163.37,
+      "changePct": -0.3,
+      "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
-        "自動車・電機など輸出大型株"
+        "内需・小売・電力ガス"
       ],
       "headwind": [
+        "自動車・電機など輸出大型株",
         "半導体・AI"
       ],
       "watch": [
@@ -738,7 +738,7 @@
     "sentiment": {
       "investorFlow": "海外 売り越し -2,863.0億円 / 個人 買い越し +4,074.8億円 / 投信 売り越し -754.8億円 / 信託銀行 買い越し +588.0億円 / 証券自己 売り越し -1,171.3億円",
       "advanceDecline": "25日 130.64 (過熱) / 15日 118 (中立) / 10日 110.93 (中立) / 6日 125.4 (過熱)。25日・6日が120超で過熱。",
-      "vixSqRisk": "VIX 20.09、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
+      "vixSqRisk": "VIX 20.66、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "待つ",
@@ -749,18 +749,17 @@
         "5日線下で短期は一服",
         "25日線下で中期は再点検",
         "NT倍率の優位性は要継続確認。",
-        "6条件は 3 / 6 で追い風は限定的。",
-        "USD/JPYは円安方向で輸出大型の追い風を確認。"
+        "6条件は 3 / 6 で追い風は限定的。"
       ],
       "cautions": [
         "25日線乖離は極端ではないが継続確認。",
         "行動方針は 待つ。追い買いより押し目や支持確認を優先。",
         "当落レシオは過熱。25日 130.64、短期レシオも確認。",
         "投資主体別では海外投資家が売り越し（-2,863.0億円）で上値の重さを確認。",
+        "USD/JPYは円高方向。輸出大型の戻りの弱さを確認。",
         "バンドウォーク判定: 下落バンドウォーク継続",
         "大暴落リスク: 高。空売り不足、信用買い圧力、評価損、テクニカル悪化が重なる大暴落条件を強く警戒。",
-        "VIX/SQリスク: VIX 20.09、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
-        "ダイバージェンス: 明確な逆行なし（弱気5点 / 強気0点）。"
+        "VIX/SQリスク: VIX 20.66、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
       ]
     },
     "ratio": {
