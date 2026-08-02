@@ -1018,6 +1018,88 @@ h1 {
   margin: 0 0 12px;
 }
 
+.market-sector-rotation {
+  margin: 0 0 12px;
+}
+
+.sector-rotation-panel {
+  border: 1px solid #cfe0ff;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.sector-rotation-panel > summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 10px;
+  align-items: center;
+  padding: 14px;
+  cursor: pointer;
+  background: #f5f9ff;
+}
+
+.sector-rotation-body {
+  padding: 12px;
+}
+
+.sector-rotation-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.sector-rotation-table-wrap {
+  max-height: 520px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.sector-rotation-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.sector-rotation-table caption {
+  padding: 10px 12px;
+  text-align: left;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.sector-rotation-table th,
+.sector-rotation-table td {
+  padding: 9px 10px;
+  border-top: 1px solid var(--line);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.sector-rotation-table th:nth-child(2),
+.sector-rotation-table td:nth-child(2),
+.sector-rotation-table th:nth-child(3),
+.sector-rotation-table td:nth-child(3) {
+  text-align: left;
+}
+
+.sector-rotation-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8fafc;
+}
+
+.sector-rotation-warning {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .rotation-card {
   min-width: 0;
   border-left: 4px solid #7c3aed;
@@ -2401,6 +2483,7 @@ h1 {
   .market-theme-summary,
   .market-theme-grid,
   .market-theme-support { grid-template-columns: 1fr; }
+  .sector-rotation-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .theme-grid,
@@ -2874,6 +2957,11 @@ button:hover {
   }
 
   .momentum-rotation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sector-rotation-panel > summary,
+  .sector-rotation-summary-grid {
     grid-template-columns: 1fr;
   }
 
