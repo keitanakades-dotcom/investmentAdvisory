@@ -380,6 +380,38 @@ button:hover {
   overflow-wrap: anywhere;
 }
 
+.sector-rotation-method-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.sector-rotation-method-grid article {
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.sector-rotation-method-grid span,
+.sector-rotation-method-grid small,
+.sector-rotation-table td > small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.sector-rotation-method-grid strong {
+  display: block;
+  margin: 4px 0;
+  font-size: 13px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
 .sector-rotation-table-wrap {
   max-height: 520px;
   overflow: auto;
@@ -394,9 +426,48 @@ button:hover {
 
 .sector-rotation-table {
   width: 100%;
+  min-width: 1040px;
   border-collapse: collapse;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
+}
+
+.sector-period-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(52px, 1fr));
+  gap: 4px;
+}
+
+.sector-period-grid > span {
+  min-width: 0;
+  padding: 4px 5px;
+  border-radius: 5px;
+  background: #f8fafc;
+  text-align: right;
+}
+
+.sector-period-grid small,
+.sector-period-grid strong {
+  display: block;
+}
+
+.sector-period-grid small {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.sector-rotation-table td:nth-child(2) strong,
+.sector-rotation-table td:nth-child(3) .pill,
+.sector-rotation-table td:nth-child(4) strong,
+.sector-rotation-table td:nth-child(5) strong,
+.sector-rotation-table td:nth-child(7) strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.sector-rotation-table-wrap:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 2px;
 }
 
 .sector-rotation-table caption {
@@ -1796,6 +1867,7 @@ section[id] {
   .decision-grid,
   .momentum-rotation-grid,
   .sector-rotation-summary-grid,
+  .sector-rotation-method-grid,
   .diagnosis-group-list {
     grid-template-columns: 1fr;
   }
@@ -1847,6 +1919,8 @@ section[id] {
   .decision-card { min-height: 0; padding: 12px; }
   .market-tabs, .ratio-chart-tabs { margin-top: 14px; padding: 6px; }
   .sector-rotation-panel > summary { grid-template-columns: 1fr; }
+  .sector-rotation-body { padding: 10px; }
+  .sector-rotation-summary-card { padding: 12px; }
   .ratio-metric-summary { grid-template-columns: 1fr; }
   .conditions-table-wrap { overflow: visible; }
   .conditions-table, .conditions-table tbody, .conditions-table tr, .conditions-table th, .conditions-table td { display: block; min-width: 0; }
