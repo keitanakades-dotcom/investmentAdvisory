@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T15:05:36.771Z",
-  "asOf": "2026-08-09",
-  "updatedAt": "2026/8/9 22:50:13",
+  "generatedAt": "2026-08-09T21:07:52.577Z",
+  "asOf": "2026-08-10",
+  "updatedAt": "2026/8/10 6:01:38",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -83,8 +83,8 @@
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-08-09",
-    "updatedAt": "2026/8/9 22:50:13",
+    "asOfDate": "2026-08-10",
+    "updatedAt": "2026/8/10 6:01:38",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -233,8 +233,8 @@
       }
     },
     "currency": {
-      "usdJpy": 157.74,
-      "changePct": -0.42,
+      "usdJpy": 157.7,
+      "changePct": -0.45,
       "direction": "円高"
     },
     "marketImpact": {
@@ -254,7 +254,7 @@
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 28,
+      "observations": 29,
       "minimumObservations": 10
     },
     "sources": [
