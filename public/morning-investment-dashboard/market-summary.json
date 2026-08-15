@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T05:22:37.485Z",
+  "generatedAt": "2026-08-15T05:37:49.774Z",
   "asOf": "2026-08-15",
-  "updatedAt": "2026/8/15 14:19:37",
+  "updatedAt": "2026/8/15 14:33:33",
   "marketState": "強気寄り",
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
   "marketView": "日本株の相対優位、日経平均理論値(EPS)の上方修正、海外投資家の買い越しを追い風にしつつ、夜間市場は弱気として、信用倍率、海外資金、NT倍率、25日線、出来高の向きを確認します。今日の候補抽出は対角投資ベースを重心にし、テクニカルは待つの補助として使います。",
@@ -67,7 +67,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-08-15",
-    "updatedAt": "2026/8/15 14:19:37",
+    "updatedAt": "2026/8/15 14:33:33",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
