@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T05:14:05.599Z",
+  "generatedAt": "2026-08-15T05:22:37.506Z",
   "asOf": "2026-08-15",
-  "updatedAt": "2026/8/15 14:09:56",
+  "updatedAt": "2026/8/15 14:19:37",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
@@ -82,7 +82,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-08-15",
-    "updatedAt": "2026/8/15 14:09:56",
+    "updatedAt": "2026/8/15 14:19:37",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
