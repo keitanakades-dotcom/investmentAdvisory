@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:49:33.471Z",
+  "generatedAt": "2026-09-01T23:03:11.104Z",
   "asOf": "2026-09-02",
-  "updatedAt": "2026/9/2 7:46:42",
+  "updatedAt": "2026/9/2 8:00:38",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
@@ -21,7 +21,7 @@
     {
       "label": "日経レバ信用倍率",
       "status": "未達",
-      "value": "6.66倍"
+      "value": "4.54倍"
     },
     {
       "label": "日本株の相対優位",
@@ -78,7 +78,7 @@
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 64,775.00 / -1.69% / 下落",
+      "日経平均先物(CME円建て): 64,815.00 / -1.63% / 下落",
       "NASDAQ: 26,099.77 / -1.03% / 下落",
       "SOX指数: 11,288.61 / -2.14% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
@@ -87,7 +87,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-09-02",
-    "updatedAt": "2026/9/2 7:46:42",
+    "updatedAt": "2026/9/2 8:00:38",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -236,8 +236,8 @@
       }
     },
     "currency": {
-      "usdJpy": 160.18,
-      "changePct": 0.27,
+      "usdJpy": 160.21,
+      "changePct": 0.29,
       "direction": "円安"
     },
     "marketImpact": {
