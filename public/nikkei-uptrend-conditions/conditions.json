@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T07:18:21.326Z",
-  "asOf": "2026-09-02",
-  "updatedAt": "2026/9/2 16:15:57",
+  "generatedAt": "2026-09-02T21:23:12.964Z",
+  "asOf": "2026-09-03",
+  "updatedAt": "2026/9/3 6:19:51",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
@@ -31,7 +31,7 @@
     {
       "label": "日経平均理論値（EPS）",
       "status": "未達",
-      "value": "約3,775円"
+      "value": "約3,757円"
     },
     {
       "label": "海外投資家フロー",
@@ -41,14 +41,14 @@
     {
       "label": "原油スプレッド",
       "status": "達成",
-      "value": "約4.34ドル"
+      "value": "約4.54ドル"
     }
   ],
   "trend": {
-    "state": "下降転換警戒",
-    "phase": "支持線と需給の再点検",
-    "shortTerm": "5日線下で短期は一服",
-    "mediumTerm": "25日線下で中期は再点検",
+    "state": "上昇トレンド",
+    "phase": "押し目待ちの上昇継続",
+    "shortTerm": "5日線上で短期は強め",
+    "mediumTerm": "25日線上で中期は上向き維持",
     "longTerm": "75日線下で長期は弱含み",
     "action": "待つ"
   },
@@ -67,26 +67,23 @@
       "高流動性"
     ],
     "avoid": [
-      "グロース・高PER",
-      "半導体・電子部品",
       "輸出大型・自動車・電機",
-      "高ベータ・信用買い残が多い銘柄",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 64,500.00 / -0.57% / 下落",
-      "NASDAQ: 26,099.77 / -1.03% / 下落",
-      "SOX指数: 11,288.61 / -2.14% / 下落",
+      "日経平均先物(CME円建て): 64,485.00 / -0.59% / 下落",
+      "NASDAQ: 26,217.83 / +0.45% / 上昇",
+      "SOX指数: 11,339.25 / +0.45% / 上昇",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-09-02",
-    "updatedAt": "2026/9/2 16:15:57",
+    "asOfDate": "2026-09-03",
+    "updatedAt": "2026/9/3 6:19:51",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -100,32 +97,32 @@
       "us": {
         "2y": {
           "value": 4.39,
-          "observationDate": "2026-09-01",
+          "observationDate": "2026-09-02",
           "direction": "上昇",
           "changeBp": {
-            "oneDay": 5,
-            "fiveDay": 22,
-            "twentyDay": 19
+            "oneDay": 0,
+            "fiveDay": 20,
+            "twentyDay": 21
           }
         },
         "10y": {
           "value": 4.79,
-          "observationDate": "2026-09-01",
+          "observationDate": "2026-09-02",
           "direction": "上昇",
           "changeBp": {
-            "oneDay": 4,
-            "fiveDay": 15,
+            "oneDay": 0,
+            "fiveDay": 13,
             "twentyDay": 16
           }
         },
         "30y": {
           "value": 5.27,
-          "observationDate": "2026-09-01",
+          "observationDate": "2026-09-02",
           "direction": "上昇",
           "changeBp": {
-            "oneDay": 2,
-            "fiveDay": 10,
-            "twentyDay": 9
+            "oneDay": 0,
+            "fiveDay": 9,
+            "twentyDay": 10
           }
         }
       },
@@ -188,19 +185,19 @@
         "spreadBp": 40,
         "direction": "フラット化",
         "changeBp": {
-          "oneDay": -1,
+          "oneDay": 0,
           "fiveDay": -7,
-          "twentyDay": -3
+          "twentyDay": -5
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
         "spreadBp": 48,
-        "direction": "フラット化",
+        "direction": "横ばい",
         "changeBp": {
-          "oneDay": -2,
-          "fiveDay": -5,
-          "twentyDay": -7
+          "oneDay": 0,
+          "fiveDay": -4,
+          "twentyDay": -6
         }
       },
       "japan2y10y": {
@@ -235,8 +232,8 @@
       }
     },
     "currency": {
-      "usdJpy": 159.7,
-      "changePct": -0.03,
+      "usdJpy": 158.66,
+      "changePct": -0.96,
       "direction": "円高"
     },
     "marketImpact": {
@@ -251,18 +248,16 @@
         "半導体高PER銘柄",
         "赤字グロース",
         "長期デュレーション株",
-        "自動車・電機など輸出大型株",
-        "半導体・AI"
+        "自動車・電機など輸出大型株"
       ],
       "watch": [
         "日本金利上昇を銀行株の追い風とみる前に、長短金利差と株価反応を確認",
-        "米長期金利上昇下ではNASDAQ・SOXの実際の反応を確認",
-        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
+        "米長期金利上昇下ではNASDAQ・SOXの実際の反応を確認"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 48,
+      "observations": 49,
       "minimumObservations": 10
     },
     "sources": [
@@ -765,19 +760,20 @@
   "marketTabs": {
     "sentiment": {
       "investorFlow": "海外 売り越し -4,378.1億円 / 個人 買い越し +6,977.5億円 / 投信 売り越し -639.1億円 / 信託銀行 売り越し -5,082.9億円 / 証券自己 買い越し +1,474.4億円",
-      "advanceDecline": "25日 113.86 (中立) / 15日 115.34 (中立) / 10日 122.03 (過熱) / 6日 94.37 (中立)。10日が120超で過熱。",
-      "vixSqRisk": "VIX 16.34、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。"
+      "advanceDecline": "25日 113.86 (中立) / 15日 115.35 (中立) / 10日 122.05 (過熱) / 6日 94.39 (中立)。10日が120超で過熱。",
+      "vixSqRisk": "VIX 15.20、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。"
     },
     "technical": {
       "action": "待つ",
       "bandWalk": "通常",
-      "wallDon": "壁ドン発生",
-      "crashRisk": "中",
+      "wallDon": "壁ドンなし",
+      "crashRisk": "低",
       "confirmations": [
-        "5日線下で短期は一服",
-        "25日線下で中期は再点検",
+        "5日線上で短期は強め",
+        "25日線上で中期は上向き維持",
         "NT倍率の優位性は要継続確認。",
-        "6条件は 4 / 6 で地合いの追い風が残る。"
+        "6条件は 4 / 6 で地合いの追い風が残る。",
+        "一目均衡表の雲下限割れは自動判定上なし。"
       ],
       "cautions": [
         "25日線乖離は極端ではないが継続確認。",
@@ -786,8 +782,8 @@
         "投資主体別では海外投資家が売り越し（-4,378.1億円）で上値の重さを確認。",
         "USD/JPYは円高方向。輸出大型の戻りの弱さを確認。",
         "バンドウォーク判定: 通常",
-        "大暴落リスク: 中。現時点の自動取得範囲では大暴落条件の重なりは限定的。",
-        "VIX/SQリスク: VIX 16.34、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。"
+        "VIX/SQリスク: VIX 15.20、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。",
+        "ダイバージェンス: 明確な逆行なし（弱気0点 / 強気3点）。"
       ]
     },
     "ratio": {
