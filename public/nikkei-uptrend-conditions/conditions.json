@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T21:08:09.741Z",
+  "generatedAt": "2026-09-06T22:44:12.353Z",
   "asOf": "2026-09-07",
-  "updatedAt": "2026/9/7 6:04:52",
+  "updatedAt": "2026/9/7 7:41:49",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
@@ -74,7 +74,7 @@
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 65,830.00 / +1.97% / 上昇",
+      "日経平均先物(CME円建て): 65,830.00 / 0.00% / 横ばい",
       "NASDAQ: 26,506.99 / -0.29% / 下落",
       "SOX指数: 11,735.26 / +3.37% / 上昇",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
@@ -83,7 +83,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-09-07",
-    "updatedAt": "2026/9/7 6:04:52",
+    "updatedAt": "2026/9/7 7:41:49",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -232,8 +232,8 @@
       }
     },
     "currency": {
-      "usdJpy": 155.96,
-      "changePct": 0.19,
+      "usdJpy": 156.27,
+      "changePct": 0.39,
       "direction": "円安"
     },
     "marketImpact": {
