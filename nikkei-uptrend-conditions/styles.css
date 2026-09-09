@@ -722,6 +722,26 @@ button:hover {
   font-weight: 800;
 }
 
+.investor-flow-history-panel,
+.fourier-comparison-panel {
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 14px;
+}
+
+.investor-flow-history-panel h3,
+.fourier-comparison-panel h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.flow-buy-strong { color: #a40000; font-weight: 800; }
+.flow-buy-light { color: #d55a5a; font-weight: 700; }
+.flow-sell-strong { color: #08734a; font-weight: 800; }
+.flow-sell-light { color: #5b9f7b; font-weight: 700; }
+
 .flow-neutral {
   color: var(--muted);
   font-weight: 800;
@@ -1908,12 +1928,6 @@ section[id] {
 }
 
 @media (max-width: 640px) {
-  html,
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
   .app { padding: 14px 12px 52px; }
   .hero { margin-bottom: 14px; }
   .hero-meta { grid-template-columns: 1fr; }
@@ -1924,36 +1938,6 @@ section[id] {
   .decision-grid { gap: 8px; }
   .decision-card { min-height: 0; padding: 12px; }
   .market-tabs, .ratio-chart-tabs { margin-top: 14px; padding: 6px; }
-  .market-tab-panel,
-  .context-grid,
-  .context-grid article,
-  .investor-flow-history-panel,
-  .market-table-wrap {
-    min-width: 0;
-    max-width: 100%;
-  }
-  .market-table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior-x: contain;
-  }
-  .investor-flow-history-panel {
-    padding: 12px;
-    overflow: hidden;
-  }
-  .investor-flow-history-table table {
-    min-width: 410px;
-    font-size: 10px;
-  }
-  .investor-flow-history-table th,
-  .investor-flow-history-table td {
-    padding: 6px 4px;
-    white-space: nowrap;
-  }
-  .investor-flow-history-table th:first-child,
-  .investor-flow-history-table td:first-child {
-    min-width: 105px;
-  }
   .sector-rotation-panel > summary { grid-template-columns: 1fr; }
   .sector-rotation-body { padding: 10px; }
   .sector-rotation-summary-card { padding: 12px; }
