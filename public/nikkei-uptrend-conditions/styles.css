@@ -722,25 +722,9 @@ button:hover {
   font-weight: 800;
 }
 
-.investor-flow-history-panel,
-.fourier-comparison-panel {
-  margin-top: 16px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #fbfdff;
-  padding: 14px;
-}
-
-.investor-flow-history-panel h3,
-.fourier-comparison-panel h3 {
-  margin: 0 0 8px;
-  font-size: 14px;
-}
-
-.flow-buy-strong { color: #a40000; font-weight: 800; }
-.flow-buy-light { color: #d55a5a; font-weight: 700; }
-.flow-sell-strong { color: #08734a; font-weight: 800; }
-.flow-sell-light { color: #5b9f7b; font-weight: 700; }
+.investor-flow-history-panel,.fourier-comparison-panel { margin-top:16px; border:1px solid var(--line); border-radius:8px; background:#fbfdff; padding:14px; }
+.investor-flow-history-panel h3,.fourier-comparison-panel h3 { margin:0 0 8px; font-size:14px; }
+.flow-buy-strong { color:#a40000; font-weight:800; }.flow-buy-light { color:#d55a5a; font-weight:700; }.flow-sell-strong { color:#08734a; font-weight:800; }.flow-sell-light { color:#5b9f7b; font-weight:700; }
 
 .flow-neutral {
   color: var(--muted);
