@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T14:28:31.432Z",
-  "asOf": "2026-09-10",
-  "updatedAt": "2026/9/10 23:25:33",
+  "generatedAt": "2026-09-10T21:11:07.403Z",
+  "asOf": "2026-09-11",
+  "updatedAt": "2026/9/11 6:06:21",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
-  "caution": "日経レバ信用倍率は条件未達、日経平均理論値(EPS)は条件未達。",
+  "caution": "日経レバ信用倍率は条件未達、WTI-Brentスプレッドは条件未達。",
   "tailwinds": [
     "東証全体レベルの信用売り残の積み上がり",
     "日本株の相対優位",
-    "海外投資家の買い越し"
+    "日経平均理論値(EPS)の上方修正"
   ],
   "conditions": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "label": "日経平均理論値（EPS）",
-      "status": "未達",
+      "status": "達成",
       "value": "約3,815円"
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "label": "原油スプレッド",
-      "status": "達成",
-      "value": "約4.54ドル"
+      "status": "未達",
+      "value": "約12.25ドル"
     }
   ],
   "trend": {
@@ -68,8 +68,8 @@
       "低ボラティリティ"
     ],
     "avoid": [
+      "グロース・高PER",
       "半導体・電子部品",
-      "グロース・REIT",
       "化学・空運・電力",
       "高ベータ・信用買い残が多い銘柄",
       "主役株の高値追い",
@@ -78,16 +78,16 @@
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 63,940.00 / -0.37% / 下落",
-      "NASDAQ: 26,141.20 / -0.43% / 下落",
-      "SOX指数: 11,700.98 / -1.93% / 下落",
+      "日経平均先物(CME円建て): 63,905.00 / -0.42% / 下落",
+      "NASDAQ: 26,081.72 / -0.65% / 下落",
+      "SOX指数: 11,614.17 / -2.66% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-09-10",
-    "updatedAt": "2026/9/10 23:25:33",
+    "asOfDate": "2026-09-11",
+    "updatedAt": "2026/9/11 6:06:21",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -100,33 +100,33 @@
     "rates": {
       "us": {
         "2y": {
-          "value": 4.43,
-          "observationDate": "2026-09-09",
-          "direction": "横ばい",
+          "value": 4.56,
+          "observationDate": "2026-09-10",
+          "direction": "上昇",
           "changeBp": {
-            "oneDay": 4,
-            "fiveDay": 4,
-            "twentyDay": 21
+            "oneDay": 13,
+            "fiveDay": 17,
+            "twentyDay": 36
           }
         },
         "10y": {
-          "value": 4.83,
-          "observationDate": "2026-09-09",
-          "direction": "横ばい",
+          "value": 4.95,
+          "observationDate": "2026-09-10",
+          "direction": "上昇",
           "changeBp": {
-            "oneDay": 3,
-            "fiveDay": 4,
-            "twentyDay": 13
+            "oneDay": 12,
+            "fiveDay": 16,
+            "twentyDay": 27
           }
         },
         "30y": {
-          "value": 5.28,
-          "observationDate": "2026-09-09",
-          "direction": "横ばい",
+          "value": 5.37,
+          "observationDate": "2026-09-10",
+          "direction": "上昇",
           "changeBp": {
-            "oneDay": 3,
-            "fiveDay": 1,
-            "twentyDay": 4
+            "oneDay": 9,
+            "fiveDay": 10,
+            "twentyDay": 13
           }
         }
       },
@@ -186,22 +186,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 40,
+        "spreadBp": 39,
         "direction": "横ばい",
         "changeBp": {
           "oneDay": -1,
-          "fiveDay": 0,
-          "twentyDay": -8
+          "fiveDay": -1,
+          "twentyDay": -9
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 45,
-        "direction": "横ばい",
+        "spreadBp": 42,
+        "direction": "フラット化",
         "changeBp": {
-          "oneDay": 0,
-          "fiveDay": -3,
-          "twentyDay": -9
+          "oneDay": -3,
+          "fiveDay": -6,
+          "twentyDay": -14
         }
       },
       "japan2y10y": {
@@ -236,8 +236,8 @@
       }
     },
     "currency": {
-      "usdJpy": 153.9,
-      "changePct": 0.27,
+      "usdJpy": 154.37,
+      "changePct": 0.52,
       "direction": "円安"
     },
     "marketImpact": {
@@ -248,17 +248,21 @@
       ],
       "headwind": [
         "銀行",
+        "半導体高PER銘柄",
+        "赤字グロース",
+        "長期デュレーション株",
         "銀行・保険の利ざや改善期待は後退（日本2年-10年がフラット化）",
         "半導体・AI"
       ],
       "watch": [
         "日本金利低下が景気悪化懸念による場合は、グロース株を機械的に加点しない",
+        "米長期金利上昇下ではNASDAQ・SOXの実際の反応を確認",
         "VIX上昇中は金利低下を成長株の買い材料と即断しない"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 56,
+      "observations": 55,
       "minimumObservations": 10
     },
     "sources": [
@@ -308,10 +312,10 @@
       "maxRisk": "7270 ＳＵＢＡＲＵ 信用100株。含み損益 ▲10,300円 (▲3.9%)。テーマ性が残っても、信用100株は依然重い。戻りで整理する戦略を持つ必要があります。",
       "actions": [
         {
-          "code": "8801",
-          "name": "三井不動産",
+          "code": "7203",
+          "name": "トヨタ自動車",
           "action": "売り検討優先",
-          "reason": "業績面は強い / 需給は中立 / 保有理由は再確認。 需給の壁突破、信用買残減少、出来高を伴う陽線を待つ",
+          "reason": "業績は中立 / 需給は中立 / 保有理由は有効。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
@@ -329,10 +333,10 @@
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
-          "code": "7203",
-          "name": "トヨタ自動車",
+          "code": "8801",
+          "name": "三井不動産",
           "action": "売り検討優先",
-          "reason": "業績は中立 / 需給は中立 / 保有理由は有効。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
+          "reason": "需給は中立 / 保有理由は再確認。 需給の壁突破、信用買残減少、出来高を伴う陽線を待つ",
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
@@ -345,8 +349,8 @@
         {
           "code": "9934",
           "name": "因幡電機産業",
-          "action": "保有継続",
-          "reason": "業績面は強い / 需給は中立 / 保有理由は再確認。 需給の壁突破、信用買残減少、出来高を伴う陽線を待つ",
+          "action": "要確認",
+          "reason": "需給は中立 / 保有理由は再確認。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         },
         {
@@ -359,8 +363,8 @@
         {
           "code": "8750",
           "name": "第一ライフグループ",
-          "action": "保有継続",
-          "reason": "業績面は強い / 需給は中立 / 保有理由は再確認。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
+          "action": "要確認",
+          "reason": "需給は中立 / 保有理由は再確認。 保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討",
           "nextLine": "25日線・支持線の維持/割れ / 出来高を伴う上抜け/下落 / 決算・材料・信用需給の更新"
         }
       ]
@@ -761,610 +765,8 @@
   "marketTabs": {
     "sentiment": {
       "investorFlow": "海外 買い越し +6,893.4億円 / 個人 売り越し -18.7億円 / 投信 売り越し -3,038.3億円 / 信託銀行 売り越し -4,469.2億円 / 証券自己 売り越し -821.9億円",
-      "investorFlowSeries": [
-        {
-          "periodLabel": "2026-08-31 - 2026-09-04",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 6893.4
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -18.7
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -3038.3
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4469.2
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -821.9
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-08-24 - 2026-08-28",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1319.4
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1155.7
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -545.2
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1916
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3166.5
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-08-17 - 2026-08-21",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4378.1
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 6977.5
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -639.1
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -5082.9
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1474.4
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-08-10 - 2026-08-14",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 2134.7
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -6557.9
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 255.8
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -824
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 4654.4
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-08-03 - 2026-08-07",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -3827.8
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1566.7
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -781.5
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1697.4
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4384.3
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-07-27 - 2026-07-31",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4921.6
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4167.4
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 116
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -3182.9
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 9388.4
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-07-21 - 2026-07-24",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3514.6
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4568.1
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 408.1
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1932.8
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1488.6
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-07-13 - 2026-07-17",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2863
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 4074.8
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -754.8
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 588
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1171.3
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-07-06 - 2026-07-10",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 4929.7
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -637.9
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -6273.4
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 2315.2
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -420.3
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-06-29 - 2026-07-03",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3662.4
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -6368.5
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 661.5
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 92.1
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 561.9
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-06-22 - 2026-06-26",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -12378.2
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 9503.7
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3305.6
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 273
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 2908.8
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-06-15 - 2026-06-19",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 10562.8
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4470
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -5534.1
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1373.4
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -35.2
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-06-08 - 2026-06-12",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -5074.3
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -5010.2
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 897.3
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -57.2
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "買い越し",
-              "netAmountOkuYen": 5874.8
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-06-01 - 2026-06-05",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -809.7
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3081.1
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 363
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -310.3
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4807.5
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-05-25 - 2026-05-29",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "売り越し",
-              "netAmountOkuYen": -3952.7
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1057.2
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1929.6
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 708.2
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2681
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-05-18 - 2026-05-22",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 4609.1
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1402.9
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 384.5
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2104.1
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2968.6
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-05-11 - 2026-05-15",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 5572.8
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1720
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 296.9
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2420.8
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4982.6
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-05-07 - 2026-05-08",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 12351.3
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "売り越し",
-              "netAmountOkuYen": -4978.9
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2727.2
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -521.2
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -2787.5
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-04-27 - 2026-05-01",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3576.4
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 3033.7
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1303.7
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1110.1
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -9057.1
-            }
-          }
-        },
-        {
-          "periodLabel": "2026-04-20 - 2026-04-24",
-          "categories": {
-            "foreign": {
-              "label": "海外投資家",
-              "direction": "買い越し",
-              "netAmountOkuYen": 7842.1
-            },
-            "individual": {
-              "label": "個人",
-              "direction": "買い越し",
-              "netAmountOkuYen": 1617.6
-            },
-            "investmentTrust": {
-              "label": "投資信託",
-              "direction": "売り越し",
-              "netAmountOkuYen": -1040.7
-            },
-            "trustBank": {
-              "label": "信託銀行",
-              "direction": "売り越し",
-              "netAmountOkuYen": -74
-            },
-            "proprietary": {
-              "label": "証券自己",
-              "direction": "売り越し",
-              "netAmountOkuYen": -8386
-            }
-          }
-        }
-      ],
       "advanceDecline": "25日 108.67 (中立) / 15日 92.74 (中立) / 10日 77.72 (売られすぎ) / 6日 76.06 (売られすぎ)。10日・6日が80未満で売られすぎ。",
-      "vixSqRisk": "VIX 17.94、MACDはゴールデンクロス継続。メジャーSQ週（2026-09-07〜2026-09-11）。指数主導の荒れを警戒。 SQ荒れ警戒は高い。"
+      "vixSqRisk": "VIX 17.84、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。"
     },
     "technical": {
       "action": "待つ",
@@ -1385,9 +787,9 @@
         "行動方針は 待つ。追い買いより押し目や支持確認を優先。",
         "当落レシオは売られすぎ。25日 108.67、投げ売り一巡を確認。",
         "バンドウォーク判定: 通常",
-        "VIX/SQリスク: VIX 17.94、MACDはゴールデンクロス継続。メジャーSQ週（2026-09-07〜2026-09-11）。指数主導の荒れを警戒。 SQ荒れ警戒は高い。",
-        "ダイバージェンス: 明確な逆行なし（弱気5点 / 強気0点）。",
-        "追い買いを抑え、信用整理・利益保護・支持線割れ時の縮小を優先。"
+        "VIX/SQリスク: VIX 17.84、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。",
+        "ダイバージェンス: 明確な逆行なし（弱気6点 / 強気0点）。",
+        "新規は小さく、SQ通過後の方向とVIX MACDの変化を確認。"
       ]
     },
     "ratio": {
