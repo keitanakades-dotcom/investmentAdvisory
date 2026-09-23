@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T14:08:11.954Z",
-  "asOf": "2026-09-21",
-  "updatedAt": "2026/9/21 6:02:32",
+  "generatedAt": "2026-09-23T21:59:07.377Z",
+  "asOf": "2026-09-24",
+  "updatedAt": "2026/9/24 6:55:48",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -41,7 +41,7 @@
     {
       "label": "原油スプレッド",
       "status": "未達",
-      "value": "約23.78ドル"
+      "value": "約18.48ドル"
     }
   ],
   "trend": {
@@ -60,30 +60,31 @@
     "prefer": [
       "半導体・電子部品",
       "輸出大型・自動車・電機",
-      "グロース押し目",
       "配当",
       "バリュー",
       "出遅れ",
       "安定需給",
-      "低ボラティリティ"
+      "低ボラティリティ",
+      "高流動性"
     ],
     "avoid": [
+      "グロース・高PER",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 64,960.00 / +0.08% / 上昇",
-      "NASDAQ: 26,522.54 / +0.39% / 上昇",
-      "SOX指数: 11,921.69 / +2.78% / 上昇",
+      "日経平均先物(CME円建て): 65,965.00 / +0.33% / 上昇",
+      "NASDAQ: 26,936.04 / -0.69% / 下落",
+      "SOX指数: 12,534.27 / +0.81% / 上昇",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-09-21",
-    "updatedAt": "2026/9/21 6:02:32",
+    "asOfDate": "2026-09-24",
+    "updatedAt": "2026/9/24 6:55:48",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -96,33 +97,33 @@
     "rates": {
       "us": {
         "2y": {
-          "value": 4.76,
-          "observationDate": "2026-09-18",
+          "value": 4.85,
+          "observationDate": "2026-09-23",
           "direction": "上昇",
           "changeBp": {
-            "oneDay": 9,
-            "fiveDay": 13,
-            "twentyDay": 57
+            "oneDay": 14,
+            "fiveDay": 11,
+            "twentyDay": 68
           }
         },
         "10y": {
-          "value": 5.01,
-          "observationDate": "2026-09-18",
+          "value": 5.11,
+          "observationDate": "2026-09-23",
           "direction": "上昇",
           "changeBp": {
-            "oneDay": 7,
-            "fiveDay": 5,
-            "twentyDay": 32
+            "oneDay": 15,
+            "fiveDay": 10,
+            "twentyDay": 47
           }
         },
         "30y": {
-          "value": 5.34,
-          "observationDate": "2026-09-18",
-          "direction": "横ばい",
+          "value": 5.4,
+          "observationDate": "2026-09-23",
+          "direction": "上昇",
           "changeBp": {
-            "oneDay": 5,
-            "fiveDay": -1,
-            "twentyDay": 11
+            "oneDay": 11,
+            "fiveDay": 5,
+            "twentyDay": 23
           }
         }
       },
@@ -182,22 +183,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 25,
-        "direction": "フラット化",
+        "spreadBp": 26,
+        "direction": "横ばい",
         "changeBp": {
-          "oneDay": -2,
-          "fiveDay": -8,
-          "twentyDay": -25
+          "oneDay": 1,
+          "fiveDay": -1,
+          "twentyDay": -21
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 33,
+        "spreadBp": 29,
         "direction": "フラット化",
         "changeBp": {
-          "oneDay": -2,
-          "fiveDay": -6,
-          "twentyDay": -21
+          "oneDay": -4,
+          "fiveDay": -5,
+          "twentyDay": -24
         }
       },
       "japan2y10y": {
@@ -232,8 +233,8 @@
       }
     },
     "currency": {
-      "usdJpy": 156.85,
-      "changePct": 0.46,
+      "usdJpy": 158.27,
+      "changePct": 0.51,
       "direction": "円安"
     },
     "marketImpact": {
@@ -241,14 +242,18 @@
         "自動車・電機など輸出大型株",
         "半導体・AI"
       ],
-      "headwind": [],
+      "headwind": [
+        "半導体高PER銘柄",
+        "赤字グロース",
+        "長期デュレーション株"
+      ],
       "watch": [
-        "金利変化が小さいため、指数・業種別の実際の資金移動を優先"
+        "米長期金利上昇下ではNASDAQ・SOXの実際の反応を確認"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 61,
+      "observations": 62,
       "minimumObservations": 10
     },
     "sources": [
@@ -1346,8 +1351,8 @@
           }
         }
       ],
-      "advanceDecline": "25日 104.65 (中立) / 15日 96.28 (中立) / 10日 103.79 (中立) / 6日 146.54 (過熱)。6日が120超で過熱。",
-      "vixSqRisk": "VIX 14.81、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。"
+      "advanceDecline": "25日 112.65 (中立) / 15日 105.41 (中立) / 10日 137.01 (過熱) / 6日 168.52 (過熱)。10日・6日が120超で過熱。",
+      "vixSqRisk": "VIX 15.18、MACDはデッドクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "待つ",
@@ -1364,11 +1369,11 @@
       "cautions": [
         "25日線乖離は極端ではないが継続確認。",
         "行動方針は 待つ。追い買いより押し目や支持確認を優先。",
-        "当落レシオは過熱。25日 104.65、短期レシオも確認。",
+        "当落レシオは過熱。25日 112.65、短期レシオも確認。",
         "投資主体別では海外投資家が売り越し（-3,036.8億円）で上値の重さを確認。",
         "バンドウォーク判定: 通常",
         "大暴落リスク: 中。現時点の自動取得範囲では大暴落条件の重なりは限定的。",
-        "VIX/SQリスク: VIX 14.81、MACDはゴールデンクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は中。",
+        "VIX/SQリスク: VIX 15.18、MACDはデッドクロス継続。メジャーSQ日を算出できず要確認。 SQ荒れ警戒は低い。",
         "ダイバージェンス: 明確な逆行なし（弱気4点 / 強気1点）。"
       ]
     },
