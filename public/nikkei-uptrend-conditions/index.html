@@ -2187,8 +2187,9 @@
             <div><span class="summary-label">信頼度</span><strong id="fourier-confidence">30点</strong></div>
           </div>
           <article class="fourier-comparison-panel"><h3>システム計算結果</h3><div id="fourier-coefficients" class="fourier-coefficients"><span><b>定数項</b>64,044.28</span><span><b>線形トレンド（円/営業日）</b>137.27</span><span><b>5営業日周期 sin</b>-431.48</span><span><b>5営業日周期 cos</b>-275.78</span><span><b>10営業日周期 sin</b>151.99</span><span><b>10営業日周期 cos</b>-327.09</span></div><h4>次の5営業日予測</h4><div id="fourier-forecast-table" class="market-table-wrap fourier-forecast-table"><table><thead><tr><th>日付</th><th>システム予測</th></tr></thead><tbody><tr><td>2026-10-05</td><td>66,187</td></tr><tr><td>2026-10-06</td><td>66,256</td></tr><tr><td>2026-10-07</td><td>67,077</td></tr><tr><td>2026-10-08</td><td>67,924</td></tr><tr><td>2026-10-09</td><td>68,018</td></tr></tbody></table></div></article>
-          <article class="fourier-comparison-panel"><h3>研究会資料との比較</h3><div id="fourier-comparison-table" class="market-table-wrap"><p class="empty-note">比較可能な直近の研究会資料は未登録です。予測期間を過ぎた資料は表示しません。</p></div></article>
-          <div class="context-grid compact"><article><h3>確認事項</h3><ul id="fourier-notes" class="check-list"><li>1週間予測は売買判断の主因ではなく、周期の補助として確認します。</li><li>システム試算は直近日足だけの短期推定です。長期フーリエ判定としてはデータ期間不足のため参考扱いです。</li><li>比較可能な直近の研究会資料は未登録です。予測期間を過ぎた資料は表示しません。</li></ul></article><article><h3>出典</h3><ul id="fourier-sources" class="check-list"><li>システム: 日経平均系列 20件から短期Fourier試算</li></ul></article></div>
+          <article class="fourier-comparison-panel"><h3>研究会資料との比較</h3><div id="fourier-comparison-table" class="market-table-wrap"><table><thead><tr><th>日付</th><th>資料参考値</th><th>システム推定</th><th>資料との差</th></tr></thead><tbody><tr><td>2026-10-05 月</td><td>68,676</td><td>66,187</td><td>-2,489円</td></tr></tbody></table></div></article>
+          <article class="fourier-comparison-panel"><h3>過去1週間（直近5営業日）</h3><p>実績とシステムの当てはめ値を比較します。当時の予測精度を示すものではありません。</p><div id="fourier-history-table" class="market-table-wrap"><table><thead><tr><th>日付</th><th>日経平均実績</th><th>システム当てはめ値</th><th>実績との差</th><th>研究会資料</th></tr></thead><tbody><tr><td>2026-09-28</td><td>65,878</td><td>66,155</td><td>-277円</td><td>未登録</td></tr><tr><td>2026-09-29</td><td>65,481</td><td>65,920</td><td>-439円</td><td>未登録</td></tr><tr><td>2026-09-30</td><td>66,754</td><td>66,304</td><td>+450円</td><td>未登録</td></tr><tr><td>2026-10-01</td><td>68,957</td><td>66,746</td><td>+2,211円</td><td>未登録</td></tr><tr><td>2026-10-02</td><td>68,309</td><td>66,624</td><td>+1,685円</td><td>未登録</td></tr></tbody></table></div></article>
+          <div class="context-grid compact"><article><h3>確認事項</h3><ul id="fourier-notes" class="check-list"><li>1週間予測は売買判断の主因ではなく、周期の補助として確認します。</li><li>システム試算は直近日足だけの短期推定です。長期フーリエ判定としてはデータ期間不足のため参考扱いです。</li><li>研究会資料の予測値はREFERENCE_VALUEとしてのみ表示し、目標株価には使用しません。</li><li>資料の週次解釈: 短期 STRONG_UP / 中期 UP_BUT_LAGGING / 長期 STRONG_UP。</li><li>短期上昇に中期リズムと市場Breadthが追いつくか確認</li></ul></article><article><h3>出典</h3><ul id="fourier-sources" class="check-list"><li>研究会資料 フーリエ係数 2026年10月4日（2026-10-04）</li><li>システム: 日経平均系列 20件から短期Fourier試算</li></ul></article></div>
         </div>
       </section><section id="holdings" class="wide-section holdings-summary-section" aria-labelledby="holdings-summary-title">
         <div class="section-head">
@@ -2213,6 +2214,25 @@
     </button>
   <script>
 (() => {
+  // 保存済み公開HTMLでも、期限切れの資料比較は閲覧時に除外する。
+  const comparisonTable = document.getElementById('fourier-comparison-table');
+  if (comparisonTable) {
+    const dateParts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit',
+    }).formatToParts(new Date());
+    const datePart = (type) => dateParts.find((item) => item.type === type)?.value;
+    const today = [datePart('year'), datePart('month'), datePart('day')].join('-');
+    const comparisonStart = new Date(today + 'T00:00:00Z');
+    comparisonStart.setUTCDate(comparisonStart.getUTCDate() - 6);
+    const cutoff = comparisonStart.toISOString().slice(0, 10);
+    for (const row of comparisonTable.querySelectorAll('tbody tr')) {
+      const date = row.cells[0]?.textContent?.trim().slice(0, 10) || '';
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || date < cutoff || date > today) row.remove();
+    }
+    if (!comparisonTable.querySelector('tbody tr')) {
+      comparisonTable.innerHTML = '<p class="empty-note">比較可能な直近の研究会資料は未登録です。予測期間を過ぎた資料は表示しません。</p>';
+    }
+  }
   const ratioMetricData = {"nt":{"label":"NT倍率","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=TVC%3ANI225%2FTSE%3ATOPIX","current":"16.70","oneDay":"+0.01 (+0.06%)","fiveDay":"+0.63 (+3.92%)","twentyDay":"時系列不足","judgment":"上昇: 日経平均優位"},"topix-growth":{"label":"TOPIX÷グロース","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=TSE%3ATOPIX%2FTSE%3AMOS","current":"6.49","oneDay":"+0.02 (+0.31%)","fiveDay":"0.00 (0.00%)","twentyDay":"時系列不足","judgment":"横ばい: 優位性なし"},"nikkei-growth":{"label":"日経平均÷グロース","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=TVC%3ANI225%2FTSE%3AMOS","current":"108.43","oneDay":"+0.40 (+0.37%)","fiveDay":"+4.05 (+3.88%)","twentyDay":"時系列不足","judgment":"上昇: 大型株/TOPIX優位"},"topix-sp500":{"label":"TOPIX÷S&P500","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=TSE%3ATOPIX%2FSP%3ASPX","current":"0.53","oneDay":"-0.01 (-1.85%)","fiveDay":"0.00 (0.00%)","twentyDay":"時系列不足","judgment":"横ばい: 優位性なし"},"nikkei-sp500":{"label":"日経平均÷S&P500","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=TVC%3ANI225%2FSP%3ASPX","current":"8.85","oneDay":"-0.14 (-1.56%)","fiveDay":"+0.28 (+3.27%)","twentyDay":"時系列不足","judgment":"上昇: 日本株優位"}};
   const tabGroups = [
     Array.from(document.querySelectorAll('.market-tabs [role="tab"][data-market-tab]')),
