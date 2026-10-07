@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T09:04:42.375Z",
-  "asOf": "2026-10-07",
-  "updatedAt": "2026/10/7 18:02:12",
+  "generatedAt": "2026-10-07T23:50:21.492Z",
+  "asOf": "2026-10-08",
+  "updatedAt": "2026/10/8 8:47:17",
   "matched": 4,
   "total": 6,
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
@@ -21,7 +21,7 @@
     {
       "label": "日経レバ信用倍率",
       "status": "未達",
-      "value": "2.33倍"
+      "value": "1.91倍"
     },
     {
       "label": "日本株の相対優位",
@@ -31,7 +31,7 @@
     {
       "label": "日経平均理論値（EPS）",
       "status": "達成",
-      "value": "約3,982円"
+      "value": "約3,979円"
     },
     {
       "label": "海外投資家フロー",
@@ -41,12 +41,12 @@
     {
       "label": "原油スプレッド",
       "status": "未達",
-      "value": "約17.80ドル"
+      "value": "約29.20ドル"
     }
   ],
   "trend": {
     "state": "上昇一服",
-    "phase": "高値圏の過熱確認",
+    "phase": "25日線乖離の過熱確認",
     "shortTerm": "5日線上で短期は強め",
     "mediumTerm": "25日線上で中期は上向き維持",
     "longTerm": "75日線上で長期は崩れていない",
@@ -58,8 +58,6 @@
     "eventRisk": "高",
     "overheating": "高",
     "prefer": [
-      "輸出大型・自動車・電機",
-      "銀行・保険",
       "配当",
       "バリュー",
       "出遅れ",
@@ -68,60 +66,62 @@
       "高流動性"
     ],
     "avoid": [
+      "半導体・電子部品",
+      "輸出大型・自動車・電機",
       "主役株の高値追い",
       "上がりすぎたテーマ",
       "イベント前の大玉",
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 70,150.00 / -0.62% / 下落",
-      "NASDAQ: 27,599.79 / +0.45% / 上昇",
-      "SOX指数: 13,217.82 / +0.34% / 上昇",
+      "日経平均先物(CME円建て): 69,960.00 / -0.89% / 下落",
+      "NASDAQ: 27,538.69 / -0.22% / 下落",
+      "SOX指数: 13,066.15 / -1.15% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-10-07",
-    "updatedAt": "2026/10/7 18:02:12",
+    "asOfDate": "2026-10-08",
+    "updatedAt": "2026/10/8 8:47:17",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
+    "summary": "日米金利の方向乖離。日米金利の方向が異なるため、日米金利差とドル円を優先確認。",
     "stance": {
-      "label": "金利方向は中立",
-      "riskLevel": "low",
-      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
+      "label": "日米金利の方向乖離",
+      "riskLevel": "medium",
+      "reason": "日米金利の方向が異なるため、日米金利差とドル円を優先確認。"
     },
     "rates": {
       "us": {
         "2y": {
-          "value": 4.79,
-          "observationDate": "2026-10-06",
+          "value": 4.77,
+          "observationDate": "2026-10-07",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -5,
-            "fiveDay": -10,
-            "twentyDay": 40
+            "oneDay": -2,
+            "fiveDay": -11,
+            "twentyDay": 34
           }
         },
         "10y": {
-          "value": 5.27,
-          "observationDate": "2026-10-06",
+          "value": 5.28,
+          "observationDate": "2026-10-07",
           "direction": "横ばい",
           "changeBp": {
-            "oneDay": -4,
-            "fiveDay": 1,
-            "twentyDay": 47
+            "oneDay": 1,
+            "fiveDay": -1,
+            "twentyDay": 45
           }
         },
         "30y": {
-          "value": 5.64,
-          "observationDate": "2026-10-06",
-          "direction": "上昇",
+          "value": 5.67,
+          "observationDate": "2026-10-07",
+          "direction": "横ばい",
           "changeBp": {
-            "oneDay": -2,
-            "fiveDay": 5,
+            "oneDay": 3,
+            "fiveDay": 3,
             "twentyDay": 39
           }
         }
@@ -182,22 +182,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 48,
+        "spreadBp": 51,
         "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": 11,
-          "twentyDay": 7
+          "oneDay": 3,
+          "fiveDay": 10,
+          "twentyDay": 11
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 37,
+        "spreadBp": 39,
         "direction": "横ばい",
         "changeBp": {
           "oneDay": 2,
           "fiveDay": 4,
-          "twentyDay": -8
+          "twentyDay": -6
         }
       },
       "japan2y10y": {
@@ -232,23 +232,26 @@
       }
     },
     "currency": {
-      "usdJpy": 158.16,
-      "changePct": 0.13,
-      "direction": "円安"
+      "usdJpy": 157.96,
+      "changePct": -0.21,
+      "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
         "銀行・保険の利ざや改善期待",
-        "自動車・電機など輸出大型株"
+        "内需・小売・電力ガス"
       ],
-      "headwind": [],
+      "headwind": [
+        "自動車・電機など輸出大型株",
+        "半導体・AI"
+      ],
       "watch": [
         "金利変化が小さいため、指数・業種別の実際の資金移動を優先"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 70,
+      "observations": 71,
       "minimumObservations": 10
     },
     "sources": [
@@ -1340,7 +1343,7 @@
         }
       ],
       "advanceDecline": "25日 89.14 (中立) / 15日 108.17 (中立) / 10日 75.39 (売られすぎ) / 6日 74.57 (売られすぎ)。10日・6日が80未満で売られすぎ。",
-      "vixSqRisk": "VIX 15.24、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
+      "vixSqRisk": "VIX 15.08、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "押し目確認",
@@ -1352,17 +1355,17 @@
         "25日線上で中期は上向き維持",
         "NT倍率は日経平均優位で大型・指数寄与株が支え。",
         "6条件は 4 / 6 で地合いの追い風が残る。",
-        "一目均衡表の雲下限割れは自動判定上なし。",
-        "USD/JPYは円安方向で輸出大型の追い風を確認。"
+        "一目均衡表の雲下限割れは自動判定上なし。"
       ],
       "cautions": [
-        "25日線乖離が +6.10% で過熱警戒。",
+        "25日線乖離が +7.32% で過熱警戒。",
         "行動方針は 押し目確認。追い買いより押し目や支持確認を優先。",
         "当落レシオは売られすぎ。25日 89.14、投げ売り一巡を確認。",
         "投資主体別では海外投資家が売り越し（-3,036.8億円）で上値の重さを確認。",
+        "USD/JPYは円高方向。輸出大型の戻りの弱さを確認。",
         "バンドウォーク判定: 上昇バンドウォーク継続",
-        "VIX/SQリスク: VIX 15.24、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
-        "ダイバージェンス: 明確な逆行なし（弱気4点 / 強気3点）。"
+        "VIX/SQリスク: VIX 15.08、MACDはデッドクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
+        "ダイバージェンス: 明確な逆行なし（弱気3点 / 強気3点）。"
       ]
     },
     "ratio": {
