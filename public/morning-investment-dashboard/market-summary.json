@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T09:05:32.279Z",
+  "generatedAt": "2026-10-14T13:12:49.198Z",
   "asOf": "2026-10-14",
   "updatedAt": "2026/10/14 18:02:49",
   "marketState": "やや強気",
@@ -15,7 +15,7 @@
     "新規候補の扱い: サテライトは候補を絞り、イベント通過と出来高確認後に判断。",
     "避ける行動: 輸出大型・自動車・電機・主役株の高値追い・上がりすぎたテーマ・イベント前の大玉",
     "今日の確認条件: 日経平均先物(CME円建て): 68,290.00 / +0.49% / 上昇 / NASDAQ: 27,204.38 / -0.15% / 下落 / SOX指数: 12,208.79 / -0.23% / 下落",
-    "日柄・テクニカル: ポイントの日。相場のエネルギーが方向転換または加速として出るか確認。テクニカルは待つを補助材料にする。"
+    "日柄・テクニカル: ポイント日前後。相場のエネルギーが方向転換または加速として出るか確認。テクニカルは待つを補助材料にする。"
   ],
   "dailyPolicy": {
     "primaryPolicy": "対角投資ベース",
@@ -395,7 +395,7 @@
       {
         "name": "内需・ディフェンシブ",
         "themeGroup": "個別テーマ",
-        "score": 90,
+        "score": 96,
         "rank": "有望テーマ",
         "continuity": "高い",
         "candidatePolicy": "値上がり率、出来高、売買代金、関連銘柄3銘柄以上の広がりを確認。",
@@ -436,21 +436,69 @@
         ]
       },
       {
-        "name": "建設・不動産",
+        "name": "電気機器・機械",
         "themeGroup": "個別テーマ",
-        "score": 72,
+        "score": 88,
         "rank": "有望テーマ",
-        "continuity": "中程度",
-        "candidatePolicy": "建設・不動産の個別材料として確認。受注、金利、資材価格、出来高を合わせて見る。",
-        "buyArea": "1928 積水ハウス を基準に、3,250円前後の押し目確認",
-        "profitArea": "3,600円前後から短期利確または逆指値引き上げを検討",
-        "stopArea": "3,150円割れはテーマ失速または押し目失敗として再確認",
+        "continuity": "高い",
+        "candidatePolicy": "電気機器・機械の業種テーマとして確認。半導体・AIとの接点は事業内容で別途確認する。",
+        "buyArea": "6857 アドバンテスト を基準に、39,200円前後の押し目確認",
+        "profitArea": "42,800円前後から短期利確または逆指値引き上げを検討",
+        "stopArea": "38,000円割れはテーマ失速または押し目失敗として再確認",
         "risks": [
           "テーマ判定は業種・事業内容の補完であり、資金流入は出来高・ランキングで再確認。",
           "市場全体の大暴落リスク中",
           "既存候補との業種集中"
         ],
         "leaders": [
+          {
+            "code": "6857",
+            "name": "アドバンテスト",
+            "role": "連想"
+          },
+          {
+            "code": "6861",
+            "name": "キーエンス",
+            "role": "連想"
+          },
+          {
+            "code": "6501",
+            "name": "日立製作所",
+            "role": "連想"
+          },
+          {
+            "code": "6503",
+            "name": "三菱電機",
+            "role": "連想"
+          },
+          {
+            "code": "6273",
+            "name": "ＳＭＣ",
+            "role": "連想"
+          }
+        ]
+      },
+      {
+        "name": "建設・不動産",
+        "themeGroup": "個別テーマ",
+        "score": 84,
+        "rank": "有望テーマ",
+        "continuity": "高い",
+        "candidatePolicy": "建設・不動産の個別材料として確認。受注、金利、資材価格、出来高を合わせて見る。",
+        "buyArea": "1860 戸田建設 を基準に、1,300円前後の押し目確認",
+        "profitArea": "1,450円前後から短期利確または逆指値引き上げを検討",
+        "stopArea": "1,300円割れはテーマ失速または押し目失敗として再確認",
+        "risks": [
+          "テーマ判定は業種・事業内容の補完であり、資金流入は出来高・ランキングで再確認。",
+          "市場全体の大暴落リスク中",
+          "既存候補との業種集中"
+        ],
+        "leaders": [
+          {
+            "code": "1860",
+            "name": "戸田建設",
+            "role": "連想"
+          },
           {
             "code": "1928",
             "name": "積水ハウス",
@@ -470,44 +518,6 @@
             "code": "8802",
             "name": "三菱地所",
             "role": "連想"
-          },
-          {
-            "code": "8830",
-            "name": "住友不動産",
-            "role": "連想"
-          }
-        ]
-      },
-      {
-        "name": "電気機器・機械",
-        "themeGroup": "個別テーマ",
-        "score": 64,
-        "rank": "監視テーマ",
-        "continuity": "要確認",
-        "candidatePolicy": "電気機器・機械の業種テーマとして確認。半導体・AIとの接点は事業内容で別途確認する。",
-        "buyArea": "6857 アドバンテスト を基準に、39,200円前後の押し目確認",
-        "profitArea": "42,800円前後から短期利確または逆指値引き上げを検討",
-        "stopArea": "38,000円割れはテーマ失速または押し目失敗として再確認",
-        "risks": [
-          "テーマ判定は業種・事業内容の補完であり、資金流入は出来高・ランキングで再確認。",
-          "市場全体の大暴落リスク中",
-          "既存候補との業種集中"
-        ],
-        "leaders": [
-          {
-            "code": "6857",
-            "name": "アドバンテスト",
-            "role": "連想"
-          },
-          {
-            "code": "6501",
-            "name": "日立製作所",
-            "role": "連想"
-          },
-          {
-            "code": "6503",
-            "name": "三菱電機",
-            "role": "連想"
           }
         ]
       },
@@ -524,7 +534,7 @@
         "risks": [
           "同一テーマ3銘柄以上の広がりは要確認",
           "テーマ判定は業種・事業内容の補完であり、資金流入は出来高・ランキングで再確認。",
-          "市場全体の大暴落リスク中"
+          "低流動性"
         ],
         "leaders": [
           {
@@ -632,12 +642,47 @@
   },
   "themes": [
     {
+      "name": "日次方針 対角投資ベース",
+      "marketFit": "強い",
+      "summary": "今日の基本方針が対角投資ベースのため、候補抽出と保有整理の重心に反映。",
+      "cautions": [
+        "対角投資ベースのため高値追い・主役グロースは監視"
+      ]
+    },
+    {
       "name": "金融・バリュー確認",
       "marketFit": "強い",
       "summary": "TOPIX優位、対角投資、金利・資本政策の流れと相性を確認するテーマ。",
       "cautions": [
         "市場全体の大暴落リスク中",
         "既存候補との業種集中"
+      ]
+    },
+    {
+      "name": "業績評価の強い銘柄",
+      "marketFit": "中立",
+      "summary": "EPS上方修正の地合いでは、業績評価の強い銘柄を優先確認しやすい。",
+      "cautions": [
+        "市場全体の大暴落リスク中",
+        "既存候補との業種集中"
+      ]
+    },
+    {
+      "name": "市場誤認・再評価ギャップ",
+      "marketFit": "強い",
+      "summary": "市場イメージ: 銅・資源株、CB希薄化懸念銘柄 / 実態: 半導体材料、スパッタリングターゲット、AIサーバー・光通信関連 / ギャップ: CB発行だけが悪材料視されやすいが、自社株TOB・大株主売却吸収・半導体材料比率をセットで評価する必要がある。",
+      "cautions": [
+        "信用買い残が重く、短期は信用整理待ち。",
+        "上場後高値圏で買った信用買いの整理が必要。"
+      ]
+    },
+    {
+      "name": "日経平均優位の大型・指数寄与株",
+      "marketFit": "強い",
+      "summary": "NT倍率が日経平均優位方向で、指数寄与・大型・高流動性の条件に合う。",
+      "cautions": [
+        "イベント直前またはイベント負荷が重い",
+        "月末/MSCI入替のイベント負荷"
       ]
     }
   ],
@@ -17118,6 +17163,568 @@
       }
     },
     {
+      "ticker": "4886",
+      "name": "あすか製薬ホールディングス",
+      "market": "プライム（内国株式）",
+      "industry": "医薬品",
+      "referencePrice": null,
+      "score": 0,
+      "rating": "見送り",
+      "action": "監視",
+      "summary": "見送り評価（行動0点 / 企業55点 / 今買う0点） / 需給は中立 / 保有/注目理由は再確認 / 現物のため支持線確認で余裕を持って判断 / 属性: プライム / 医薬品 / TOPIX Small 2 / 地合い: やや強気 / ダイバージェンス: なし / 通常監視 / 信用期日需給: 中 / 今買う評価 0点 / 信用需給・壁: 弱気 / 新規買い見送り。保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討。 / 波動: 波動判定の信頼度は低い / 様子見 / 値幅観測: N値 2,291円 / 余地 13.3% / フィボナッチ: 下降戻り / 支持候補 2,001円 / 一致度 80点 / 決算: EDINETデータ待ちのため総合スコアへ未反映 / 三段階選定: 見送り",
+      "elliottWaveContext": {
+        "asOf": "2026-10-14",
+        "currentWave": "波動判定の信頼度は低い",
+        "waveConfidence": "低",
+        "score": 0,
+        "recommendedAction": "様子見",
+        "marketWave": {
+          "phase": "上昇基調内の調整確認",
+          "capitalRotation": "TOPIX主力・バリュー",
+          "rotationStatus": "要確認"
+        },
+        "sectorWave": {
+          "sector": "日次方針 対角投資ベース",
+          "role": "準コア",
+          "fundFlow": "対角候補",
+          "rotationStage": "見送り",
+          "rotationScore": 40
+        },
+        "stockWave": {
+          "wave": "波動判定の信頼度は低い",
+          "nextWave": "次の高値・安値更新で再判定",
+          "invalidation": "第1波始点またはC点を明確に割った場合は波動カウントを見直す。"
+        },
+        "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
+        "creditExpiryRelation": "2026-10-26〜2026-12-26",
+        "capitalRotationRelation": "対角候補 / 準コア / 資金循環スコア: 見送り / 段階: 見送り",
+        "technicalConsistency": "BB: 該当なし / MA: 並びは要確認 / ダイバージェンス: なし / 信用需給: 弱気",
+        "priceTargetSummary": {
+          "nValue": 2291,
+          "eValue": 2520,
+          "ntValue": 2062,
+          "vValue": 2434,
+          "upsideToNValuePct": 13.3,
+          "upsideToEValuePct": null,
+          "upsideToNtValuePct": null,
+          "reachedTargets": [],
+          "confluenceZones": [
+            {
+              "price": 2054,
+              "label": "NT値と週足NT値が近接",
+              "diffPct": 0.8,
+              "importance": "高"
+            }
+          ],
+          "timeTarget": "2026-10-22〜2026-10-28（中心 2026-10-25）"
+        },
+        "reasons": [
+          "市場: TOPIX主力・バリュー",
+          "セクター: 日次方針 対角投資ベース / 準コア",
+          "N値まで13.3%",
+          "GMMA: 短期束下向き/縮小、長期束下向き/収束",
+          "GMMA停止: 短期束が長期束より下・株価が長期束を下回る"
+        ],
+        "note": "エリオット波動単独では判断しない。市場・資金循環、信用需給、信用期日、値幅観測、ボリンジャーバンド、一目均衡表、RSI/MACD/出来高を統合して確認する。"
+      },
+      "ichimokuPriceTargetContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "currentPrice": 2023,
+        "nValue": 2291,
+        "eValue": 2520,
+        "ntValue": 2062,
+        "vValue": 2434,
+        "upsideToNValuePct": 13.3,
+        "upsideToEValuePct": 24.6,
+        "upsideToNtValuePct": 1.9,
+        "downsideToCValuePct": -2.4,
+        "riskReward": 5.54,
+        "targetRating": "★★★★★",
+        "reachedTargets": [],
+        "profitTakingCandidate": false,
+        "buyCandidate": true,
+        "daily": {
+          "timeframe": "日足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2026-08-05",
+              "price": 1888
+            },
+            "b": {
+              "date": "2026-08-21",
+              "price": 2204
+            },
+            "c": {
+              "date": "2026-10-09",
+              "price": 1975
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 2291,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 2520,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 2062,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 2434,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 13.3,
+            "e": 24.6,
+            "nt": 1.9,
+            "v": 20.3
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2026-10-22〜2026-10-28（中心 2026-10-25）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2025-02-07",
+              "price": 1730
+            },
+            "b": {
+              "date": "2026-05-29",
+              "price": 2999
+            },
+            "c": {
+              "date": "2026-08-07",
+              "price": 1888
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 3157,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 4268,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 2046,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 4110,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 56.1,
+            "e": 111,
+            "nt": 1.2,
+            "v": 103.2
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2027-11-23〜2027-11-29（中心 2027-11-26）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "status": "未取得",
+          "note": "現在の自動診断データは日足中心のため、60分足の値幅観測はTradingView等で別途確認。"
+        },
+        "confluenceZones": [
+          {
+            "price": 2054,
+            "label": "NT値と週足NT値が近接",
+            "diffPct": 0.8,
+            "importance": "高"
+          }
+        ],
+        "timeTarget": {
+          "status": "暫定算出",
+          "window": "2026-10-22〜2026-10-28（中心 2026-10-25）",
+          "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+        },
+        "updateRule": "新しい高値・安値が形成されたらN値・E値・NT値・V値を再計算する。"
+      },
+      "fibonacciContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "directionalBias": "下降戻り",
+        "considerationStatus": "反発確認待ち",
+        "confluenceScore": 80,
+        "confidence": "高",
+        "currentPrice": {
+          "value": 2023,
+          "quoteDate": "2026-10-14",
+          "stale": false
+        },
+        "upstreamAlignment": {
+          "marketCapitalRotation": "TOPIX主力・バリュー",
+          "themeSectorRotation": "対角候補",
+          "creditSupply": "弱気",
+          "creditExpiry": "中"
+        },
+        "daily": {
+          "timeframe": "日足",
+          "direction": "down",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点高値",
+              "date": "2026-05-26",
+              "price": 2999
+            },
+            "b": {
+              "label": "B 主要安値",
+              "date": "2026-08-05",
+              "price": 1888
+            },
+            "c": {
+              "label": "C 戻り高値",
+              "date": "2026-08-21",
+              "price": 2204
+            },
+            "status": "confirmed",
+            "selectedReason": "日足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 2150,
+              "distancePct": 6.3,
+              "role": "resistance"
+            },
+            "38.2": {
+              "price": 2313,
+              "distancePct": 14.3,
+              "role": "resistance"
+            },
+            "50.0": {
+              "price": 2444,
+              "distancePct": 20.8,
+              "role": "resistance"
+            },
+            "61.8": {
+              "price": 2575,
+              "distancePct": 27.3,
+              "role": "resistance"
+            },
+            "78.6": {
+              "price": 2761,
+              "distancePct": 36.5,
+              "role": "resistance"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 1093,
+              "distancePct": -46,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 791.1,
+              "distancePct": -60.9,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 406.7,
+              "distancePct": -79.9,
+              "role": "target"
+            },
+            "200.0": {
+              "price": -17.7,
+              "distancePct": -100.9,
+              "role": "target"
+            },
+            "261.8": {
+              "price": -704.3,
+              "distancePct": -134.8,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 2150,
+            "distancePct": 6.3
+          },
+          "atr14": 44.7,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2025-02-07",
+              "price": 1730
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-05-29",
+              "price": 2999
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-08-07",
+              "price": 1888
+            },
+            "status": "confirmed",
+            "selectedReason": "週足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 2700,
+              "distancePct": 33.4,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 2514,
+              "distancePct": 24.3,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 2364,
+              "distancePct": 16.9,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 2215,
+              "distancePct": 9.5,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 2001,
+              "distancePct": -1.1,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 3157,
+              "distancePct": 56.1,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 3503,
+              "distancePct": 73.1,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 3942,
+              "distancePct": 94.9,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 4427,
+              "distancePct": 118.8,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 5211,
+              "distancePct": 157.6,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "78.6%",
+            "price": 2001,
+            "distancePct": -1.1
+          },
+          "atr14": 107.4,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "direction": "unclear",
+          "status": "未取得",
+          "confidence": "低",
+          "anchor": {
+            "a": null,
+            "b": null,
+            "c": null,
+            "status": "unknown",
+            "selectedReason": "60分足OHLCVは現在の自動診断で未取得。",
+            "recalculatedAt": "要確認"
+          },
+          "retracement": {},
+          "extension": {},
+          "nearestLevel": null,
+          "atr14": null,
+          "notes": [
+            "TradingView等で日足候補帯への反応を確認します。"
+          ]
+        },
+        "nearestLevel": {
+          "type": "retracement",
+          "ratio": "23.6%",
+          "price": 2150,
+          "distancePct": 6.3
+        },
+        "nearestSupport": {
+          "price": 2001,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "support",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "週足78.6%リトレースメント"
+          ]
+        },
+        "nearestResistance": {
+          "price": 2056,
+          "zoneLow": 2046,
+          "zoneHigh": 2067,
+          "role": "resistance",
+          "confirmed": true,
+          "importance": "中",
+          "evidence": [
+            "25日線",
+            "NT値"
+          ]
+        },
+        "confluenceZones": [
+          {
+            "price": 1992,
+            "zoneLow": 1970,
+            "zoneHigh": 2006,
+            "role": "support",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "需給撤退ライン",
+              "需給の壁",
+              "週足78.6%リトレースメント"
+            ]
+          },
+          {
+            "price": 2056,
+            "zoneLow": 2046,
+            "zoneHigh": 2067,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "25日線",
+              "NT値"
+            ]
+          },
+          {
+            "price": 2137,
+            "zoneLow": 2118,
+            "zoneHigh": 2155,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "75日線",
+              "日足23.6%リトレースメント"
+            ]
+          },
+          {
+            "price": 2301,
+            "zoneLow": 2286,
+            "zoneHigh": 2318,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "N値",
+              "200日線",
+              "日足38.2%リトレースメント"
+            ]
+          },
+          {
+            "price": 2439,
+            "zoneLow": 2429,
+            "zoneHigh": 2449,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "V値",
+              "日足50.0%リトレースメント"
+            ]
+          },
+          {
+            "price": 2517,
+            "zoneLow": 2509,
+            "zoneHigh": 2525,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "週足38.2%リトレースメント",
+              "E値"
+            ]
+          }
+        ],
+        "elliottAlignment": {
+          "wave": "波動判定の信頼度は低い",
+          "alignment": "一部一致",
+          "alternativeCount": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。"
+        },
+        "ichimokuPriceTargetAlignment": {
+          "matchedTargets": [
+            "NT値",
+            "N値",
+            "V値",
+            "E値"
+          ],
+          "alignment": "一致"
+        },
+        "confirmation": {
+          "movingAverage": "並びは要確認",
+          "horizontalLevel": "候補帯あり",
+          "volume": "0.98倍",
+          "bollingerBand": "該当なし",
+          "ichimoku": "NT値・N値・V値・E値と近接",
+          "rsiMacd": "なし",
+          "reversalCandle": "要確認",
+          "supplyWall": "壁近辺を突破。維持できれば需給改善"
+        },
+        "riskGate": {
+          "stopped": false,
+          "reasons": []
+        }
+      }
+    },
+    {
       "ticker": "6857",
       "name": "アドバンテスト",
       "market": "プライム（内国株式）",
@@ -17660,6 +18267,552 @@
           "rsiMacd": "なし",
           "reversalCandle": "要確認",
           "supplyWall": "壁から上方乖離。高値追い警戒"
+        },
+        "riskGate": {
+          "stopped": false,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "ticker": "6861",
+      "name": "キーエンス",
+      "market": "プライム（内国株式）",
+      "industry": "電気機器",
+      "referencePrice": null,
+      "score": 44,
+      "rating": "注意",
+      "action": "監視",
+      "summary": "注意評価（行動44点 / 企業68点 / 今買う39点） / 需給は中立 / 保有/注目理由は再確認 / 現物のため支持線確認で余裕を持って判断 / 属性: プライム / 電気機器 / TOPIX Core30 / 地合い: やや強気 / ダイバージェンス: なし / 通常監視 / 信用需給・壁: やや強気 / 出来高を伴い需給の壁を維持できるなら押し目候補。高値追いは避ける。 / 波動: 第2波または第4波の押し目候補 / 利益確定 / 値幅観測: N値 98,540円 / 余地 22.7% / フィボナッチ: 上昇押し目 / 支持候補 78,520円 / 一致度 89点 / 決算: EDINETデータ待ちのため総合スコアへ未反映",
+      "elliottWaveContext": {
+        "asOf": "2026-10-14",
+        "currentWave": "第2波または第4波の押し目候補",
+        "waveConfidence": "低",
+        "score": 0,
+        "recommendedAction": "利益確定",
+        "marketWave": {
+          "phase": "上昇基調内の調整確認",
+          "capitalRotation": "TOPIX主力・バリュー",
+          "rotationStatus": "要確認"
+        },
+        "sectorWave": {
+          "sector": "日次方針 対角投資ベース",
+          "role": "要確認",
+          "fundFlow": "対象外",
+          "rotationStage": "見送り",
+          "rotationScore": 51
+        },
+        "stockWave": {
+          "wave": "第2波または第4波の押し目候補",
+          "nextWave": "次の高値・安値更新で再判定",
+          "invalidation": "第1波始点またはC点を明確に割った場合は波動カウントを見直す。"
+        },
+        "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
+        "creditExpiryRelation": "2027-01-06〜2027-03-06",
+        "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 見送り",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 25日線/75日線 ゴールデンクロス接近 / ダイバージェンス: なし / 信用需給: やや強気",
+        "priceTargetSummary": {
+          "nValue": 98540,
+          "eValue": 112900,
+          "ntValue": 84180,
+          "vValue": 101960,
+          "upsideToNValuePct": 22.7,
+          "upsideToEValuePct": null,
+          "upsideToNtValuePct": null,
+          "reachedTargets": [],
+          "confluenceZones": [
+            {
+              "price": 97950,
+              "label": "N値と週足NT値が近接",
+              "diffPct": 1.2,
+              "importance": "高"
+            },
+            {
+              "price": 112310,
+              "label": "E値と週足N値が近接",
+              "diffPct": 1,
+              "importance": "高"
+            },
+            {
+              "price": 101960,
+              "label": "V値と週足V値が近接",
+              "diffPct": 0,
+              "importance": "高"
+            }
+          ],
+          "timeTarget": "2026-12-29〜2027-01-04（中心 2027-01-01）"
+        },
+        "reasons": [
+          "市場: TOPIX主力・バリュー",
+          "セクター: 日次方針 対角投資ベース / 要確認",
+          "N値まで22.7%",
+          "GMMA: 短期束横ばい/縮小、長期束上向き/収束"
+        ],
+        "note": "エリオット波動単独では判断しない。市場・資金循環、信用需給、信用期日、値幅観測、ボリンジャーバンド、一目均衡表、RSI/MACD/出来高を統合して確認する。"
+      },
+      "ichimokuPriceTargetContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "currentPrice": 80330,
+        "nValue": 98540,
+        "eValue": 112900,
+        "ntValue": 84180,
+        "vValue": 101960,
+        "upsideToNValuePct": 22.7,
+        "upsideToEValuePct": 40.5,
+        "upsideToNtValuePct": 4.8,
+        "downsideToCValuePct": -8.8,
+        "riskReward": 2.58,
+        "targetRating": "★★★★★",
+        "reachedTargets": [],
+        "profitTakingCandidate": false,
+        "buyCandidate": true,
+        "daily": {
+          "timeframe": "日足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2026-04-16",
+              "price": 62300
+            },
+            "b": {
+              "date": "2026-08-06",
+              "price": 87600
+            },
+            "c": {
+              "date": "2026-09-11",
+              "price": 73240
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 98540,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 112900,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 84180,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 101960,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 22.7,
+            "e": 40.5,
+            "nt": 4.8,
+            "v": 26.9
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2026-12-29〜2027-01-04（中心 2027-01-01）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2025-04-11",
+              "price": 49130
+            },
+            "b": {
+              "date": "2026-08-07",
+              "price": 87600
+            },
+            "c": {
+              "date": "2026-09-11",
+              "price": 73240
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 111720,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 126070,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 97360,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 101960,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 39.1,
+            "e": 56.9,
+            "nt": 21.2,
+            "v": 26.9
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2028-01-04〜2028-01-10（中心 2028-01-07）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "status": "未取得",
+          "note": "現在の自動診断データは日足中心のため、60分足の値幅観測はTradingView等で別途確認。"
+        },
+        "confluenceZones": [
+          {
+            "price": 97950,
+            "label": "N値と週足NT値が近接",
+            "diffPct": 1.2,
+            "importance": "高"
+          },
+          {
+            "price": 112310,
+            "label": "E値と週足N値が近接",
+            "diffPct": 1,
+            "importance": "高"
+          },
+          {
+            "price": 101960,
+            "label": "V値と週足V値が近接",
+            "diffPct": 0,
+            "importance": "高"
+          }
+        ],
+        "timeTarget": {
+          "status": "暫定算出",
+          "window": "2026-12-29〜2027-01-04（中心 2027-01-01）",
+          "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+        },
+        "updateRule": "新しい高値・安値が形成されたらN値・E値・NT値・V値を再計算する。"
+      },
+      "fibonacciContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "directionalBias": "上昇押し目",
+        "considerationStatus": "反発確認待ち",
+        "confluenceScore": 89,
+        "confidence": "高",
+        "currentPrice": {
+          "value": 80330,
+          "quoteDate": "2026-10-14",
+          "stale": false
+        },
+        "upstreamAlignment": {
+          "marketCapitalRotation": "TOPIX主力・バリュー",
+          "themeSectorRotation": "対象外",
+          "creditSupply": "やや強気",
+          "creditExpiry": "低"
+        },
+        "daily": {
+          "timeframe": "日足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2026-04-16",
+              "price": 62300
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-08-06",
+              "price": 87600
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-09-11",
+              "price": 73240
+            },
+            "status": "confirmed",
+            "selectedReason": "日足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 81630,
+              "distancePct": 1.6,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 77940,
+              "distancePct": -3,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 74950,
+              "distancePct": -6.7,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 71970,
+              "distancePct": -10.4,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 67720,
+              "distancePct": -15.7,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 98540,
+              "distancePct": 22.7,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 105420,
+              "distancePct": 31.2,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 114180,
+              "distancePct": 42.1,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 123840,
+              "distancePct": 54.2,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 139470,
+              "distancePct": 73.6,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 81630,
+            "distancePct": 1.6
+          },
+          "atr14": 1677,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2025-04-11",
+              "price": 49130
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-08-07",
+              "price": 87600
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-09-11",
+              "price": 73240
+            },
+            "status": "confirmed",
+            "selectedReason": "週足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 78520,
+              "distancePct": -2.3,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 72910,
+              "distancePct": -9.2,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 68370,
+              "distancePct": -14.9,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 63830,
+              "distancePct": -20.5,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 57360,
+              "distancePct": -28.6,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 111720,
+              "distancePct": 39.1,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 122180,
+              "distancePct": 52.1,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 135490,
+              "distancePct": 68.7,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 150190,
+              "distancePct": 87,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 173960,
+              "distancePct": 116.6,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 78520,
+            "distancePct": -2.3
+          },
+          "atr14": 5831,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "direction": "unclear",
+          "status": "未取得",
+          "confidence": "低",
+          "anchor": {
+            "a": null,
+            "b": null,
+            "c": null,
+            "status": "unknown",
+            "selectedReason": "60分足OHLCVは現在の自動診断で未取得。",
+            "recalculatedAt": "要確認"
+          },
+          "retracement": {},
+          "extension": {},
+          "nearestLevel": null,
+          "atr14": null,
+          "notes": [
+            "TradingView等で日足候補帯への反応を確認します。"
+          ]
+        },
+        "nearestLevel": {
+          "type": "retracement",
+          "ratio": "23.6%",
+          "price": 81630,
+          "distancePct": 1.6
+        },
+        "nearestSupport": {
+          "price": 78520,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "support",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "週足23.6%リトレースメント"
+          ]
+        },
+        "nearestResistance": {
+          "price": 81630,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "support",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "日足23.6%リトレースメント"
+          ]
+        },
+        "confluenceZones": [
+          {
+            "price": 78460,
+            "zoneLow": 77810,
+            "zoneHigh": 79090,
+            "role": "support",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "日足38.2%リトレースメント",
+              "需給撤退ライン",
+              "25日線",
+              "週足23.6%リトレースメント",
+              "75日線"
+            ]
+          },
+          {
+            "price": 68050,
+            "zoneLow": 67590,
+            "zoneHigh": 68500,
+            "role": "support",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足78.6%リトレースメント",
+              "週足50.0%リトレースメント"
+            ]
+          },
+          {
+            "price": 98540,
+            "zoneLow": 98410,
+            "zoneHigh": 98670,
+            "role": "target",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足100.0%エクステンション",
+              "N値"
+            ]
+          }
+        ],
+        "elliottAlignment": {
+          "wave": "第2波または第4波の押し目候補",
+          "alignment": "一致",
+          "alternativeCount": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。"
+        },
+        "ichimokuPriceTargetAlignment": {
+          "matchedTargets": [
+            "N値"
+          ],
+          "alignment": "一部一致"
+        },
+        "confirmation": {
+          "movingAverage": "25日線/75日線 ゴールデンクロス接近",
+          "horizontalLevel": "候補帯あり",
+          "volume": "0.88倍",
+          "bollingerBand": "単発+2σ接触または勢い不足",
+          "ichimoku": "N値と近接",
+          "rsiMacd": "なし",
+          "reversalCandle": "要確認",
+          "supplyWall": "壁近辺を突破。維持できれば需給改善"
         },
         "riskGate": {
           "stopped": false,
@@ -18653,6 +19806,1681 @@
           "bollingerBand": "該当なし",
           "ichimoku": "N値・V値と近接",
           "rsiMacd": "強気",
+          "reversalCandle": "要確認",
+          "supplyWall": "壁の下。上抜け確認待ち"
+        },
+        "riskGate": {
+          "stopped": false,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "ticker": "6273",
+      "name": "ＳＭＣ",
+      "market": "プライム（内国株式）",
+      "industry": "機械",
+      "referencePrice": null,
+      "score": 0,
+      "rating": "見送り",
+      "action": "監視",
+      "summary": "見送り評価（行動0点 / 企業68点 / 今買う0点） / 需給は中立 / 保有/注目理由は再確認 / 現物のため支持線確認で余裕を持って判断 / 属性: プライム / 機械 / TOPIX Large70 / 地合い: やや強気 / ダイバージェンス: なし / 通常監視 / 信用期日需給: 中 / 今買う評価 0点 / 信用需給・壁: 弱気 / 新規買い見送り。保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討。 / 波動: 第1波〜第3波移行候補 / 利益確定 / 値幅観測: N値 88,280円 / 余地 22.2% / フィボナッチ: 下降戻り / 支持候補 72,040円 / 一致度 89点 / 決算: EDINETデータ待ちのため総合スコアへ未反映 / 三段階選定: 見送り",
+      "elliottWaveContext": {
+        "asOf": "2026-10-14",
+        "currentWave": "第1波〜第3波移行候補",
+        "waveConfidence": "低",
+        "score": -25,
+        "recommendedAction": "利益確定",
+        "marketWave": {
+          "phase": "上昇基調内の調整確認",
+          "capitalRotation": "TOPIX主力・バリュー",
+          "rotationStatus": "要確認"
+        },
+        "sectorWave": {
+          "sector": "日次方針 対角投資ベース",
+          "role": "要確認",
+          "fundFlow": "対象外",
+          "rotationStage": "見送り",
+          "rotationScore": 35
+        },
+        "stockWave": {
+          "wave": "第1波〜第3波移行候補",
+          "nextWave": "第4波または第5波",
+          "invalidation": "第1波始点またはC点を明確に割った場合は波動カウントを見直す。"
+        },
+        "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
+        "creditExpiryRelation": "2024-08-04〜2024-10-04",
+        "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 見送り",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 並びは要確認 / ダイバージェンス: なし / 信用需給: 弱気",
+        "priceTargetSummary": {
+          "nValue": 88280,
+          "eValue": 106090,
+          "ntValue": 70480,
+          "vValue": 99790,
+          "upsideToNValuePct": 22.2,
+          "upsideToEValuePct": null,
+          "upsideToNtValuePct": null,
+          "reachedTargets": [
+            "NT値"
+          ],
+          "confluenceZones": [
+            {
+              "price": 104780,
+              "label": "E値と週足N値が近接",
+              "diffPct": 2.5,
+              "importance": "中"
+            }
+          ],
+          "timeTarget": "2026-11-04〜2026-11-10（中心 2026-11-07）"
+        },
+        "reasons": [
+          "市場: TOPIX主力・バリュー",
+          "セクター: 日次方針 対角投資ベース / 要確認",
+          "N値まで22.2%",
+          "NT値到達済み",
+          "GMMA: 短期束下向き/縮小、長期束上向き/収束"
+        ],
+        "note": "エリオット波動単独では判断しない。市場・資金循環、信用需給、信用期日、値幅観測、ボリンジャーバンド、一目均衡表、RSI/MACD/出来高を統合して確認する。"
+      },
+      "ichimokuPriceTargetContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "currentPrice": 72250,
+        "nValue": 88280,
+        "eValue": 106090,
+        "ntValue": 70480,
+        "vValue": 99790,
+        "upsideToNValuePct": 22.2,
+        "upsideToEValuePct": 46.8,
+        "upsideToNtValuePct": -2.4,
+        "downsideToCValuePct": -11.2,
+        "riskReward": 1.98,
+        "targetRating": "★★★★★",
+        "reachedTargets": [
+          "NT値"
+        ],
+        "profitTakingCandidate": false,
+        "buyCandidate": true,
+        "daily": {
+          "timeframe": "日足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2026-06-11",
+              "price": 57890
+            },
+            "b": {
+              "date": "2026-08-07",
+              "price": 81990
+            },
+            "c": {
+              "date": "2026-09-11",
+              "price": 64190
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 88280,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 106090,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 70480,
+              "formula": "C + (C - A)",
+              "reached": true
+            },
+            "v": {
+              "price": 99790,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 22.2,
+            "e": 46.8,
+            "nt": -2.4,
+            "v": 38.1
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2026-11-04〜2026-11-10（中心 2026-11-07）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2025-04-25",
+              "price": 40620
+            },
+            "b": {
+              "date": "2026-05-15",
+              "price": 86180
+            },
+            "c": {
+              "date": "2026-06-12",
+              "price": 57890
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 103460,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 131740,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 75170,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 114460,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 43.2,
+            "e": 82.3,
+            "nt": 4,
+            "v": 58.4
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2027-06-29〜2027-07-05（中心 2027-07-02）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "status": "未取得",
+          "note": "現在の自動診断データは日足中心のため、60分足の値幅観測はTradingView等で別途確認。"
+        },
+        "confluenceZones": [
+          {
+            "price": 104780,
+            "label": "E値と週足N値が近接",
+            "diffPct": 2.5,
+            "importance": "中"
+          }
+        ],
+        "timeTarget": {
+          "status": "暫定算出",
+          "window": "2026-11-04〜2026-11-10（中心 2026-11-07）",
+          "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+        },
+        "updateRule": "新しい高値・安値が形成されたらN値・E値・NT値・V値を再計算する。"
+      },
+      "fibonacciContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "directionalBias": "下降戻り",
+        "considerationStatus": "反発確認待ち",
+        "confluenceScore": 89,
+        "confidence": "高",
+        "currentPrice": {
+          "value": 72250,
+          "quoteDate": "2026-10-14",
+          "stale": false
+        },
+        "upstreamAlignment": {
+          "marketCapitalRotation": "TOPIX主力・バリュー",
+          "themeSectorRotation": "対象外",
+          "creditSupply": "弱気",
+          "creditExpiry": "中"
+        },
+        "daily": {
+          "timeframe": "日足",
+          "direction": "down",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点高値",
+              "date": "2026-05-14",
+              "price": 86180
+            },
+            "b": {
+              "label": "B 主要安値",
+              "date": "2026-06-11",
+              "price": 57890
+            },
+            "c": {
+              "label": "C 戻り高値",
+              "date": "2026-08-07",
+              "price": 81990
+            },
+            "status": "confirmed",
+            "selectedReason": "日足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 64570,
+              "distancePct": -10.6,
+              "role": "resistance"
+            },
+            "38.2": {
+              "price": 68700,
+              "distancePct": -4.9,
+              "role": "resistance"
+            },
+            "50.0": {
+              "price": 72040,
+              "distancePct": -0.3,
+              "role": "resistance"
+            },
+            "61.8": {
+              "price": 75370,
+              "distancePct": 4.3,
+              "role": "resistance"
+            },
+            "78.6": {
+              "price": 80130,
+              "distancePct": 10.9,
+              "role": "resistance"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 53700,
+              "distancePct": -25.7,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 46010,
+              "distancePct": -36.3,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 36220,
+              "distancePct": -49.9,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 25420,
+              "distancePct": -64.8,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 7936,
+              "distancePct": -89,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "50.0%",
+            "price": 72040,
+            "distancePct": -0.3
+          },
+          "atr14": 2139,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2025-04-25",
+              "price": 40620
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-05-15",
+              "price": 86180
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-06-12",
+              "price": 57890
+            },
+            "status": "confirmed",
+            "selectedReason": "週足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 75430,
+              "distancePct": 4.4,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 68770,
+              "distancePct": -4.8,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 63400,
+              "distancePct": -12.3,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 58020,
+              "distancePct": -19.7,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 50370,
+              "distancePct": -30.3,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 103460,
+              "distancePct": 43.2,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 115850,
+              "distancePct": 60.3,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 131610,
+              "distancePct": 82.2,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 149020,
+              "distancePct": 106.3,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 177180,
+              "distancePct": 145.2,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 75430,
+            "distancePct": 4.4
+          },
+          "atr14": 6275,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "direction": "unclear",
+          "status": "未取得",
+          "confidence": "低",
+          "anchor": {
+            "a": null,
+            "b": null,
+            "c": null,
+            "status": "unknown",
+            "selectedReason": "60分足OHLCVは現在の自動診断で未取得。",
+            "recalculatedAt": "要確認"
+          },
+          "retracement": {},
+          "extension": {},
+          "nearestLevel": null,
+          "atr14": null,
+          "notes": [
+            "TradingView等で日足候補帯への反応を確認します。"
+          ]
+        },
+        "nearestLevel": {
+          "type": "retracement",
+          "ratio": "50.0%",
+          "price": 72040,
+          "distancePct": -0.3
+        },
+        "nearestSupport": {
+          "price": 72040,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "support",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "日足50.0%リトレースメント"
+          ]
+        },
+        "nearestResistance": {
+          "price": 75370,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "resistance",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "日足61.8%リトレースメント"
+          ]
+        },
+        "confluenceZones": [
+          {
+            "price": 70350,
+            "zoneLow": 69680,
+            "zoneHigh": 71240,
+            "role": "support",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "25日線",
+              "需給の壁",
+              "NT値",
+              "75日線"
+            ]
+          },
+          {
+            "price": 75400,
+            "zoneLow": 75210,
+            "zoneHigh": 75590,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足61.8%リトレースメント",
+              "週足23.6%リトレースメント"
+            ]
+          },
+          {
+            "price": 68460,
+            "zoneLow": 67590,
+            "zoneHigh": 68930,
+            "role": "support",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "200日線",
+              "需給撤退ライン",
+              "日足38.2%リトレースメント",
+              "週足38.2%リトレースメント"
+            ]
+          }
+        ],
+        "elliottAlignment": {
+          "wave": "第1波〜第3波移行候補",
+          "alignment": "一致",
+          "alternativeCount": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。"
+        },
+        "ichimokuPriceTargetAlignment": {
+          "matchedTargets": [
+            "NT値"
+          ],
+          "alignment": "一部一致"
+        },
+        "confirmation": {
+          "movingAverage": "並びは要確認",
+          "horizontalLevel": "候補帯あり",
+          "volume": "0.86倍",
+          "bollingerBand": "単発+2σ接触または勢い不足",
+          "ichimoku": "NT値と近接",
+          "rsiMacd": "なし",
+          "reversalCandle": "要確認",
+          "supplyWall": "壁近辺を突破。維持できれば需給改善"
+        },
+        "riskGate": {
+          "stopped": false,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "ticker": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "market": "プライム（内国株式）",
+      "industry": "電気機器",
+      "referencePrice": null,
+      "score": 0,
+      "rating": "見送り",
+      "action": "監視",
+      "summary": "見送り評価（行動0点 / 企業68点 / 今買う0点） / 需給は中立 / 保有/注目理由は再確認 / 現物のため支持線確認で余裕を持って判断 / 属性: プライム / 電気機器 / TOPIX Large70 / 地合い: やや強気 / ダイバージェンス: なし / 通常監視 / 信用期日需給: 中 / 今買う評価 0点 / 信用需給・壁: 弱気 / 新規買い見送り。保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討。 / 波動: A波〜C波移行警戒 / 利益確定 / 値幅観測: N値 5,651円 / 余地 68.7% / フィボナッチ: 上昇押し目 / 支持候補 3,293円 / 一致度 88点 / 決算: EDINETデータ待ちのため総合スコアへ未反映 / 三段階選定: 見送り",
+      "elliottWaveContext": {
+        "asOf": "2026-10-14",
+        "currentWave": "A波〜C波移行警戒",
+        "waveConfidence": "中",
+        "score": -60,
+        "recommendedAction": "利益確定",
+        "marketWave": {
+          "phase": "上昇基調内の調整確認",
+          "capitalRotation": "TOPIX主力・バリュー",
+          "rotationStatus": "要確認"
+        },
+        "sectorWave": {
+          "sector": "日次方針 対角投資ベース",
+          "role": "要確認",
+          "fundFlow": "対象外",
+          "rotationStage": "見送り",
+          "rotationScore": 35
+        },
+        "stockWave": {
+          "wave": "A波〜C波移行警戒",
+          "nextWave": "A波〜C波への調整警戒",
+          "invalidation": "第1波始点またはC点を明確に割った場合は波動カウントを見直す。"
+        },
+        "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
+        "creditExpiryRelation": "2026-11-23〜2027-01-23",
+        "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 見送り",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 並びは要確認 / ダイバージェンス: なし / 信用需給: 弱気",
+        "priceTargetSummary": {
+          "nValue": 5651,
+          "eValue": 7871,
+          "ntValue": 3431,
+          "vValue": 7504,
+          "upsideToNValuePct": 68.7,
+          "upsideToEValuePct": null,
+          "upsideToNtValuePct": null,
+          "reachedTargets": [],
+          "confluenceZones": [
+            {
+              "price": 7504,
+              "label": "V値と週足V値が近接",
+              "diffPct": 0,
+              "importance": "高"
+            }
+          ],
+          "timeTarget": "2026-10-02〜2026-10-08（中心 2026-10-05）"
+        },
+        "reasons": [
+          "市場: TOPIX主力・バリュー",
+          "セクター: 日次方針 対角投資ベース / 要確認",
+          "N値まで68.7%",
+          "GMMA: 短期束下向き/縮小、長期束横ばい/収束",
+          "GMMA停止: MACDシグナルは出来高不足で騙し候補"
+        ],
+        "note": "エリオット波動単独では判断しない。市場・資金循環、信用需給、信用期日、値幅観測、ボリンジャーバンド、一目均衡表、RSI/MACD/出来高を統合して確認する。"
+      },
+      "ichimokuPriceTargetContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "currentPrice": 3349,
+        "nValue": 5651,
+        "eValue": 7871,
+        "ntValue": 3431,
+        "vValue": 7504,
+        "upsideToNValuePct": 68.7,
+        "upsideToEValuePct": 135,
+        "upsideToNtValuePct": 2.4,
+        "downsideToCValuePct": -8.5,
+        "riskReward": 8.08,
+        "targetRating": "★★★★★",
+        "reachedTargets": [],
+        "profitTakingCandidate": false,
+        "buyCandidate": true,
+        "daily": {
+          "timeframe": "日足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2026-04-16",
+              "price": 2697
+            },
+            "b": {
+              "date": "2026-06-23",
+              "price": 5284
+            },
+            "c": {
+              "date": "2026-07-29",
+              "price": 3064
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 5651,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 7871,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 3431,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 7504,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 68.7,
+            "e": 135,
+            "nt": 2.4,
+            "v": 124.1
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2026-10-02〜2026-10-08（中心 2026-10-05）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2025-04-11",
+              "price": 1303
+            },
+            "b": {
+              "date": "2026-06-26",
+              "price": 5284
+            },
+            "c": {
+              "date": "2026-07-31",
+              "price": 3064
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 7045,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 9265,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 4825,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 7504,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 110.4,
+            "e": 176.7,
+            "nt": 44.1,
+            "v": 124.1
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2027-10-12〜2027-10-18（中心 2027-10-15）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "status": "未取得",
+          "note": "現在の自動診断データは日足中心のため、60分足の値幅観測はTradingView等で別途確認。"
+        },
+        "confluenceZones": [
+          {
+            "price": 7504,
+            "label": "V値と週足V値が近接",
+            "diffPct": 0,
+            "importance": "高"
+          }
+        ],
+        "timeTarget": {
+          "status": "暫定算出",
+          "window": "2026-10-02〜2026-10-08（中心 2026-10-05）",
+          "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+        },
+        "updateRule": "新しい高値・安値が形成されたらN値・E値・NT値・V値を再計算する。"
+      },
+      "fibonacciContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "directionalBias": "上昇押し目",
+        "considerationStatus": "反発確認待ち",
+        "confluenceScore": 88,
+        "confidence": "高",
+        "currentPrice": {
+          "value": 3349,
+          "quoteDate": "2026-10-14",
+          "stale": false
+        },
+        "upstreamAlignment": {
+          "marketCapitalRotation": "TOPIX主力・バリュー",
+          "themeSectorRotation": "対象外",
+          "creditSupply": "弱気",
+          "creditExpiry": "中"
+        },
+        "daily": {
+          "timeframe": "日足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2026-04-16",
+              "price": 2697
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-06-23",
+              "price": 5284
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-07-29",
+              "price": 3064
+            },
+            "status": "confirmed",
+            "selectedReason": "日足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 4673,
+              "distancePct": 39.5,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 4296,
+              "distancePct": 28.3,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 3991,
+              "distancePct": 19.2,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 3685,
+              "distancePct": 10,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 3251,
+              "distancePct": -2.9,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 5651,
+              "distancePct": 68.7,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 6355,
+              "distancePct": 89.7,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 7250,
+              "distancePct": 116.5,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 8238,
+              "distancePct": 146,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 9837,
+              "distancePct": 193.7,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "78.6%",
+            "price": 3251,
+            "distancePct": -2.9
+          },
+          "atr14": 165.1,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2025-04-11",
+              "price": 1303
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-06-26",
+              "price": 5284
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-07-31",
+              "price": 3064
+            },
+            "status": "confirmed",
+            "selectedReason": "週足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 4344,
+              "distancePct": 29.7,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 3763,
+              "distancePct": 12.4,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 3293,
+              "distancePct": -1.7,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 2824,
+              "distancePct": -15.7,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 2155,
+              "distancePct": -35.7,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 7045,
+              "distancePct": 110.4,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 8128,
+              "distancePct": 142.7,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 9505,
+              "distancePct": 183.8,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 11030,
+              "distancePct": 229.2,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 13490,
+              "distancePct": 302.7,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "50.0%",
+            "price": 3293,
+            "distancePct": -1.7
+          },
+          "atr14": 469,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "direction": "unclear",
+          "status": "未取得",
+          "confidence": "低",
+          "anchor": {
+            "a": null,
+            "b": null,
+            "c": null,
+            "status": "unknown",
+            "selectedReason": "60分足OHLCVは現在の自動診断で未取得。",
+            "recalculatedAt": "要確認"
+          },
+          "retracement": {},
+          "extension": {},
+          "nearestLevel": null,
+          "atr14": null,
+          "notes": [
+            "TradingView等で日足候補帯への反応を確認します。"
+          ]
+        },
+        "nearestLevel": {
+          "type": "retracement",
+          "ratio": "78.6%",
+          "price": 3251,
+          "distancePct": -2.9
+        },
+        "nearestSupport": {
+          "price": 3293,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "support",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "週足50.0%リトレースメント"
+          ]
+        },
+        "nearestResistance": {
+          "price": 3460,
+          "zoneLow": 3419,
+          "zoneHigh": 3512,
+          "role": "resistance",
+          "confirmed": true,
+          "importance": "高",
+          "evidence": [
+            "NT値",
+            "25日線",
+            "需給の壁"
+          ]
+        },
+        "confluenceZones": [
+          {
+            "price": 3286,
+            "zoneLow": 3239,
+            "zoneHigh": 3327,
+            "role": "support",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "日足78.6%リトレースメント",
+              "週足50.0%リトレースメント",
+              "200日線"
+            ]
+          },
+          {
+            "price": 3460,
+            "zoneLow": 3419,
+            "zoneHigh": 3512,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "NT値",
+              "25日線",
+              "需給の壁"
+            ]
+          },
+          {
+            "price": 3724,
+            "zoneLow": 3673,
+            "zoneHigh": 3775,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足61.8%リトレースメント",
+              "週足38.2%リトレースメント"
+            ]
+          },
+          {
+            "price": 4320,
+            "zoneLow": 4284,
+            "zoneHigh": 4356,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足38.2%リトレースメント",
+              "週足23.6%リトレースメント"
+            ]
+          },
+          {
+            "price": 5651,
+            "zoneLow": 5639,
+            "zoneHigh": 5663,
+            "role": "target",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足100.0%エクステンション",
+              "N値"
+            ]
+          }
+        ],
+        "elliottAlignment": {
+          "wave": "A波〜C波移行警戒",
+          "alignment": "一部一致",
+          "alternativeCount": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。"
+        },
+        "ichimokuPriceTargetAlignment": {
+          "matchedTargets": [
+            "NT値",
+            "N値"
+          ],
+          "alignment": "一致"
+        },
+        "confirmation": {
+          "movingAverage": "並びは要確認",
+          "horizontalLevel": "候補帯あり",
+          "volume": "0.97倍",
+          "bollingerBand": "単発+2σ接触または勢い不足",
+          "ichimoku": "NT値・N値と近接",
+          "rsiMacd": "なし",
+          "reversalCandle": "要確認",
+          "supplyWall": "壁直下。出来高を伴う突破待ち"
+        },
+        "riskGate": {
+          "stopped": false,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "ticker": "1860",
+      "name": "戸田建設",
+      "market": "プライム（内国株式）",
+      "industry": "建設業",
+      "referencePrice": null,
+      "score": 40,
+      "rating": "注意",
+      "action": "監視",
+      "summary": "注意評価（行動40点 / 企業55点 / 今買う5点） / 需給は中立 / 保有/注目理由は再確認 / 現物のため支持線確認で余裕を持って判断 / 属性: プライム / 建設業 / TOPIX Mid400 / 地合い: やや強気 / ダイバージェンス: なし / 通常監視 / 信用需給・壁: 弱気 / 新規買い見送り。保有株は戻り売り、支持線割れ、出来高増の陰線で縮小を検討。 / 波動: 波動判定の信頼度は低い / 様子見 / 値幅観測: N値 1,607円 / 余地 18.2% / フィボナッチ: 下降戻り / 支持候補 1,315円 / 一致度 88点 / 決算: EDINETデータ待ちのため総合スコアへ未反映 / 三段階選定: 見送り",
+      "elliottWaveContext": {
+        "asOf": "2026-10-14",
+        "currentWave": "波動判定の信頼度は低い",
+        "waveConfidence": "低",
+        "score": 0,
+        "recommendedAction": "様子見",
+        "marketWave": {
+          "phase": "上昇基調内の調整確認",
+          "capitalRotation": "TOPIX主力・バリュー",
+          "rotationStatus": "要確認"
+        },
+        "sectorWave": {
+          "sector": "日次方針 対角投資ベース",
+          "role": "準コア",
+          "fundFlow": "対角候補",
+          "rotationStage": "見送り",
+          "rotationScore": 44
+        },
+        "stockWave": {
+          "wave": "波動判定の信頼度は低い",
+          "nextWave": "次の高値・安値更新で再判定",
+          "invalidation": "第1波始点またはC点を明確に割った場合は波動カウントを見直す。"
+        },
+        "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
+        "creditExpiryRelation": "2026-12-01〜2027-02-01",
+        "capitalRotationRelation": "対角候補 / 準コア / 資金循環スコア: 見送り / 段階: 見送り",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 25日線/200日線 デッドクロス / ダイバージェンス: なし / 信用需給: 弱気",
+        "priceTargetSummary": {
+          "nValue": 1607,
+          "eValue": 1907,
+          "ntValue": 1307,
+          "vValue": 1924,
+          "upsideToNValuePct": 18.2,
+          "upsideToEValuePct": null,
+          "upsideToNtValuePct": null,
+          "reachedTargets": [
+            "NT値"
+          ],
+          "confluenceZones": [
+            {
+              "price": 1922,
+              "label": "E値と週足NT値が近接",
+              "diffPct": 1.6,
+              "importance": "中"
+            },
+            {
+              "price": 1916,
+              "label": "E値と週足V値が近接",
+              "diffPct": 0.9,
+              "importance": "高"
+            },
+            {
+              "price": 1931,
+              "label": "V値と週足NT値が近接",
+              "diffPct": 0.7,
+              "importance": "高"
+            },
+            {
+              "price": 1924,
+              "label": "V値と週足V値が近接",
+              "diffPct": 0,
+              "importance": "高"
+            }
+          ],
+          "timeTarget": "2026-12-13〜2026-12-19（中心 2026-12-16）"
+        },
+        "reasons": [
+          "市場: TOPIX主力・バリュー",
+          "セクター: 日次方針 対角投資ベース / 準コア",
+          "N値まで18.2%",
+          "NT値到達済み",
+          "GMMA: 短期束下向き/縮小、長期束下向き/縮小"
+        ],
+        "note": "エリオット波動単独では判断しない。市場・資金循環、信用需給、信用期日、値幅観測、ボリンジャーバンド、一目均衡表、RSI/MACD/出来高を統合して確認する。"
+      },
+      "ichimokuPriceTargetContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "currentPrice": 1359.5,
+        "nValue": 1607,
+        "eValue": 1907,
+        "ntValue": 1307,
+        "vValue": 1924,
+        "upsideToNValuePct": 18.2,
+        "upsideToEValuePct": 40.3,
+        "upsideToNtValuePct": -3.9,
+        "downsideToCValuePct": -2.6,
+        "riskReward": 7,
+        "targetRating": "★★★★★",
+        "reachedTargets": [
+          "NT値"
+        ],
+        "profitTakingCandidate": false,
+        "buyCandidate": true,
+        "daily": {
+          "timeframe": "日足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2026-04-23",
+              "price": 1340
+            },
+            "b": {
+              "date": "2026-07-01",
+              "price": 1624
+            },
+            "c": {
+              "date": "2026-10-08",
+              "price": 1324
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 1607,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 1907,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 1307,
+              "formula": "C + (C - A)",
+              "reached": true
+            },
+            "v": {
+              "price": 1924,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 18.2,
+            "e": 40.3,
+            "nt": -3.9,
+            "v": 41.5
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2026-12-13〜2026-12-19（中心 2026-12-16）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchors": {
+            "a": {
+              "date": "2025-04-11",
+              "price": 710.3
+            },
+            "b": {
+              "date": "2026-07-03",
+              "price": 1624
+            },
+            "c": {
+              "date": "2026-10-09",
+              "price": 1324
+            },
+            "incompletePullback": null
+          },
+          "targets": {
+            "n": {
+              "price": 2237,
+              "formula": "C + (B - A)",
+              "reached": false
+            },
+            "e": {
+              "price": 2537,
+              "formula": "B + (B - A)",
+              "reached": false
+            },
+            "nt": {
+              "price": 1937,
+              "formula": "C + (C - A)",
+              "reached": false
+            },
+            "v": {
+              "price": 1924,
+              "formula": "B + (B - C)",
+              "reached": false
+            }
+          },
+          "upside": {
+            "n": 64.5,
+            "e": 86.6,
+            "nt": 42.5,
+            "v": 41.5
+          },
+          "timeTarget": {
+            "status": "暫定算出",
+            "window": "2027-12-28〜2028-01-03（中心 2027-12-31）",
+            "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+          }
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "status": "未取得",
+          "note": "現在の自動診断データは日足中心のため、60分足の値幅観測はTradingView等で別途確認。"
+        },
+        "confluenceZones": [
+          {
+            "price": 1922,
+            "label": "E値と週足NT値が近接",
+            "diffPct": 1.6,
+            "importance": "中"
+          },
+          {
+            "price": 1916,
+            "label": "E値と週足V値が近接",
+            "diffPct": 0.9,
+            "importance": "高"
+          },
+          {
+            "price": 1931,
+            "label": "V値と週足NT値が近接",
+            "diffPct": 0.7,
+            "importance": "高"
+          },
+          {
+            "price": 1924,
+            "label": "V値と週足V値が近接",
+            "diffPct": 0,
+            "importance": "高"
+          }
+        ],
+        "timeTarget": {
+          "status": "暫定算出",
+          "window": "2026-12-13〜2026-12-19（中心 2026-12-16）",
+          "note": "一目均衡表の時間論は日柄の目安。価格到達を保証せず、出来高・需給・市場構造で再確認する。"
+        },
+        "updateRule": "新しい高値・安値が形成されたらN値・E値・NT値・V値を再計算する。"
+      },
+      "fibonacciContext": {
+        "asOf": "2026-10-14",
+        "status": "算出済み",
+        "directionalBias": "下降戻り",
+        "considerationStatus": "反発確認待ち",
+        "confluenceScore": 88,
+        "confidence": "高",
+        "currentPrice": {
+          "value": 1359.5,
+          "quoteDate": "2026-10-14",
+          "stale": false
+        },
+        "upstreamAlignment": {
+          "marketCapitalRotation": "TOPIX主力・バリュー",
+          "themeSectorRotation": "対角候補",
+          "creditSupply": "弱気",
+          "creditExpiry": "低"
+        },
+        "daily": {
+          "timeframe": "日足",
+          "direction": "down",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点高値",
+              "date": "2026-07-01",
+              "price": 1624
+            },
+            "b": {
+              "label": "B 主要安値",
+              "date": "2026-10-08",
+              "price": 1324
+            },
+            "c": {
+              "label": "C 戻り高値",
+              "date": "2026-10-13",
+              "price": 1369
+            },
+            "status": "confirmed",
+            "selectedReason": "日足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 1394,
+              "distancePct": 2.6,
+              "role": "resistance"
+            },
+            "38.2": {
+              "price": 1438,
+              "distancePct": 5.8,
+              "role": "resistance"
+            },
+            "50.0": {
+              "price": 1474,
+              "distancePct": 8.4,
+              "role": "resistance"
+            },
+            "61.8": {
+              "price": 1509,
+              "distancePct": 11,
+              "role": "resistance"
+            },
+            "78.6": {
+              "price": 1559,
+              "distancePct": 14.7,
+              "role": "resistance"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 1068,
+              "distancePct": -21.4,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 986.7,
+              "distancePct": -27.4,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 882.9,
+              "distancePct": -35.1,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 768.2,
+              "distancePct": -43.5,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 582.8,
+              "distancePct": -57.1,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 1394,
+            "distancePct": 2.6
+          },
+          "atr14": 26.3,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "weekly": {
+          "timeframe": "週足",
+          "direction": "up",
+          "status": "算出済み",
+          "confidence": "中",
+          "anchor": {
+            "a": {
+              "label": "A 起点安値",
+              "date": "2025-04-11",
+              "price": 710.3
+            },
+            "b": {
+              "label": "B 主要高値",
+              "date": "2026-07-03",
+              "price": 1624
+            },
+            "c": {
+              "label": "C 押し目安値",
+              "date": "2026-10-09",
+              "price": 1324
+            },
+            "status": "confirmed",
+            "selectedReason": "週足直近120本の主要高安を時系列で選定。C形成後は新高値・新安値で再計算。",
+            "recalculatedAt": "2026-10-14"
+          },
+          "retracement": {
+            "23.6": {
+              "price": 1408,
+              "distancePct": 3.6,
+              "role": "support"
+            },
+            "38.2": {
+              "price": 1275,
+              "distancePct": -6.2,
+              "role": "support"
+            },
+            "50.0": {
+              "price": 1167,
+              "distancePct": -14.2,
+              "role": "support"
+            },
+            "61.8": {
+              "price": 1059,
+              "distancePct": -22.1,
+              "role": "support"
+            },
+            "78.6": {
+              "price": 905.8,
+              "distancePct": -33.4,
+              "role": "support"
+            }
+          },
+          "extension": {
+            "100.0": {
+              "price": 2237,
+              "distancePct": 64.5,
+              "role": "target"
+            },
+            "127.2": {
+              "price": 2485,
+              "distancePct": 82.8,
+              "role": "target"
+            },
+            "161.8": {
+              "price": 2801,
+              "distancePct": 106,
+              "role": "target"
+            },
+            "200.0": {
+              "price": 3150,
+              "distancePct": 131.7,
+              "role": "target"
+            },
+            "261.8": {
+              "price": 3714,
+              "distancePct": 173.2,
+              "role": "target"
+            }
+          },
+          "nearestLevel": {
+            "type": "retracement",
+            "ratio": "23.6%",
+            "price": 1408,
+            "distancePct": 3.6
+          },
+          "atr14": 60.7,
+          "notes": [
+            "新しい高値・安値、波動変更、壁ドン、信用期日後の安値形成で再計算します。"
+          ]
+        },
+        "sixtyMinute": {
+          "timeframe": "60分足",
+          "direction": "unclear",
+          "status": "未取得",
+          "confidence": "低",
+          "anchor": {
+            "a": null,
+            "b": null,
+            "c": null,
+            "status": "unknown",
+            "selectedReason": "60分足OHLCVは現在の自動診断で未取得。",
+            "recalculatedAt": "要確認"
+          },
+          "retracement": {},
+          "extension": {},
+          "nearestLevel": null,
+          "atr14": null,
+          "notes": [
+            "TradingView等で日足候補帯への反応を確認します。"
+          ]
+        },
+        "nearestLevel": {
+          "type": "retracement",
+          "ratio": "23.6%",
+          "price": 1394,
+          "distancePct": 2.6
+        },
+        "nearestSupport": {
+          "price": 1315,
+          "zoneLow": 1304,
+          "zoneHigh": 1327,
+          "role": "support",
+          "confirmed": true,
+          "importance": "中",
+          "evidence": [
+            "NT値",
+            "需給撤退ライン"
+          ]
+        },
+        "nearestResistance": {
+          "price": 1394,
+          "zoneLow": null,
+          "zoneHigh": null,
+          "role": "resistance",
+          "confirmed": false,
+          "importance": "要確認",
+          "evidence": [
+            "日足23.6%リトレースメント"
+          ]
+        },
+        "confluenceZones": [
+          {
+            "price": 1401,
+            "zoneLow": 1391,
+            "zoneHigh": 1411,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足23.6%リトレースメント",
+              "週足23.6%リトレースメント"
+            ]
+          },
+          {
+            "price": 1315,
+            "zoneLow": 1304,
+            "zoneHigh": 1327,
+            "role": "support",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "NT値",
+              "需給撤退ライン"
+            ]
+          },
+          {
+            "price": 1436,
+            "zoneLow": 1429,
+            "zoneHigh": 1441,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "高",
+            "evidence": [
+              "25日線",
+              "200日線",
+              "日足38.2%リトレースメント"
+            ]
+          },
+          {
+            "price": 1477,
+            "zoneLow": 1471,
+            "zoneHigh": 1482,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "日足50.0%リトレースメント",
+              "75日線"
+            ]
+          },
+          {
+            "price": 1505,
+            "zoneLow": 1497,
+            "zoneHigh": 1512,
+            "role": "resistance",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "需給の壁",
+              "日足61.8%リトレースメント"
+            ]
+          },
+          {
+            "price": 1064,
+            "zoneLow": 1056,
+            "zoneHigh": 1071,
+            "role": "support",
+            "confirmed": true,
+            "importance": "中",
+            "evidence": [
+              "週足61.8%リトレースメント",
+              "日足100.0%エクステンション"
+            ]
+          }
+        ],
+        "elliottAlignment": {
+          "wave": "波動判定の信頼度は低い",
+          "alignment": "一部一致",
+          "alternativeCount": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。"
+        },
+        "ichimokuPriceTargetAlignment": {
+          "matchedTargets": [
+            "NT値"
+          ],
+          "alignment": "一部一致"
+        },
+        "confirmation": {
+          "movingAverage": "25日線/200日線 デッドクロス",
+          "horizontalLevel": "候補帯あり",
+          "volume": "1.10倍",
+          "bollingerBand": "単発+2σ接触または勢い不足",
+          "ichimoku": "NT値と近接",
+          "rsiMacd": "なし",
           "reversalCandle": "要確認",
           "supplyWall": "壁の下。上抜け確認待ち"
         },
