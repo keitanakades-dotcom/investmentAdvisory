@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T14:56:06.421Z",
+  "generatedAt": "2026-10-25T14:07:15.840Z",
   "asOf": "2026-10-24",
-  "updatedAt": "2026/10/24 0:45:02",
+  "updatedAt": "2026/10/24 20:35:12",
   "marketState": "強気寄り",
   "summary": "改善材料は複数そろっているが、未達項目の継続確認は必要。",
   "marketView": "日本株の相対優位、日経平均理論値(EPS)の上方修正、海外投資家の買い越しを追い風にしつつ、夜間市場は強気として、信用倍率、海外資金、NT倍率、25日線、出来高の向きを確認します。今日の候補抽出は大型株ベースを重心にし、テクニカルは待つの補助として使います。",
@@ -11,7 +11,7 @@
     "夜間市場: 強気寄り。日経平均先物(CME円建て): 62,805.00 / +0.57% / 上昇。NASDAQ: 26,046.74 / +0.15% / 上昇。SOX指数: 10,827.81 / +0.89% / 上昇。USD/JPY: 156.860円 / -0.80% / 円高。米10年債利回り: 5.13% / +1.0bp / 上昇。",
     "金利・為替の資金循環: 金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。（シャドー運用・点数反映なし）",
     "主戦略: 大型株ベース。夜間市場: 強気寄り。日経平均先物(CME円建て): 62,805.00 / +0.57% / 上昇。NASDAQ: 26,046.74 / +0.15% / 上昇。SOX指数: 10,827.81 / +0.89% / 上昇。USD/JPY: 156.860円 / -0.80% / 円高。米10年債利回り: 5.13% / +1.0bp / 上昇。",
-    "保有株の優先確認: 損失限定・縮小候補: 7416 はるやまホールディングス 最大リスク: 7974 任天堂 信用15株。含み損益 +6,690円 (+5.5%)。信用15株は期日、金利、逆日歩、追証余力の確認が必要です。利益が出ていても長期放置向きではありません。",
+    "保有株の優先確認: 損失限定・縮小候補: 7416 はるやまホールディングス・7974 任天堂・8136 サンリオ 最大リスク: 8136 サンリオ 信用100株。含み損益 ▲4,200円 (▲3.1%)。テーマ性が残っても、信用100株は依然重い。戻りで整理する戦略を持つ必要があります。",
     "新規候補の扱い: サテライトは候補を絞り、イベント通過と出来高確認後に判断。",
     "避ける行動: 輸出大型・自動車・電機・化学・空運・電力・低流動性の飛び乗り・イベント直前のグロース",
     "今日の確認条件: 日経平均先物(CME円建て): 62,805.00 / +0.57% / 上昇 / NASDAQ: 26,046.74 / +0.15% / 上昇 / SOX指数: 10,827.81 / +0.89% / 上昇",
@@ -69,8 +69,8 @@
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-10-24",
-    "updatedAt": "2026-10-24T15:01:27+09:00",
+    "asOfDate": "2026-10-25",
+    "updatedAt": "2026-10-25T20:00:30+09:00",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -232,7 +232,7 @@
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 95,
+      "observations": 96,
       "minimumObservations": 10
     },
     "sources": [
@@ -3441,7 +3441,7 @@
         "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
         "creditExpiryRelation": "2026-12-29〜2027-03-01",
         "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 上昇バンドウォーク / MA: 上向きの並びを維持 / ダイバージェンス: 強気 / 信用需給: 中立",
+        "technicalConsistency": "BB: 上昇バンドウォーク / MA: 25日線/100日線 ゴールデンクロス接近 / ダイバージェンス: 強気 / 信用需給: 中立",
         "priceTargetSummary": {
           "nValue": 3465,
           "eValue": 3899,
@@ -3935,7 +3935,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "上向きの並びを維持",
+          "movingAverage": "25日線/100日線 ゴールデンクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.11倍",
           "bollingerBand": "上昇バンドウォーク",
@@ -7044,7 +7044,7 @@
         "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
         "creditExpiryRelation": "2024-09-12〜2024-11-12",
         "capitalRotationRelation": "資金集中テーマ中心 / コア候補 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: バンドウォーク候補 / MA: 5日線/25日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
+        "technicalConsistency": "BB: バンドウォーク候補 / MA: 75日線/100日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
         "priceTargetSummary": {
           "nValue": 2211,
           "eValue": 2584,
@@ -7537,7 +7537,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "5日線/25日線 デッドクロス接近",
+          "movingAverage": "75日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.26倍",
           "bollingerBand": "バンドウォーク候補",
@@ -7588,7 +7588,7 @@
         "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
         "creditExpiryRelation": "2026-10-14〜2026-12-14",
         "capitalRotationRelation": "資金集中テーマ中心 / コア候補 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 該当なし / MA: 並びは要確認 / ダイバージェンス: なし / 信用需給: 弱気",
+        "technicalConsistency": "BB: 該当なし / MA: 100日線/200日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
         "priceTargetSummary": {
           "nValue": 6108,
           "eValue": 7096,
@@ -8058,7 +8058,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "並びは要確認",
+          "movingAverage": "100日線/200日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.53倍",
           "bollingerBand": "該当なし",
@@ -8672,7 +8672,7 @@
         "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
         "creditExpiryRelation": "2026-08-02〜2026-10-02",
         "capitalRotationRelation": "資金集中テーマ中心 / コア候補 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 該当なし / MA: 並びは要確認 / ダイバージェンス: なし / 信用需給: 弱気",
+        "technicalConsistency": "BB: 該当なし / MA: 75日線/100日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
         "priceTargetSummary": {
           "nValue": 4577,
           "eValue": 5454,
@@ -9130,7 +9130,7 @@
           "alignment": "一部一致"
         },
         "confirmation": {
-          "movingAverage": "並びは要確認",
+          "movingAverage": "75日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.21倍",
           "bollingerBand": "該当なし",
@@ -14672,7 +14672,7 @@
         "alternativeScenario": "波動判定の信頼度は低い。新高値・新安値、出来高、25日線、一目雲、信用残の更新でカウントを見直す。",
         "creditExpiryRelation": "2026-10-12〜2026-12-12",
         "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 5日線/25日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 強気",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 75日線/100日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 強気",
         "priceTargetSummary": {
           "nValue": 6146,
           "eValue": 6575,
@@ -15167,7 +15167,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "5日線/25日線 デッドクロス接近",
+          "movingAverage": "75日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "0.98倍",
           "bollingerBand": "単発+2σ接触または勢い不足",
@@ -21729,7 +21729,7 @@
         "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
         "creditExpiryRelation": "2027-01-06〜2027-03-06",
         "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 5日線/25日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: やや弱気",
+        "technicalConsistency": "BB: 単発+2σ接触または勢い不足 / MA: 75日線/100日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: やや弱気",
         "priceTargetSummary": {
           "nValue": 92160,
           "eValue": 106520,
@@ -22245,7 +22245,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "5日線/25日線 デッドクロス接近",
+          "movingAverage": "75日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.20倍",
           "bollingerBand": "単発+2σ接触または勢い不足",
@@ -24001,7 +24001,7 @@
         "alternativeScenario": "25日線割れ、雲下抜け、出来高増の陰線が出ればA波入りを優先して見直す。",
         "creditExpiryRelation": "2027-01-14〜2027-03-14",
         "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 該当なし / MA: 25日線/75日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
+        "technicalConsistency": "BB: 該当なし / MA: 75日線/100日線 デッドクロス接近 / ダイバージェンス: なし / 信用需給: 弱気",
         "priceTargetSummary": {
           "nValue": 5533,
           "eValue": 6991,
@@ -24507,7 +24507,7 @@
           "alignment": "一部一致"
         },
         "confirmation": {
-          "movingAverage": "25日線/75日線 デッドクロス接近",
+          "movingAverage": "75日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "1.52倍",
           "bollingerBand": "該当なし",
@@ -25114,7 +25114,7 @@
         "alternativeScenario": "出来高を伴う高値更新と信用需給改善が出れば、第3波継続へ戻す。",
         "creditExpiryRelation": "2024-08-01〜2024-10-01",
         "capitalRotationRelation": "対象外 / 要確認 / 資金循環スコア: 見送り / 段階: 利益確定局面",
-        "technicalConsistency": "BB: 該当なし / MA: 5日線/25日線 デッドクロス接近 / ダイバージェンス: 弱気 / 信用需給: 弱気",
+        "technicalConsistency": "BB: 該当なし / MA: 25日線/100日線 デッドクロス接近 / ダイバージェンス: 弱気 / 信用需給: 弱気",
         "priceTargetSummary": {
           "nValue": 412,
           "eValue": 490,
@@ -25625,7 +25625,7 @@
           "alignment": "一致"
         },
         "confirmation": {
-          "movingAverage": "5日線/25日線 デッドクロス接近",
+          "movingAverage": "25日線/100日線 デッドクロス接近",
           "horizontalLevel": "候補帯あり",
           "volume": "0.37倍",
           "bollingerBand": "該当なし",
