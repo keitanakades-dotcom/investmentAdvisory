@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T14:04:11.444Z",
-  "asOf": "2026-10-29",
-  "updatedAt": "2026/10/29 22:49:29",
+  "generatedAt": "2026-10-29T22:45:07.322Z",
+  "asOf": "2026-10-30",
+  "updatedAt": "2026/10/30 7:35:29",
   "matched": 3,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -21,7 +21,7 @@
     {
       "label": "日経レバ信用倍率",
       "status": "未達",
-      "value": "12.39倍"
+      "value": "12.50倍"
     },
     {
       "label": "日本株の相対優位",
@@ -58,6 +58,7 @@
     "eventRisk": "高",
     "overheating": "低",
     "prefer": [
+      "銀行・保険",
       "配当",
       "バリュー",
       "出遅れ",
@@ -75,55 +76,55 @@
       "低流動性"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 64,455.00 / -0.66% / 下落",
-      "NASDAQ: 26,118.78 / -1.62% / 下落",
-      "SOX指数: 11,395.14 / -2.47% / 下落",
+      "日経平均先物(CME円建て): 63,950.00 / -1.43% / 下落",
+      "NASDAQ: 26,184.72 / -1.38% / 下落",
+      "SOX指数: 11,518.20 / -1.42% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-10-29",
-    "updatedAt": "2026/10/29 22:49:29",
+    "asOfDate": "2026-10-30",
+    "updatedAt": "2026/10/30 7:35:29",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
+    "summary": "日米金利の方向乖離。日米金利の方向が異なるため、日米金利差とドル円を優先確認。",
     "stance": {
-      "label": "金利方向は中立",
-      "riskLevel": "low",
-      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
+      "label": "日米金利の方向乖離",
+      "riskLevel": "medium",
+      "reason": "日米金利の方向が異なるため、日米金利差とドル円を優先確認。"
     },
     "rates": {
       "us": {
         "2y": {
-          "value": 4.67,
-          "observationDate": "2026-10-28",
-          "direction": "低下",
+          "value": 4.61,
+          "observationDate": "2026-10-29",
+          "direction": "横ばい",
           "changeBp": {
-            "oneDay": -3,
-            "fiveDay": -14,
-            "twentyDay": -22
+            "oneDay": -6,
+            "fiveDay": -4,
+            "twentyDay": -27
           }
         },
         "10y": {
-          "value": 5.05,
-          "observationDate": "2026-10-28",
-          "direction": "低下",
+          "value": 4.98,
+          "observationDate": "2026-10-29",
+          "direction": "横ばい",
           "changeBp": {
-            "oneDay": 6,
-            "fiveDay": -8,
-            "twentyDay": -21
+            "oneDay": -7,
+            "fiveDay": 2,
+            "twentyDay": -31
           }
         },
         "30y": {
-          "value": 5.37,
-          "observationDate": "2026-10-28",
-          "direction": "低下",
+          "value": 5.32,
+          "observationDate": "2026-10-29",
+          "direction": "横ばい",
           "changeBp": {
-            "oneDay": 7,
-            "fiveDay": -5,
-            "twentyDay": -22
+            "oneDay": -5,
+            "fiveDay": 3,
+            "twentyDay": -32
           }
         }
       },
@@ -183,21 +184,21 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 38,
+        "spreadBp": 37,
         "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 9,
+          "oneDay": -1,
           "fiveDay": 6,
-          "twentyDay": 1
+          "twentyDay": -4
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 32,
+        "spreadBp": 34,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": 3,
+          "oneDay": 2,
+          "fiveDay": 1,
           "twentyDay": -1
         }
       },
@@ -233,8 +234,8 @@
       }
     },
     "currency": {
-      "usdJpy": 157.75,
-      "changePct": -0.15,
+      "usdJpy": 157.69,
+      "changePct": -0.19,
       "direction": "円高"
     },
     "marketImpact": {
@@ -252,7 +253,7 @@
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 100,
+      "observations": 101,
       "minimumObservations": 10
     },
     "sources": [
@@ -1342,7 +1343,7 @@
         }
       ],
       "advanceDecline": "25日 89.14 (中立) / 15日 108.17 (中立) / 10日 75.39 (売られすぎ) / 6日 74.57 (売られすぎ)。10日・6日が80未満で売られすぎ。",
-      "vixSqRisk": "VIX 17.24、MACDはデッドクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
+      "vixSqRisk": "VIX 17.20、MACDはデッドクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "待つ",
@@ -1363,8 +1364,8 @@
         "USD/JPYは円高方向。輸出大型の戻りの弱さを確認。",
         "バンドウォーク判定: 通常",
         "大暴落リスク: 高。空売り不足、信用買い圧力、評価損、テクニカル悪化が重なる大暴落条件を強く警戒。",
-        "VIX/SQリスク: VIX 17.24、MACDはデッドクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
-        "ダイバージェンス: 明確な逆行なし（弱気6点 / 強気3点）。"
+        "VIX/SQリスク: VIX 17.20、MACDはデッドクロス形成。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。",
+        "弱気ダイバージェンス: 弱気7点。高値追い禁止を優先。"
       ]
     },
     "ratio": {
