@@ -1,0 +1,121 @@
+{
+  "status": "observed",
+  "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
+  "as_of": "2026-11-02",
+  "cross": "ALL",
+  "match_count": 14,
+  "records": [
+    {
+      "ticker": "4183",
+      "name": "三井化学",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4183"
+    },
+    {
+      "ticker": "4689",
+      "name": "ＬＩＮＥヤフー",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/75日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4689"
+    },
+    {
+      "ticker": "4918",
+      "name": "アイビー化粧品",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
+    },
+    {
+      "ticker": "6501",
+      "name": "日立製作所",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/75日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6501"
+    },
+    {
+      "ticker": "7416",
+      "name": "はるやまホールディングス",
+      "date": "2026-11-02",
+      "type": "GC",
+      "signal": "5日線/75日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7416"
+    },
+    {
+      "ticker": "7741",
+      "name": "ＨＯＹＡ",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7741"
+    },
+    {
+      "ticker": "7751",
+      "name": "キヤノン",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7751"
+    },
+    {
+      "ticker": "8015",
+      "name": "豊田通商",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/75日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8015"
+    },
+    {
+      "ticker": "8058",
+      "name": "三菱商事",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "25日線/75日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8058"
+    },
+    {
+      "ticker": "8316",
+      "name": "三井住友フィナンシャルグループ",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "25日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8316"
+    },
+    {
+      "ticker": "8750",
+      "name": "第一ライフグループ",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8750"
+    },
+    {
+      "ticker": "9432",
+      "name": "ＮＴＴ",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9432"
+    },
+    {
+      "ticker": "9433",
+      "name": "ＫＤＤＩ",
+      "date": "2026-11-02",
+      "type": "DC",
+      "signal": "25日線/75日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9433"
+    },
+    {
+      "ticker": "9983",
+      "name": "ファーストリテイリング",
+      "date": "2026-11-02",
+      "type": "GC",
+      "signal": "25日線/75日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9983"
+    }
+  ]
+}
