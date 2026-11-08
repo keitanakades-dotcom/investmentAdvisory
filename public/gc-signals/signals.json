@@ -30,6 +30,14 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A1928"
     },
     {
+      "ticker": "2802",
+      "name": "味の素",
+      "date": "2026-11-06",
+      "type": "DC",
+      "signal": "5日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A2802"
+    },
+    {
       "ticker": "2914",
       "name": "日本たばこ産業",
       "date": "2026-11-06",
@@ -62,14 +70,6 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4183"
     },
     {
-      "ticker": "4568",
-      "name": "第一三共",
-      "date": "2026-11-06",
-      "type": "DC",
-      "signal": "25日線/75日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4568"
-    },
-    {
       "ticker": "4578",
       "name": "大塚ホールディングス",
       "date": "2026-11-06",
@@ -92,14 +92,6 @@
       "type": "DC",
       "signal": "75日線/100日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
-    },
-    {
-      "ticker": "6098",
-      "name": "リクルートホールディングス",
-      "date": "2026-11-06",
-      "type": "DC",
-      "signal": "5日線/25日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6098"
     },
     {
       "ticker": "6752",
@@ -212,6 +204,14 @@
       "type": "DC",
       "signal": "25日線/100日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8308"
+    },
+    {
+      "ticker": "8473",
+      "name": "ＳＢＩホールディングス",
+      "date": "2026-11-06",
+      "type": "DC",
+      "signal": "25日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8473"
     },
     {
       "ticker": "8729",
