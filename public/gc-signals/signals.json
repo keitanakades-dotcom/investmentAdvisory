@@ -3,7 +3,7 @@
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
   "as_of": "2026-11-10",
   "cross": "ALL",
-  "match_count": 16,
+  "match_count": 17,
   "records": [
     {
       "ticker": "2502",
@@ -36,6 +36,14 @@
       "type": "DC",
       "signal": "25日線/100日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6301"
+    },
+    {
+      "ticker": "6768",
+      "name": "タムラ製作所",
+      "date": "2026-11-10",
+      "type": "DC",
+      "signal": "25日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6768"
     },
     {
       "ticker": "6861",
