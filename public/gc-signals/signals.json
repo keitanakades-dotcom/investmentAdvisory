@@ -1,65 +1,97 @@
 {
   "status": "observed",
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "cross": "ALL",
-  "match_count": 7,
+  "match_count": 11,
   "records": [
     {
-      "ticker": "2914",
-      "name": "日本たばこ産業",
-      "date": "2026-11-11",
+      "ticker": "3382",
+      "name": "セブン＆アイ・ホールディングス",
+      "date": "2026-11-12",
+      "type": "GC",
+      "signal": "100日線/200日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A3382"
+    },
+    {
+      "ticker": "4307",
+      "name": "野村総合研究所",
+      "date": "2026-11-12",
       "type": "DC",
-      "signal": "5日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A2914"
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4307"
     },
     {
       "ticker": "4918",
       "name": "アイビー化粧品",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "type": "GC",
-      "signal": "5日線/75日線 ゴールデンクロス",
+      "signal": "25日線/100日線 ゴールデンクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
     },
     {
-      "ticker": "7729",
-      "name": "東京精密",
-      "date": "2026-11-11",
+      "ticker": "4918",
+      "name": "アイビー化粧品",
+      "date": "2026-11-12",
+      "type": "GC",
+      "signal": "5日線/100日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
+    },
+    {
+      "ticker": "4918",
+      "name": "アイビー化粧品",
+      "date": "2026-11-12",
+      "type": "GC",
+      "signal": "5日線/200日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
+    },
+    {
+      "ticker": "4918",
+      "name": "アイビー化粧品",
+      "date": "2026-11-12",
+      "type": "GC",
+      "signal": "5日線/25日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
+    },
+    {
+      "ticker": "6902",
+      "name": "デンソー",
+      "date": "2026-11-12",
       "type": "DC",
-      "signal": "25日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7729"
+      "signal": "75日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6902"
     },
     {
-      "ticker": "8002",
-      "name": "丸紅",
-      "date": "2026-11-11",
-      "type": "GC",
-      "signal": "25日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8002"
+      "ticker": "7182",
+      "name": "ゆうちょ銀行",
+      "date": "2026-11-12",
+      "type": "DC",
+      "signal": "75日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7182"
     },
     {
-      "ticker": "8002",
-      "name": "丸紅",
-      "date": "2026-11-11",
+      "ticker": "7182",
+      "name": "ゆうちょ銀行",
+      "date": "2026-11-12",
       "type": "GC",
-      "signal": "5日線/75日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8002"
+      "signal": "5日線/25日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7182"
+    },
+    {
+      "ticker": "7270",
+      "name": "ＳＵＢＡＲＵ",
+      "date": "2026-11-12",
+      "type": "GC",
+      "signal": "75日線/200日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7270"
     },
     {
       "ticker": "8604",
       "name": "野村ホールディングス",
-      "date": "2026-11-11",
-      "type": "GC",
-      "signal": "5日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8604"
-    },
-    {
-      "ticker": "9433",
-      "name": "ＫＤＤＩ",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "type": "DC",
       "signal": "5日線/100日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9433"
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8604"
     }
   ]
 }
