@@ -3,7 +3,7 @@
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
   "as_of": "2026-11-12",
   "cross": "ALL",
-  "match_count": 10,
+  "match_count": 11,
   "records": [
     {
       "ticker": "3382",
@@ -12,6 +12,14 @@
       "type": "GC",
       "signal": "100日線/200日線 ゴールデンクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A3382"
+    },
+    {
+      "ticker": "4307",
+      "name": "野村総合研究所",
+      "date": "2026-11-12",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4307"
     },
     {
       "ticker": "4918",
