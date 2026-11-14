@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T08:48:14.494Z",
+  "generatedAt": "2026-11-14T09:40:36.439Z",
   "asOf": "2026-11-14",
-  "updatedAt": "2026/11/14 17:27:22",
+  "updatedAt": "2026/11/14 18:15:51",
   "matched": 2,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -40,7 +40,7 @@
     {
       "label": "原油スプレッド",
       "status": "達成",
-      "value": "約7.39ドル"
+      "value": "約2.52ドル"
     }
   ],
   "trend": {
@@ -85,7 +85,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-11-14",
-    "updatedAt": "2026/11/14 17:27:22",
+    "updatedAt": "2026/11/14 18:15:51",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
