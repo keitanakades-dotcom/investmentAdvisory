@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T09:40:36.439Z",
+  "generatedAt": "2026-11-14T12:15:03.709Z",
   "asOf": "2026-11-14",
-  "updatedAt": "2026/11/14 18:15:51",
+  "updatedAt": "2026/11/14 20:59:53",
   "matched": 2,
   "total": 6,
   "summary": "追い風は一部確認できるが、全面高を支える条件はまだ出そろっていない。",
@@ -85,7 +85,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-11-14",
-    "updatedAt": "2026/11/14 18:15:51",
+    "updatedAt": "2026/11/14 20:59:53",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
