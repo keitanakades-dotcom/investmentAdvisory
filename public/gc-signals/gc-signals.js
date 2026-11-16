@@ -42,7 +42,8 @@ function render() {
 
 async function load() {
   try {
-    const source = document.body.dataset.signalSource || '/api/gc/latest/diagnosis-signals';
+    const source = document.body.dataset.signalSource;
+    if (!source) throw new Error('signal_source_missing');
     const response = await fetch(source, { cache: 'no-store' });
     const payload = await response.json();
     if (!response.ok || payload.status !== 'observed') throw new Error('unavailable');
