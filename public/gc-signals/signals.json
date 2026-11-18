@@ -1,57 +1,105 @@
 {
   "status": "observed",
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-18",
   "cross": "ALL",
-  "match_count": 6,
+  "match_count": 12,
   "records": [
     {
-      "ticker": "1860",
-      "name": "戸田建設",
-      "date": "2026-11-16",
-      "type": "GC",
-      "signal": "5日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A1860"
+      "ticker": "3915",
+      "name": "テラスカイ",
+      "date": "2026-11-18",
+      "type": "DC",
+      "signal": "5日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A3915"
     },
     {
-      "ticker": "542A",
-      "name": "ビタブリッドジャパン",
-      "date": "2026-11-16",
+      "ticker": "4022",
+      "name": "ラサ工業",
+      "date": "2026-11-18",
+      "type": "DC",
+      "signal": "75日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4022"
+    },
+    {
+      "ticker": "4568",
+      "name": "第一三共",
+      "date": "2026-11-18",
+      "type": "GC",
+      "signal": "100日線/200日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4568"
+    },
+    {
+      "ticker": "6703",
+      "name": "沖電気工業",
+      "date": "2026-11-18",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6703"
+    },
+    {
+      "ticker": "6857",
+      "name": "アドバンテスト",
+      "date": "2026-11-18",
       "type": "DC",
       "signal": "25日線/100日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A542A"
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6857"
     },
     {
-      "ticker": "8697",
-      "name": "日本取引所グループ",
-      "date": "2026-11-16",
-      "type": "GC",
-      "signal": "5日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8697"
+      "ticker": "6857",
+      "name": "アドバンテスト",
+      "date": "2026-11-18",
+      "type": "DC",
+      "signal": "5日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6857"
     },
     {
-      "ticker": "8750",
-      "name": "第一ライフグループ",
-      "date": "2026-11-16",
-      "type": "GC",
-      "signal": "5日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8750"
+      "ticker": "6871",
+      "name": "日本マイクロニクス",
+      "date": "2026-11-18",
+      "type": "DC",
+      "signal": "75日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6871"
     },
     {
-      "ticker": "8802",
-      "name": "三菱地所",
-      "date": "2026-11-16",
+      "ticker": "8729",
+      "name": "ソニーフィナンシャルグループ",
+      "date": "2026-11-18",
       "type": "GC",
-      "signal": "25日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8802"
+      "signal": "5日線/25日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8729"
+    },
+    {
+      "ticker": "8830",
+      "name": "住友不動産",
+      "date": "2026-11-18",
+      "type": "GC",
+      "signal": "25日線/75日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8830"
+    },
+    {
+      "ticker": "9432",
+      "name": "ＮＴＴ",
+      "date": "2026-11-18",
+      "type": "GC",
+      "signal": "5日線/75日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9432"
     },
     {
       "ticker": "9433",
       "name": "ＫＤＤＩ",
-      "date": "2026-11-16",
+      "date": "2026-11-18",
       "type": "GC",
-      "signal": "5日線/100日線 ゴールデンクロス",
+      "signal": "5日線/25日線 ゴールデンクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9433"
+    },
+    {
+      "ticker": "9434",
+      "name": "ソフトバンク",
+      "date": "2026-11-18",
+      "type": "GC",
+      "signal": "5日線/25日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9434"
     }
   ]
 }
