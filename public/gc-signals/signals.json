@@ -6,20 +6,44 @@
   "match_count": 15,
   "records": [
     {
-      "ticker": "1928",
-      "name": "積水ハウス",
+      "ticker": "1860",
+      "name": "戸田建設",
       "date": "2026-11-20",
       "type": "DC",
-      "signal": "75日線/100日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A1928"
+      "signal": "5日線/100日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A1860"
     },
     {
-      "ticker": "4519",
-      "name": "中外製薬",
+      "ticker": "285A",
+      "name": "キオクシアホールディングス",
       "date": "2026-11-20",
-      "type": "GC",
-      "signal": "25日線/100日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4519"
+      "type": "DC",
+      "signal": "75日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A285A"
+    },
+    {
+      "ticker": "4183",
+      "name": "三井化学",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "75日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4183"
+    },
+    {
+      "ticker": "4568",
+      "name": "第一三共",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4568"
+    },
+    {
+      "ticker": "4689",
+      "name": "ＬＩＮＥヤフー",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4689"
     },
     {
       "ticker": "4918",
@@ -30,6 +54,14 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4918"
     },
     {
+      "ticker": "6326",
+      "name": "クボタ",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "100日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6326"
+    },
+    {
       "ticker": "6501",
       "name": "日立製作所",
       "date": "2026-11-20",
@@ -38,20 +70,20 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6501"
     },
     {
-      "ticker": "6902",
-      "name": "デンソー",
-      "date": "2026-11-20",
-      "type": "GC",
-      "signal": "25日線/75日線 ゴールデンクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6902"
-    },
-    {
-      "ticker": "7322",
-      "name": "三十三フィナンシャルグループ",
+      "ticker": "7267",
+      "name": "本田技研工業",
       "date": "2026-11-20",
       "type": "DC",
-      "signal": "5日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7322"
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7267"
+    },
+    {
+      "ticker": "8001",
+      "name": "伊藤忠商事",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "5日線/25日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8001"
     },
     {
       "ticker": "8015",
@@ -70,44 +102,20 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8031"
     },
     {
-      "ticker": "8031",
-      "name": "三井物産",
+      "ticker": "8697",
+      "name": "日本取引所グループ",
       "date": "2026-11-20",
       "type": "DC",
       "signal": "5日線/25日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8031"
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8697"
     },
     {
-      "ticker": "8031",
-      "name": "三井物産",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/75日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8031"
-    },
-    {
-      "ticker": "8316",
-      "name": "三井住友フィナンシャルグループ",
+      "ticker": "8729",
+      "name": "ソニーフィナンシャルグループ",
       "date": "2026-11-20",
       "type": "DC",
       "signal": "5日線/25日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8316"
-    },
-    {
-      "ticker": "9166",
-      "name": "ＧＥＮＤＡ",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "25日線/100日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9166"
-    },
-    {
-      "ticker": "9962",
-      "name": "ミスミグループ本社",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/75日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9962"
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8729"
     },
     {
       "ticker": "9962",
@@ -116,14 +124,6 @@
       "type": "GC",
       "signal": "75日線/100日線 ゴールデンクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9962"
-    },
-    {
-      "ticker": "9984",
-      "name": "ソフトバンクグループ",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "75日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A9984"
     }
   ]
 }
