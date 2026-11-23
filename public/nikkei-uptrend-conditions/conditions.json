@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T16:39:31.970Z",
-  "asOf": "2026-11-20",
-  "updatedAt": "2026/11/20 22:10:39",
+  "generatedAt": "2026-11-23T21:06:36.510Z",
+  "asOf": "2026-11-24",
+  "updatedAt": "2026/11/24 6:02:43",
   "matched": null,
   "total": null,
   "summary": "更新待ち",
@@ -27,8 +27,8 @@
     "watch": []
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-11-20",
-    "updatedAt": "2026/11/20 11:41:38",
+    "asOfDate": "2026-11-24",
+    "updatedAt": "2026/11/24 6:02:43",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -41,33 +41,33 @@
     "rates": {
       "us": {
         "2y": {
-          "value": 4.76,
-          "observationDate": "2026-11-19",
+          "value": 4.63,
+          "observationDate": "2026-11-23",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -4,
-            "fiveDay": -10,
-            "twentyDay": -5
+            "oneDay": 0,
+            "fiveDay": -20,
+            "twentyDay": -6
           }
         },
         "10y": {
-          "value": 5.04,
-          "observationDate": "2026-11-19",
+          "value": 4.92,
+          "observationDate": "2026-11-23",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -3,
-            "fiveDay": -6,
-            "twentyDay": -9
+            "oneDay": 0,
+            "fiveDay": -20,
+            "twentyDay": -8
           }
         },
         "30y": {
-          "value": 5.4,
-          "observationDate": "2026-11-19",
-          "direction": "横ばい",
+          "value": 5.29,
+          "observationDate": "2026-11-23",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -1,
-            "fiveDay": -3,
-            "twentyDay": -2
+            "oneDay": -2,
+            "fiveDay": -17,
+            "twentyDay": -4
           }
         }
       },
@@ -127,22 +127,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 28,
+        "spreadBp": 29,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": 4,
-          "twentyDay": -4
+          "oneDay": 0,
+          "fiveDay": 0,
+          "twentyDay": -2
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 36,
+        "spreadBp": 37,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 2,
+          "oneDay": -2,
           "fiveDay": 3,
-          "twentyDay": 7
+          "twentyDay": 4
         }
       },
       "japan2y10y": {
@@ -177,26 +177,27 @@
       }
     },
     "currency": {
-      "usdJpy": 159.24,
-      "changePct": -0.09,
+      "usdJpy": 158.93,
+      "changePct": -0.49,
       "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
-        "内需・小売・電力ガス"
-      ],
-      "headwind": [
-        "自動車・電機など輸出大型株",
+        "AI・半導体",
+        "成長株",
+        "内需・小売・電力ガス",
         "半導体・AI"
       ],
+      "headwind": [
+        "自動車・電機など輸出大型株"
+      ],
       "watch": [
-        "金利変化が小さいため、指数・業種別の実際の資金移動を優先",
-        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
+        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 121,
+      "observations": 123,
       "minimumObservations": 10
     },
     "sources": [

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T16:39:31.913Z",
-  "asOf": "2026-11-20",
-  "updatedAt": "2026/11/20 11:41:38",
+  "generatedAt": "2026-11-23T21:06:36.486Z",
+  "asOf": "2026-11-24",
+  "updatedAt": "2026/11/24 6:02:43",
   "marketState": "様子見",
   "summary": "更新待ち",
   "marketView": "更新待ち",
@@ -22,8 +22,8 @@
     "reasons": []
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-11-20",
-    "updatedAt": "2026/11/20 11:41:38",
+    "asOfDate": "2026-11-24",
+    "updatedAt": "2026/11/24 6:02:43",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -36,33 +36,33 @@
     "rates": {
       "us": {
         "2y": {
-          "value": 4.76,
-          "observationDate": "2026-11-19",
+          "value": 4.63,
+          "observationDate": "2026-11-23",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -4,
-            "fiveDay": -10,
-            "twentyDay": -5
+            "oneDay": 0,
+            "fiveDay": -20,
+            "twentyDay": -6
           }
         },
         "10y": {
-          "value": 5.04,
-          "observationDate": "2026-11-19",
+          "value": 4.92,
+          "observationDate": "2026-11-23",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -3,
-            "fiveDay": -6,
-            "twentyDay": -9
+            "oneDay": 0,
+            "fiveDay": -20,
+            "twentyDay": -8
           }
         },
         "30y": {
-          "value": 5.4,
-          "observationDate": "2026-11-19",
-          "direction": "横ばい",
+          "value": 5.29,
+          "observationDate": "2026-11-23",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -1,
-            "fiveDay": -3,
-            "twentyDay": -2
+            "oneDay": -2,
+            "fiveDay": -17,
+            "twentyDay": -4
           }
         }
       },
@@ -122,22 +122,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 28,
+        "spreadBp": 29,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 1,
-          "fiveDay": 4,
-          "twentyDay": -4
+          "oneDay": 0,
+          "fiveDay": 0,
+          "twentyDay": -2
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 36,
+        "spreadBp": 37,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 2,
+          "oneDay": -2,
           "fiveDay": 3,
-          "twentyDay": 7
+          "twentyDay": 4
         }
       },
       "japan2y10y": {
@@ -172,26 +172,27 @@
       }
     },
     "currency": {
-      "usdJpy": 159.24,
-      "changePct": -0.09,
+      "usdJpy": 158.93,
+      "changePct": -0.49,
       "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
-        "内需・小売・電力ガス"
-      ],
-      "headwind": [
-        "自動車・電機など輸出大型株",
+        "AI・半導体",
+        "成長株",
+        "内需・小売・電力ガス",
         "半導体・AI"
       ],
+      "headwind": [
+        "自動車・電機など輸出大型株"
+      ],
       "watch": [
-        "金利変化が小さいため、指数・業種別の実際の資金移動を優先",
-        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
+        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 121,
+      "observations": 123,
       "minimumObservations": 10
     },
     "sources": [
@@ -241,8 +242,8 @@
       "fibonacciContext": null
     },
     {
-      "ticker": "9934",
-      "name": "因幡電機産業",
+      "ticker": "8604",
+      "name": "野村ホールディングス",
       "market": "確認中",
       "industry": "確認中",
       "referencePrice": null,
@@ -255,8 +256,36 @@
       "fibonacciContext": null
     },
     {
-      "ticker": "7203",
-      "name": "トヨタ自動車",
+      "ticker": "7182",
+      "name": "ゆうちょ銀行",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "8630",
+      "name": "ＳＯＭＰＯホールディングス",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "8411",
+      "name": "みずほフィナンシャルグループ",
       "market": "確認中",
       "industry": "確認中",
       "referencePrice": null,
@@ -367,20 +396,6 @@
       "fibonacciContext": null
     },
     {
-      "ticker": "8058",
-      "name": "三菱商事",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
       "ticker": "5401",
       "name": "日本製鉄",
       "market": "確認中",
@@ -437,162 +452,8 @@
       "fibonacciContext": null
     },
     {
-      "ticker": "2502",
-      "name": "アサヒグループホールディングス",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "2503",
-      "name": "キリンホールディングス",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "4578",
-      "name": "大塚ホールディングス",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "2914",
-      "name": "日本たばこ産業",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "8015",
-      "name": "豊田通商",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "7267",
-      "name": "本田技研工業",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "9962",
-      "name": "ミスミグループ本社",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "1860",
-      "name": "戸田建設",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "8802",
-      "name": "三菱地所",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "8830",
-      "name": "住友不動産",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "1721",
-      "name": "コムシスホールディングス",
-      "market": "確認中",
-      "industry": "確認中",
-      "referencePrice": null,
-      "score": null,
-      "rating": "確認中",
-      "action": "確認中",
-      "summary": "確認中",
-      "elliottWaveContext": null,
-      "ichimokuPriceTargetContext": null,
-      "fibonacciContext": null
-    },
-    {
-      "ticker": "1925",
-      "name": "大和ハウス工業",
+      "ticker": "8002",
+      "name": "丸紅",
       "market": "確認中",
       "industry": "確認中",
       "referencePrice": null,
@@ -635,6 +496,146 @@
     {
       "ticker": "6857",
       "name": "アドバンテスト",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "6326",
+      "name": "クボタ",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "6367",
+      "name": "ダイキン工業",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "6861",
+      "name": "キーエンス",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "8015",
+      "name": "豊田通商",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "9934",
+      "name": "因幡電機産業",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "9962",
+      "name": "ミスミグループ本社",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "7267",
+      "name": "本田技研工業",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "7203",
+      "name": "トヨタ自動車",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "1860",
+      "name": "戸田建設",
+      "market": "確認中",
+      "industry": "確認中",
+      "referencePrice": null,
+      "score": null,
+      "rating": "確認中",
+      "action": "確認中",
+      "summary": "確認中",
+      "elliottWaveContext": null,
+      "ichimokuPriceTargetContext": null,
+      "fibonacciContext": null
+    },
+    {
+      "ticker": "8802",
+      "name": "三菱地所",
       "market": "確認中",
       "industry": "確認中",
       "referencePrice": null,
