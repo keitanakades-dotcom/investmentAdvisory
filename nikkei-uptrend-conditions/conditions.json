@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T02:40:01.740Z",
+  "generatedAt": "2026-11-24T12:34:31.593Z",
   "asOf": "2026-11-24",
-  "updatedAt": "2026/11/24 11:36:45",
+  "updatedAt": "2026/11/24 21:29:34",
   "matched": null,
   "total": null,
   "summary": "更新待ち",
@@ -28,7 +28,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-11-24",
-    "updatedAt": "2026/11/24 11:36:45",
+    "updatedAt": "2026/11/24 21:29:34",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -177,22 +177,21 @@
       }
     },
     "currency": {
-      "usdJpy": 158.88,
-      "changePct": -0.03,
-      "direction": "円高"
+      "usdJpy": 159.11,
+      "changePct": 0.11,
+      "direction": "円安"
     },
     "marketImpact": {
       "tailwind": [
         "AI・半導体",
         "成長株",
-        "内需・小売・電力ガス",
+        "自動車・電機など輸出大型株",
         "半導体・AI"
       ],
-      "headwind": [
-        "自動車・電機など輸出大型株"
-      ],
+      "headwind": [],
       "watch": [
-        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先"
+        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先",
+        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
