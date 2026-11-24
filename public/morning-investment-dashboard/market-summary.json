@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T13:11:45.608Z",
+  "generatedAt": "2026-11-24T14:18:44.725Z",
   "asOf": "2026-11-24",
   "updatedAt": "2026/11/24 21:29:34",
   "marketState": "様子見",
@@ -245,6 +245,33 @@
     "sources": []
   },
   "marketThemeContext": {
+    "asOf": "2026-11-24 / 2026/11/24 21:29:34",
+    "sourceStatus": "取得済み",
+    "rankingContextSummary": "更新待ち",
+    "marketBreadth": {
+      "nikkei": "弱い",
+      "topix": "弱い",
+      "growth250": "中立",
+      "advancersDecliners": "25日 81.44 (中立) / 15日 82.94 (中立) / 10日 82.3 (中立) / 6日 48.15 (売られすぎ)。6日が80未満で売られすぎ。",
+      "concentration": "一部大型テーマ集中"
+    },
+    "morningPolicyHints": {
+      "headline": "現在の中心テーマ候補は AI・半導体・データセンター。中心テーマ として確認。",
+      "mainStrategy": "守り・現金厚めを基本に、AI・半導体・データセンター は中心テーマとして確認。新規は主役の高値追いではなく、押し目・準主役・出遅れを優先。",
+      "avoidAction": "AI・半導体・データセンター は中心テーマでも高値追い禁止。押し目、出来高継続、5日線乖離を確認。 化学・ヘルスケア は見送りまたは需給イベント枠として扱い、安易に飛び乗らない。",
+      "confirmation": "AI・半導体・データセンター の主役、準主役、出遅れに出来高が続くか確認。金融・バリューは検討対象として別枠で見る。 金利環境は「金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。」として確認するが点数へは反映しない。",
+      "detectionIssue": "登録済み・保有銘柄数はテーマ加点に使わず、金融・バリューは金利、TOPIX優位、売買代金、外部ランキングの裏付けで確認する。",
+      "themesToConsider": [
+        "電力インフラ・電線",
+        "半導体材料・電子部品",
+        "防衛・重工",
+        "金融・バリュー",
+        "資源・非鉄・素材"
+      ],
+      "overheatWatch": [
+        "AI・半導体・データセンター"
+      ]
+    },
     "leadingThemes": [
       {
         "name": "AI・半導体・データセンター",
@@ -673,8 +700,243 @@
     "autoExtractionHints": {
       "headline": "更新待ち",
       "confirmation": "更新待ち",
-      "avoidAction": "更新待ち"
+      "avoidAction": "更新待ち",
+      "includeThemes": [
+        "AI・半導体・データセンター",
+        "TOPIX主力・大型",
+        "電気機器・機械",
+        "建設・不動産",
+        "内需・ディフェンシブ",
+        "IP・内需・インバウンド"
+      ],
+      "avoidThemes": [
+        "化学・ヘルスケア"
+      ],
+      "preferRoles": [
+        "出遅れ",
+        "押し目",
+        "準主役"
+      ],
+      "avoidRoles": [
+        "上がりすぎ",
+        "連想のみ"
+      ]
+    },
+    "holdingImpact": {
+      "tailwind": [],
+      "headwind": [
+        "対象あり"
+      ],
+      "continue": [],
+      "profitProtection": [
+        "対象あり"
+      ],
+      "reduceOrExit": [
+        "対象あり"
+      ],
+      "addWatch": []
     }
+  },
+  "marketRotationContext": {
+    "asOf": "2026-11-24 / 2026/11/24 21:29:34",
+    "status": "見送り",
+    "marketStyle": "日経寄与度大型株優位",
+    "risks": [
+      "AI・半導体・データセンター は過熱・高値追いを警戒",
+      "高ボラ業種が5件あり、指数上昇でも急反転を警戒",
+      "見送りテーマ: 化学・ヘルスケア"
+    ],
+    "note": "市場全体の資金循環を先に確認し、人気テーマの追随ではなく次の資金移動候補をセクター分析へ渡す。",
+    "allocation": {
+      "topixLarge": 25,
+      "nikkeiLarge": 60,
+      "growthTheme": 15
+    },
+    "score": {
+      "total": 61,
+      "label": "見送り"
+    },
+    "currentFocusThemes": [
+      {
+        "name": "AI・半導体・データセンター",
+        "score": 100,
+        "concentrationScore": 100,
+        "rank": "中心テーマ",
+        "group": "中心テーマ"
+      },
+      {
+        "name": "TOPIX主力・大型",
+        "score": 100,
+        "concentrationScore": 100,
+        "rank": "有望テーマ",
+        "group": "個別テーマ"
+      },
+      {
+        "name": "資源・非鉄・素材",
+        "score": 100,
+        "concentrationScore": 100,
+        "rank": "今後検討",
+        "group": "今後検討テーマ"
+      },
+      {
+        "name": "電気機器・機械",
+        "score": 100,
+        "concentrationScore": 100,
+        "rank": "有望テーマ",
+        "group": "個別テーマ"
+      },
+      {
+        "name": "建設・不動産",
+        "score": 98,
+        "concentrationScore": 98,
+        "rank": "有望テーマ",
+        "group": "個別テーマ"
+      },
+      {
+        "name": "内需・ディフェンシブ",
+        "score": 97,
+        "concentrationScore": 97,
+        "rank": "有望テーマ",
+        "group": "個別テーマ"
+      },
+      {
+        "name": "防衛・重工",
+        "score": 92,
+        "concentrationScore": 92,
+        "rank": "継続テーマ候補",
+        "group": "継続テーマ候補"
+      },
+      {
+        "name": "IP・内需・インバウンド",
+        "score": 81,
+        "concentrationScore": 81,
+        "rank": "有望テーマ",
+        "group": "個別テーマ"
+      },
+      {
+        "name": "金融・バリュー",
+        "score": 79,
+        "concentrationScore": 79,
+        "rank": "検討対象",
+        "group": "検討対象"
+      },
+      {
+        "name": "化学・ヘルスケア",
+        "score": 57,
+        "concentrationScore": 57,
+        "rank": "監視テーマ",
+        "group": "個別テーマ"
+      }
+    ],
+    "nextDestinationCandidates": [
+      {
+        "name": "資源・非鉄・素材",
+        "score": 100,
+        "promiseScore": 100,
+        "reason": "資金流入の確認待ち"
+      },
+      {
+        "name": "防衛・重工",
+        "score": 92,
+        "promiseScore": 92,
+        "reason": "資金流入の確認待ち"
+      },
+      {
+        "name": "金融・バリュー",
+        "score": 79,
+        "promiseScore": 79,
+        "reason": "資金流入の確認待ち"
+      },
+      {
+        "name": "電力インフラ・電線",
+        "score": null,
+        "promiseScore": null,
+        "reason": "監視開始候補"
+      },
+      {
+        "name": "半導体材料・電子部品",
+        "score": null,
+        "promiseScore": null,
+        "reason": "監視開始候補"
+      }
+    ]
+  },
+  "sectorRotationContext": {
+    "asOf": "2026-11-24 / 2026/11/24 21:29:34",
+    "marketStyle": "日経寄与度大型株優位",
+    "note": "セクター内で主役、二次・三次受益者、出遅れへ資金が波及しているかを確認し、個別銘柄スコアへ渡す。",
+    "sectors": [
+      {
+        "name": "資源・非鉄・素材",
+        "score": 44,
+        "propagationScore": 44,
+        "label": "見送り",
+        "currentWave": "主役中心"
+      },
+      {
+        "name": "内需・ディフェンシブ",
+        "score": 30,
+        "propagationScore": 30,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "TOPIX主力・大型",
+        "score": 28,
+        "propagationScore": 28,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "IP・内需・インバウンド",
+        "score": 19,
+        "propagationScore": 19,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "化学・ヘルスケア",
+        "score": 14,
+        "propagationScore": 14,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "AI・半導体・データセンター",
+        "score": 2,
+        "propagationScore": 2,
+        "label": "見送り",
+        "currentWave": "主役中心"
+      },
+      {
+        "name": "金融・バリュー",
+        "score": 0,
+        "propagationScore": 0,
+        "label": "見送り",
+        "currentWave": "主役中心"
+      },
+      {
+        "name": "建設・不動産",
+        "score": 0,
+        "propagationScore": 0,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "電気機器・機械",
+        "score": 0,
+        "propagationScore": 0,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      },
+      {
+        "name": "防衛・重工",
+        "score": 0,
+        "propagationScore": 0,
+        "label": "見送り",
+        "currentWave": "出遅れ監視"
+      }
+    ]
   },
   "themes": [
     {

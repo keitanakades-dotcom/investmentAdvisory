@@ -17,7 +17,7 @@
         <aside class="meta-panel" aria-label="更新情報">
           <div class="meta-grid">
             <div class="meta-card"><span class="meta-label">対象日</span><strong id="as-of">2026-11-24</strong></div>
-            <div class="meta-card"><span class="meta-label">分析データ更新</span><strong id="updated-at">2026/11/24 21:29:34</strong><small class="public-build-time">公開HTML更新 2026/11/24 22:12:19 JST</small></div>
+            <div class="meta-card"><span class="meta-label">分析データ更新</span><strong id="updated-at">2026/11/24 21:29:34</strong><small class="public-build-time">公開HTML更新 2026/11/24 23:19:36 JST</small></div>
             <div class="meta-card"><span class="meta-label">市場状態</span><strong id="market-state">様子見</strong></div>
             <div class="meta-card"><span class="meta-label">投資方針</span><strong id="market-score">守り・現金厚め</strong></div>
           </div>
@@ -94,11 +94,11 @@
         <a href="#market">地合い要約</a>
         <a href="#diagnosis">自動銘柄診断</a>
         <a href="#sources">出典</a>
-      </nav><section id="tradingview-alert-notice" class="tradingview-alert-notice" data-tone="neutral" aria-live="polite">
+      </nav><section id="tradingview-alert-notice" class="tradingview-alert-notice has-alerts" data-tone="good" aria-live="polite">
         <div>
           <p class="eyebrow">TradingView Alert</p>
-          <strong id="tradingview-alert-notice-text">TradingViewアラートなし</strong>
-          <p id="tradingview-alert-notice-meta">Botの直近validアラートはありません。</p>
+          <strong id="tradingview-alert-notice-text">TradingViewアラート 5件（未読 5件）</strong>
+          <p id="tradingview-alert-notice-meta">最新受信: 2026/11/24 12:47 / 2503 キリンホールディングス / MA25_RECOVER / 対応: 新規監視</p>
         </div>
         <div class="tradingview-alert-notice-actions">
           <a id="tradingview-alert-notice-link" class="text-link" href="#tradingview-alerts" data-tradingview-reveal-bound="true">詳細を見る</a>
@@ -114,57 +114,438 @@
             <p class="section-note">受信アラートは売買命令ではなく、地合い・需給・テクニカルを確認する入口です。</p>
           </summary>
           <div id="tradingview-alert-summary" class="tradingview-alert-summary" aria-live="polite">
-      <div><span>直近</span><strong>0件</strong></div>
-      <div><span>valid</span><strong>0件</strong></div>
+      <div><span>直近</span><strong>5件</strong></div>
+      <div><span>valid</span><strong>5件</strong></div>
       <div><span>invalid</span><strong>0件</strong></div>
-      <div><span>最新受信</span><strong>表示対象なし</strong></div>
-      <p class="muted">削除済み通知を除外したため、表示対象の通知はありません。</p></div>
+      <div><span>最新受信</span><strong>2026/11/24 12:47</strong></div>
+      <p class="muted">直近validアラートがあります。売買命令ではなく確認通知として扱います。</p></div>
           <div id="tradingview-alert-analysis" class="tradingview-alert-analysis" aria-live="polite">
     <div class="tradingview-analysis-block">
 
     <article class="tradingview-analysis-overall">
       <div class="tradingview-analysis-head">
         <span class="card-label">全体解析</span>
-        <strong>TradingView通知はありません</strong>
+        <strong>直近5件のTradingView通知を確認</strong>
       </div>
-      <p>直近のTradingView通知はありません。</p>
-      <p><strong>方針：</strong>削除済み通知は画面・集計から除外しています。</p>
+      <p>最新は2503 キリンホールディングスのMA25_RECOVERです。全体ではvalid 5件、invalid 0件を集計しています。</p>
+      <p><strong>方針：</strong>新規発注ではなく、テーマ継続と銘柄別の価格条件を確認する局面です。</p>
 
-    <div class="tradingview-response-policy neutral">
+    <div class="tradingview-response-policy good">
       <div class="tradingview-response-policy-head">
         <span>全体の対応方針</span>
-        <strong>表示対象なし</strong>
+        <strong>監視継続</strong>
       </div>
-      <p>削除済み通知を除外しているため、TradingView通知に基づく追加確認はありません。</p>
+      <p>市場地合い、テーマ継続、支持線、出来高、信用需給を順に確認します。</p>
       <div class="tradingview-response-policy-grid">
-        <div><span>確認</span><span class="muted">地合い・支持線・出来高を確認</span></div>
-        <div><span>避ける</span><span class="muted">通知単独で判断しない</span></div>
-        <div><span>価格</span><strong>対象なし</strong></div>
+        <div><span>確認</span><ul><li>市場資金循環</li><li>テーマ継続</li><li>支持線維持</li><li>出来高</li><li>信用需給</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独の発注判断</li><li>寄り付き急騰への飛びつき</li></ul></div>
+        <div><span>価格</span><strong>銘柄別の確認価格を参照</strong></div>
       </div>
     </div>
       <div class="tradingview-analysis-columns">
-        <div><span>注目テーマ</span><span class="muted">テーマ通知なし</span></div>
-        <div><span>主なシグナル</span><span class="muted">シグナルなし</span></div>
-        <div><span>リスク確認</span><span class="muted">警戒系シグナルなし</span></div>
+        <div><span>注目テーマ</span><ul><li>未分類テーマ 4件</li><li>保有株リスク管理 1件</li></ul></div>
+        <div><span>主なシグナル</span><ul><li>INVALID_DATA 2件</li><li>MA25_RECOVER 2件</li><li>BREAKOUT_CONFIRM 1件</li></ul></div>
+        <div><span>リスク確認</span><ul><li>警戒系シグナルは目立ちません。過熱・地合い悪化・出来高不足は引き続き確認します。</li></ul></div>
       </div>
-      <div class="tradingview-analysis-next"><span>次の確認</span><span class="muted">市場・テーマ・個別の順に確認</span></div>
+      <div class="tradingview-analysis-next"><span>次の確認</span><ul><li>市場資金循環と日経平均/TOPIXの地合いを確認</li><li>テーマ別に資金流入が継続しているか確認</li><li>個別銘柄は支持線・25日線・出来高・RSIを確認</li></ul></div>
     </article>
       <section>
         <div class="tradingview-analysis-section-head">
           <span class="card-label">Theme Analysis</span>
           <h3>テーマ別分析</h3>
         </div>
-        <div class="tradingview-analysis-grid"><p class="empty-state">テーマ別に集計できるTradingView通知はまだありません。</p></div>
+        <div class="tradingview-analysis-grid">
+          <article class="tradingview-analysis-card good">
+            <div class="tradingview-analysis-card-head">
+              <strong>未分類テーマ</strong>
+              <span class="pill good">監視</span>
+            </div>
+            <p>未分類テーマでは4件の通知を確認。最新は8802 三菱地所のMA25_RECOVERで、監視として扱います。</p>
+            <p><strong>銘柄：</strong>8802 三菱地所 / 4502 武田薬品工業 / 7974 任天堂 /  銘柄名要確認</p>
+            <p><strong>シグナル：</strong>INVALID_DATA 2件 / BREAKOUT_CONFIRM 1件 / MA25_RECOVER 1件</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>テーマ対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 3,856円 / 崩れ 3,817円 / 上値 4,053円</strong></div>
+      </div>
+    </div>
+            <div><ul><li>地合いと出来高を確認</li><li>テーマ継続性を確認</li><li>単独アラートで売買判断を完結させない</li></ul></div>
+            <p class="muted">テーマ単独で買い判断にせず、指数・出来高・主役銘柄の継続性を確認します。</p>
+          </article>
+          <article class="tradingview-analysis-card good">
+            <div class="tradingview-analysis-card-head">
+              <strong>保有株リスク管理</strong>
+              <span class="pill good">監視</span>
+            </div>
+            <p>保有株リスク管理では1件の通知を確認。最新は2503 キリンホールディングスのMA25_RECOVERで、監視として扱います。</p>
+            <p><strong>銘柄：</strong>2503 キリンホールディングス</p>
+            <p><strong>シグナル：</strong>MA25_RECOVER 1件</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>テーマ対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 2,973円 / 崩れ 2,943円 / 上値 3,125円</strong></div>
+      </div>
+    </div>
+            <div><ul><li>保有理由と撤退ラインを先に確認</li><li>信用建玉は損失限定を優先</li><li>新規候補より保有リスクを先に処理</li></ul></div>
+            <p class="muted">テーマ単独で買い判断にせず、指数・出来高・主役銘柄の継続性を確認します。</p>
+          </article></div>
       </section>
       <section>
         <div class="tradingview-analysis-section-head">
           <span class="card-label">Stock Analysis</span>
           <h3>個別銘柄分析</h3>
         </div>
-        <div class="tradingview-analysis-grid"><p class="empty-state">個別銘柄別に集計できるTradingView通知はまだありません。</p></div>
+        <div class="tradingview-analysis-grid">
+          <article class="tradingview-analysis-card neutral">
+            <div class="tradingview-analysis-card-head">
+              <strong>2503 キリンホールディングス</strong>
+              <span class="pill neutral">MA25_RECOVER</span>
+            </div>
+            <div class="tradingview-stock-analysis-grid">
+              <div><span>テーマ</span><strong>保有株リスク管理</strong></div>
+              <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+              <div><span>価格</span><strong>3,034円</strong></div>
+              <div><span>RSI</span><strong>50.989</strong></div>
+              <div><span>分析状態</span><strong>pending</strong></div>
+              <div><span>通知数</span><strong>1件</strong></div>
+            </div>
+            <p>2503 キリンホールディングスのTradingView監視通知です。アラート価格は3,034円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+            <p><strong>判断方針：</strong>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>銘柄対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 2,973円 / 崩れ 2,943円 / 上値 3,125円</strong></div>
+      </div>
+    </div>
+            <p><strong>確認価格：</strong>支持 2,973円 / 崩れ 2,943円 / 上値 3,125円</p>
+            <div><span class="card-label">次に見ること</span><ul><li>市場資金循環を確認</li><li>出来高と25日線を確認</li><li>買い/売りの価格条件を画面で再確認</li></ul></div>
+            <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+          </article>
+          <article class="tradingview-analysis-card neutral">
+            <div class="tradingview-analysis-card-head">
+              <strong>4502 武田薬品工業</strong>
+              <span class="pill neutral">BREAKOUT_CONFIRM</span>
+            </div>
+            <div class="tradingview-stock-analysis-grid">
+              <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+              <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+              <div><span>価格</span><strong>7,042円</strong></div>
+              <div><span>RSI</span><strong>69.555</strong></div>
+              <div><span>分析状態</span><strong>pending</strong></div>
+              <div><span>通知数</span><strong>1件</strong></div>
+            </div>
+            <p>4502 武田薬品工業のTradingView監視通知です。アラート価格は7,042円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+            <p><strong>判断方針：</strong>周期・方向性・ROE、5日線/25日線、出来高、信用需給、保有リスク、資金配分を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>銘柄対応</span>
+        <strong>保有確認</strong>
+      </div>
+      <p>周期・方向性・ROE、5日線/25日線、出来高、信用需給、保有リスク、資金配分を確認します。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>周期（タイミング）</li><li>方向性（支持線）</li><li>ROE・業績</li><li>出来高継続</li><li>信用需給</li></ul></div>
+        <div><span>避ける</span><ul><li>アラート単独で買い増ししない</li><li>寄り付き急騰への飛びつき</li><li>保有リスク確認前の新規追加</li></ul></div>
+        <div><span>価格</span><strong>支持 6,901円 / 崩れ 6,832円 / 上値 7,253円</strong></div>
+      </div>
+    </div>
+            <p><strong>確認価格：</strong>支持 6,901円 / 崩れ 6,832円 / 上値 7,253円</p>
+            <div><span class="card-label">次に見ること</span><ul><li>市場資金循環を確認</li><li>出来高と25日線を確認</li><li>買い/売りの価格条件を画面で再確認</li></ul></div>
+            <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+          </article>
+          <article class="tradingview-analysis-card neutral">
+            <div class="tradingview-analysis-card-head">
+              <strong>7974 任天堂</strong>
+              <span class="pill neutral">INVALID_DATA</span>
+            </div>
+            <div class="tradingview-stock-analysis-grid">
+              <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+              <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+              <div><span>価格</span><strong>8,832円</strong></div>
+              <div><span>RSI</span><strong>54.621</strong></div>
+              <div><span>分析状態</span><strong>pending</strong></div>
+              <div><span>通知数</span><strong>1件</strong></div>
+            </div>
+            <p>7974 任天堂のTradingView監視通知です。アラート価格は8,832円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+            <p><strong>判断方針：</strong>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>銘柄対応</span>
+        <strong>保有確認</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 8,655円 / 崩れ 8,569円 / 上値 9,097円</strong></div>
+      </div>
+    </div>
+            <p><strong>確認価格：</strong>支持 8,655円 / 崩れ 8,569円 / 上値 9,097円</p>
+            <div><span class="card-label">次に見ること</span><ul><li>市場資金循環を確認</li><li>出来高と25日線を確認</li><li>買い/売りの価格条件を画面で再確認</li></ul></div>
+            <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+          </article>
+          <article class="tradingview-analysis-card neutral">
+            <div class="tradingview-analysis-card-head">
+              <strong>8802 三菱地所</strong>
+              <span class="pill neutral">MA25_RECOVER</span>
+            </div>
+            <div class="tradingview-stock-analysis-grid">
+              <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+              <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+              <div><span>価格</span><strong>3,935円</strong></div>
+              <div><span>RSI</span><strong>51.571</strong></div>
+              <div><span>分析状態</span><strong>pending</strong></div>
+              <div><span>通知数</span><strong>1件</strong></div>
+            </div>
+            <p>8802 三菱地所のTradingView監視通知です。アラート価格は3,935円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+            <p><strong>判断方針：</strong>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>銘柄対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 3,856円 / 崩れ 3,817円 / 上値 4,053円</strong></div>
+      </div>
+    </div>
+            <p><strong>確認価格：</strong>支持 3,856円 / 崩れ 3,817円 / 上値 4,053円</p>
+            <div><span class="card-label">次に見ること</span><ul><li>市場資金循環を確認</li><li>出来高と25日線を確認</li><li>買い/売りの価格条件を画面で再確認</li></ul></div>
+            <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+          </article></div>
       </section>
     </div></div>
-          <div id="tradingview-alert-list" class="tradingview-alert-list"><p class="empty-state">TradingViewアラートログはまだありません。</p></div>
+          <div id="tradingview-alert-list" class="tradingview-alert-list">
+    <details class="tradingview-alert-card good" data-alert-id="public-alert-1">
+      <summary>
+        <span class="alert-title">2503 キリンホールディングス</span>
+        <span class="pill good">監視 / 未読</span>
+        <span class="alert-meta">受信: 2026/11/24 12:47 / MA25_RECOVER / holdings_monitor</span>
+      </summary>
+      <div class="tradingview-alert-body">
+
+        <div class="tradingview-alert-grid">
+          <div><span>受信日時</span><strong>2026/11/24 12:47</strong></div>
+          <div><span>TradingView時刻</span><strong>要確認</strong></div>
+          <div><span>価格</span><strong>3,034円</strong></div>
+          <div><span>出来高</span><strong>120,600</strong></div>
+          <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+          <div><span>検証</span><strong>valid</strong></div>
+          <div><span>テーマ</span><strong>保有株リスク管理</strong></div>
+          <div><span>エージェント</span><strong>要確認</strong></div>
+          <div><span>時間足</span><strong>60</strong></div>
+          <div><span>RSI</span><strong>50.989</strong></div>
+          <div><span>分析状態</span><strong>pending</strong></div>
+        </div>
+        <p><strong>分析要約：</strong>2503 キリンホールディングスのTradingView監視通知です。アラート価格は3,034円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>アラート対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 2,973円 / 崩れ 2,943円 / 上値 3,125円</strong></div>
+      </div>
+    </div>
+        <p><strong>確認価格：</strong>支持 2,973円 / 崩れ 2,943円 / 上値 3,125円</p>
+        <p><strong>次に見ること：</strong>市場資金循環を確認 / 出来高と25日線を確認 / 買い/売りの価格条件を画面で再確認</p>
+        <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+        <p class="guardrail">この通知は自動発注ではありません。売買判断と発注はユーザーが証券会社画面で手動確認して行います。</p>
+      </div>
+    </details>
+    <details class="tradingview-alert-card good" data-alert-id="public-alert-2">
+      <summary>
+        <span class="alert-title">8802 三菱地所</span>
+        <span class="pill good">監視 / 未読</span>
+        <span class="alert-meta">受信: 2026/11/24 10:03 / MA25_RECOVER / priority15_monitor</span>
+      </summary>
+      <div class="tradingview-alert-body">
+
+        <div class="tradingview-alert-grid">
+          <div><span>受信日時</span><strong>2026/11/24 10:03</strong></div>
+          <div><span>TradingView時刻</span><strong>要確認</strong></div>
+          <div><span>価格</span><strong>3,935円</strong></div>
+          <div><span>出来高</span><strong>要確認</strong></div>
+          <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+          <div><span>検証</span><strong>valid</strong></div>
+          <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+          <div><span>エージェント</span><strong>要確認</strong></div>
+          <div><span>時間足</span><strong>60</strong></div>
+          <div><span>RSI</span><strong>51.571</strong></div>
+          <div><span>分析状態</span><strong>pending</strong></div>
+        </div>
+        <p><strong>分析要約：</strong>8802 三菱地所のTradingView監視通知です。アラート価格は3,935円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>アラート対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 3,856円 / 崩れ 3,817円 / 上値 4,053円</strong></div>
+      </div>
+    </div>
+        <p><strong>確認価格：</strong>支持 3,856円 / 崩れ 3,817円 / 上値 4,053円</p>
+        <p><strong>次に見ること：</strong>市場資金循環を確認 / 出来高と25日線を確認 / 買い/売りの価格条件を画面で再確認</p>
+        <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+        <p class="guardrail">この通知は自動発注ではありません。売買判断と発注はユーザーが証券会社画面で手動確認して行います。</p>
+      </div>
+    </details>
+    <details class="tradingview-alert-card good" data-alert-id="public-alert-3">
+      <summary>
+        <span class="alert-title">4502 武田薬品工業</span>
+        <span class="pill good">監視 / 未読</span>
+        <span class="alert-meta">受信: 2026/11/24 09:33 / BREAKOUT_CONFIRM / priority15_monitor</span>
+      </summary>
+      <div class="tradingview-alert-body">
+
+        <div class="tradingview-alert-grid">
+          <div><span>受信日時</span><strong>2026/11/24 09:33</strong></div>
+          <div><span>TradingView時刻</span><strong>要確認</strong></div>
+          <div><span>価格</span><strong>7,042円</strong></div>
+          <div><span>出来高</span><strong>要確認</strong></div>
+          <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+          <div><span>検証</span><strong>valid</strong></div>
+          <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+          <div><span>エージェント</span><strong>要確認</strong></div>
+          <div><span>時間足</span><strong>60</strong></div>
+          <div><span>RSI</span><strong>69.555</strong></div>
+          <div><span>分析状態</span><strong>pending</strong></div>
+        </div>
+        <p><strong>分析要約：</strong>4502 武田薬品工業のTradingView監視通知です。アラート価格は7,042円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>アラート対応</span>
+        <strong>保有確認</strong>
+      </div>
+      <p>周期・方向性・ROE、5日線/25日線、出来高、信用需給、保有リスク、資金配分を確認します。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>周期（タイミング）</li><li>方向性（支持線）</li><li>ROE・業績</li><li>出来高継続</li><li>信用需給</li></ul></div>
+        <div><span>避ける</span><ul><li>アラート単独で買い増ししない</li><li>寄り付き急騰への飛びつき</li><li>保有リスク確認前の新規追加</li></ul></div>
+        <div><span>価格</span><strong>支持 6,901円 / 崩れ 6,832円 / 上値 7,253円</strong></div>
+      </div>
+    </div>
+        <p><strong>確認価格：</strong>支持 6,901円 / 崩れ 6,832円 / 上値 7,253円</p>
+        <p><strong>次に見ること：</strong>市場資金循環を確認 / 出来高と25日線を確認 / 買い/売りの価格条件を画面で再確認</p>
+        <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+        <p class="guardrail">この通知は自動発注ではありません。売買判断と発注はユーザーが証券会社画面で手動確認して行います。</p>
+      </div>
+    </details>
+    <details class="tradingview-alert-card good" data-alert-id="public-alert-4">
+      <summary>
+        <span class="alert-title">7974 任天堂</span>
+        <span class="pill good">監視 / 未読</span>
+        <span class="alert-meta">受信: 2026/11/24 09:02 / INVALID_DATA / priority15_monitor</span>
+      </summary>
+      <div class="tradingview-alert-body">
+
+        <div class="tradingview-alert-grid">
+          <div><span>受信日時</span><strong>2026/11/24 09:02</strong></div>
+          <div><span>TradingView時刻</span><strong>要確認</strong></div>
+          <div><span>価格</span><strong>8,832円</strong></div>
+          <div><span>出来高</span><strong>要確認</strong></div>
+          <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+          <div><span>検証</span><strong>valid</strong></div>
+          <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+          <div><span>エージェント</span><strong>要確認</strong></div>
+          <div><span>時間足</span><strong>60</strong></div>
+          <div><span>RSI</span><strong>54.621</strong></div>
+          <div><span>分析状態</span><strong>pending</strong></div>
+        </div>
+        <p><strong>分析要約：</strong>7974 任天堂のTradingView監視通知です。アラート価格は8,832円。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>アラート対応</span>
+        <strong>保有確認</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>支持 8,655円 / 崩れ 8,569円 / 上値 9,097円</strong></div>
+      </div>
+    </div>
+        <p><strong>確認価格：</strong>支持 8,655円 / 崩れ 8,569円 / 上値 9,097円</p>
+        <p><strong>次に見ること：</strong>市場資金循環を確認 / 出来高と25日線を確認 / 買い/売りの価格条件を画面で再確認</p>
+        <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+        <p class="guardrail">この通知は自動発注ではありません。売買判断と発注はユーザーが証券会社画面で手動確認して行います。</p>
+      </div>
+    </details>
+    <details class="tradingview-alert-card good" data-alert-id="public-alert-5">
+      <summary>
+        <span class="alert-title">---- 銘柄名要確認</span>
+        <span class="pill good">監視 / 未読</span>
+        <span class="alert-meta">受信: 2026/11/24 06:31 / INVALID_DATA / strategy要確認</span>
+      </summary>
+      <div class="tradingview-alert-body">
+
+        <div class="tradingview-alert-grid">
+          <div><span>受信日時</span><strong>2026/11/24 06:31</strong></div>
+          <div><span>TradingView時刻</span><strong>要確認</strong></div>
+          <div><span>価格</span><strong>要確認</strong></div>
+          <div><span>出来高</span><strong>要確認</strong></div>
+          <div><span>区分</span><strong>個人区分は公開対象外</strong></div>
+          <div><span>検証</span><strong>valid</strong></div>
+          <div><span>テーマ</span><strong>未分類テーマ</strong></div>
+          <div><span>エージェント</span><strong>要確認</strong></div>
+          <div><span>時間足</span><strong>D</strong></div>
+          <div><span>RSI</span><strong>要確認</strong></div>
+          <div><span>分析状態</span><strong>pending</strong></div>
+        </div>
+        <p><strong>分析要約：</strong>コード要確認 銘柄名要確認のTradingView監視通知です。価格は要確認。アラート単独で売買判断を完結させず、地合いと需給を確認します。</p>
+
+    <div class="tradingview-response-policy good">
+      <div class="tradingview-response-policy-head">
+        <span>アラート対応</span>
+        <strong>新規監視</strong>
+      </div>
+      <p>市場資金循環、支持線、出来高、信用需給、決算情報を確認してから扱いを決めます。</p>
+      <div class="tradingview-response-policy-grid">
+        <div><span>確認</span><ul><li>市場資金循環</li><li>支持線</li><li>出来高</li><li>信用需給</li><li>決算・IR</li></ul></div>
+        <div><span>避ける</span><ul><li>通知単独で売買判断を完結させない</li></ul></div>
+        <div><span>価格</span><strong>価格条件は要確認</strong></div>
+      </div>
+    </div>
+        <p><strong>確認価格：</strong>価格条件は要確認</p>
+        <p><strong>次に見ること：</strong>市場資金循環を確認 / 出来高と25日線を確認 / 買い/売りの価格条件を画面で再確認</p>
+        <p><strong>見送り条件：</strong>地合い急落 / 出来高を伴わない反発 / 25日線を回復できない</p>
+        <p class="guardrail">この通知は自動発注ではありません。売買判断と発注はユーザーが証券会社画面で手動確認して行います。</p>
+      </div>
+    </details></div>
         </details>
       </section><section id="market" class="section market-snapshot">
         <div class="section-head">
@@ -232,7 +613,7 @@
         <div id="market-theme-summary" class="market-theme-summary">
     <article class="market-theme-summary-card">
       <span class="card-label">中心テーマ候補</span>
-      <p>市場テーマは要確認。</p>
+      <p>現在の中心テーマ候補は AI・半導体・データセンター。中心テーマ として確認。</p>
       <p class="muted">優先確認: AI・半導体・データセンター</p>
     </article>
     <article class="market-theme-summary-card">
@@ -248,30 +629,30 @@
     </article>
     <article class="market-theme-summary-card">
       <span class="card-label">避ける行動</span>
-      <p>主役の高値追い、出来高ピークアウト銘柄、損切り未設定の新規買いを避ける。</p>
+      <p>AI・半導体・データセンター は中心テーマでも高値追い禁止。押し目、出来高継続、5日線乖離を確認。 化学・ヘルスケア は見送りまたは需給イベント枠として扱い、安易に飛び乗らない。</p>
           <p class="muted">過熱警戒: AI・半導体・データセンター</p>
     </article></div>
         <div id="momentum-rotation-summary" class="momentum-rotation-grid" aria-live="polite">
     <article class="market-theme-summary-card rotation-card">
       <span class="card-label">市場資金循環</span>
-      <p><strong>市場スタイル要確認</strong> / 要確認 / 要確認</p>
-      <p class="muted">TOPIX大型 --% / 日経大型 --% / グロース・テーマ --%</p>
+      <p><strong>日経寄与度大型株優位</strong> / 見送り / 61点</p>
+      <p class="muted">TOPIX大型 25% / 日経大型 60% / グロース・テーマ 15%</p>
     </article>
     <article class="market-theme-summary-card rotation-card">
       <span class="card-label">現在の集中</span>
       <p class="muted">市場で確認した集中度の高い順</p>
-      <p>要確認</p>
+      <p><strong>AI・半導体・データセンター</strong> <span>集中度 100点 / 中心テーマ</span></p><p><strong>TOPIX主力・大型</strong> <span>集中度 100点 / 有望テーマ</span></p><p><strong>資源・非鉄・素材</strong> <span>集中度 100点 / 今後検討</span></p><p><strong>電気機器・機械</strong> <span>集中度 100点 / 有望テーマ</span></p><p><strong>建設・不動産</strong> <span>集中度 98点 / 有望テーマ</span></p><p><strong>内需・ディフェンシブ</strong> <span>集中度 97点 / 有望テーマ</span></p><p><strong>防衛・重工</strong> <span>集中度 92点 / 継続テーマ候補</span></p><p><strong>IP・内需・インバウンド</strong> <span>集中度 81点 / 有望テーマ</span></p><p><strong>金融・バリュー</strong> <span>集中度 79点 / 検討対象</span></p><p><strong>化学・ヘルスケア</strong> <span>集中度 57点 / 監視テーマ</span></p>
     </article>
     <article class="market-theme-summary-card rotation-card">
       <span class="card-label">次の候補</span>
       <p class="muted">次の資金流入先としての有望度が高い順</p>
-      <p>要確認</p>
+      <p><strong>資源・非鉄・素材</strong> <span>有望度 100点 / 資金流入の確認待ち</span></p><p><strong>防衛・重工</strong> <span>有望度 92点 / 資金流入の確認待ち</span></p><p><strong>金融・バリュー</strong> <span>有望度 79点 / 資金流入の確認待ち</span></p><p><strong>電力インフラ・電線</strong> <span>有望度 要確認 / 監視開始候補</span></p><p><strong>半導体材料・電子部品</strong> <span>有望度 要確認 / 監視開始候補</span></p>
     </article>
     <article class="market-theme-summary-card rotation-card">
       <span class="card-label">資金波及の有望度</span>
       <p class="muted">主役から準主役・出遅れへ資金が広がっている順。個別銘柄の買い判断とは分けて確認します。</p>
-      <p>要確認</p>
-
+      <p><strong>資源・非鉄・素材</strong> <span>波及度 44点 / 見送り / 主役中心</span></p><p><strong>内需・ディフェンシブ</strong> <span>波及度 30点 / 見送り / 出遅れ監視</span></p><p><strong>TOPIX主力・大型</strong> <span>波及度 28点 / 見送り / 出遅れ監視</span></p><p><strong>IP・内需・インバウンド</strong> <span>波及度 19点 / 見送り / 出遅れ監視</span></p><p><strong>化学・ヘルスケア</strong> <span>波及度 14点 / 見送り / 出遅れ監視</span></p><p><strong>AI・半導体・データセンター</strong> <span>波及度 2点 / 見送り / 主役中心</span></p><p><strong>金融・バリュー</strong> <span>波及度 0点 / 見送り / 主役中心</span></p><p><strong>建設・不動産</strong> <span>波及度 0点 / 見送り / 出遅れ監視</span></p><p><strong>電気機器・機械</strong> <span>波及度 0点 / 見送り / 出遅れ監視</span></p><p><strong>防衛・重工</strong> <span>波及度 0点 / 見送り / 出遅れ監視</span></p>
+      <p class="muted">注意: AI・半導体・データセンター は過熱・高値追いを警戒 / 高ボラ業種が5件あり、指数上昇でも急反転を警戒 / 見送りテーマ: 化学・ヘルスケア</p>
     </article>
   </div>
         <div id="market-sector-rotation" class="market-sector-rotation" aria-live="polite">
@@ -719,23 +1100,23 @@
             <div id="market-theme-impact" class="theme-impact-list">
     <div class="theme-impact-row">
       <span>追い風</span>
-      <strong>要確認</strong>
+      <strong>該当なし</strong>
     </div>
     <div class="theme-impact-row">
       <span>逆風</span>
-      <strong>要確認</strong>
+      <strong>対象あり</strong>
     </div>
     <div class="theme-impact-row">
       <span>継続</span>
-      <strong>要確認</strong>
+      <strong>該当なし</strong>
     </div>
     <div class="theme-impact-row">
       <span>利益保護</span>
-      <strong>要確認</strong>
+      <strong>対象あり</strong>
     </div>
     <div class="theme-impact-row">
       <span>整理候補</span>
-      <strong>要確認</strong>
+      <strong>対象あり</strong>
     </div></div>
           </article>
           <article class="theme-card">
