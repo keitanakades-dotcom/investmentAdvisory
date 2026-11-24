@@ -1,14 +1,47 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:46:57.059Z",
-  "asOf": "2026-11-24",
-  "updatedAt": "2026/11/24 21:29:34",
-  "matched": null,
-  "total": null,
+  "generatedAt": "2026-11-24T22:20:20.304Z",
+  "asOf": "2026-11-25",
+  "updatedAt": "2026/11/25 6:49:50",
+  "matched": 1,
+  "total": 6,
   "summary": "更新待ち",
-  "caution": "更新待ち",
-  "tailwinds": [],
-  "conditions": [],
+  "caution": "日本証券金融の制度信用取引貸借残高(東証全体レベルの信用売り残を、各銘柄の融券残高株数×基準価格で金額換算し、全銘柄合計したもの)は条件未達、日経レバ信用倍率は条件未達、日本株の優位性(米国株比較)は要確認、日経平均理論値(EPS)は条件未達、海外投資家の売買は要確認。",
+  "tailwinds": [
+    "WTI-Brentスプレッドの縮小"
+  ],
+  "conditions": [
+    {
+      "label": "信用売り残",
+      "status": "未達",
+      "value": "660,000百万円"
+    },
+    {
+      "label": "日経レバ信用倍率",
+      "status": "未達",
+      "value": "13.46倍"
+    },
+    {
+      "label": "日本株の相対優位",
+      "status": "要確認",
+      "value": "要確認"
+    },
+    {
+      "label": "日経平均理論値（EPS）",
+      "status": "未達",
+      "value": "約3,952円"
+    },
+    {
+      "label": "海外投資家フロー",
+      "status": "要確認",
+      "value": "要確認"
+    },
+    {
+      "label": "原油スプレッド",
+      "status": "達成",
+      "value": "約3.41ドル"
+    }
+  ],
   "trend": {
     "state": "更新待ち",
     "phase": "更新待ち",
@@ -19,16 +52,33 @@
   },
   "strategy": {
     "policy": "守り・現金厚め",
-    "target": "更新待ち",
-    "eventRisk": "更新待ち",
-    "overheating": "更新待ち",
-    "prefer": [],
-    "avoid": [],
-    "watch": []
+    "target": "日経平均主力株",
+    "eventRisk": "中",
+    "overheating": "低",
+    "prefer": [
+      "現金厚め",
+      "高流動性",
+      "保有整理",
+      "防御業種",
+      "イベント通過待ち"
+    ],
+    "avoid": [
+      "新規大玉",
+      "信用でのイベント跨ぎ",
+      "薄商い銘柄",
+      "買い理由が曖昧な銘柄"
+    ],
+    "watch": [
+      "日経平均先物(CME円建て): 要確認",
+      "NASDAQ: 要確認",
+      "SOX指数: 要確認",
+      "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
+      "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
+    ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-11-24",
-    "updatedAt": "2026/11/24 21:29:34",
+    "asOfDate": "2026-11-25",
+    "updatedAt": "2026/11/25 6:49:50",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -42,32 +92,32 @@
       "us": {
         "2y": {
           "value": 4.63,
-          "observationDate": "2026-11-23",
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
             "oneDay": 0,
-            "fiveDay": -20,
-            "twentyDay": -6
+            "fiveDay": -17,
+            "twentyDay": -5
           }
         },
         "10y": {
-          "value": 4.92,
-          "observationDate": "2026-11-23",
+          "value": 4.91,
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
-            "oneDay": 0,
-            "fiveDay": -20,
-            "twentyDay": -8
+            "oneDay": -1,
+            "fiveDay": -19,
+            "twentyDay": -9
           }
         },
         "30y": {
-          "value": 5.29,
-          "observationDate": "2026-11-23",
+          "value": 5.3,
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -2,
-            "fiveDay": -17,
-            "twentyDay": -4
+            "oneDay": 1,
+            "fiveDay": -16,
+            "twentyDay": -1
           }
         }
       },
@@ -127,22 +177,22 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 29,
+        "spreadBp": 28,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 0,
-          "fiveDay": 0,
-          "twentyDay": -2
+          "oneDay": -1,
+          "fiveDay": -2,
+          "twentyDay": -4
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
-        "spreadBp": 37,
+        "spreadBp": 39,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -2,
+          "oneDay": 2,
           "fiveDay": 3,
-          "twentyDay": 4
+          "twentyDay": 8
         }
       },
       "japan2y10y": {
@@ -177,46 +227,26 @@
       }
     },
     "currency": {
-      "usdJpy": 159.11,
-      "changePct": 0.11,
-      "direction": "円安"
+      "usdJpy": 0,
+      "changePct": 0,
+      "direction": "要確認"
     },
     "marketImpact": {
       "tailwind": [
         "AI・半導体",
-        "成長株",
-        "自動車・電機など輸出大型株",
-        "半導体・AI"
+        "成長株"
       ],
       "headwind": [],
       "watch": [
-        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先",
-        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
+        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 123,
+      "observations": 124,
       "minimumObservations": 10
     },
-    "sources": [
-      {
-        "name": "米国財務省 Daily Treasury Par Yield Curve Rates",
-        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
-      },
-      {
-        "name": "財務省 国債金利情報",
-        "url": "https://www.mof.go.jp/jgbs/reference/interest_rate/"
-      },
-      {
-        "name": "FRED 実質金利・期待インフレ補完",
-        "url": "https://fred.stlouisfed.org/"
-      },
-      {
-        "name": "Yahoo Finance USD/JPY",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPY%3DX?range=2mo&interval=1d"
-      }
-    ]
+    "sources": []
   },
   "weekly": {
     "headline": "更新待ち",
@@ -274,10 +304,10 @@
   },
   "marketTabs": {
     "sentiment": {
-      "investorFlow": "更新待ち",
+      "investorFlow": "海外 売り越し -3,124.9億円 / 個人 売り越し -3,614.7億円 / 投信 売り越し -176.8億円 / 信託銀行 買い越し +3,933.9億円 / 証券自己 買い越し +1,532.0億円",
       "investorFlowSeries": [],
-      "advanceDecline": "更新待ち",
-      "vixSqRisk": "更新待ち"
+      "advanceDecline": "25日 81.44 (中立) / 15日 82.94 (中立) / 10日 82.3 (中立) / 6日 48.15 (売られすぎ)。6日が80未満で売られすぎ。",
+      "vixSqRisk": "VIX 26.36、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "更新待ち",
