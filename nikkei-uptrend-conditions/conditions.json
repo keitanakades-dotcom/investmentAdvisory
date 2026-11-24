@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T21:06:36.510Z",
+  "generatedAt": "2026-11-24T02:40:01.740Z",
   "asOf": "2026-11-24",
-  "updatedAt": "2026/11/24 6:02:43",
+  "updatedAt": "2026/11/24 11:36:45",
   "matched": null,
   "total": null,
   "summary": "更新待ち",
@@ -28,15 +28,15 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-11-24",
-    "updatedAt": "2026/11/24 6:02:43",
+    "updatedAt": "2026/11/24 11:36:45",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "日米金利の方向乖離。日米金利の方向が異なるため、日米金利差とドル円を優先確認。",
+    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
     "stance": {
-      "label": "日米金利の方向乖離",
-      "riskLevel": "medium",
-      "reason": "日米金利の方向が異なるため、日米金利差とドル円を優先確認。"
+      "label": "金利方向は中立",
+      "riskLevel": "low",
+      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
     },
     "rates": {
       "us": {
@@ -73,53 +73,53 @@
       },
       "japan": {
         "2y": {
-          "value": 1.853,
-          "observationDate": "2026-11-19",
-          "direction": "横ばい",
+          "value": 1.826,
+          "observationDate": "2026-11-20",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -1.9,
-            "fiveDay": -0.4,
-            "twentyDay": -6.1
+            "oneDay": -2.7,
+            "fiveDay": -5.6,
+            "twentyDay": -8.8
           }
         },
         "5y": {
-          "value": 2.235,
-          "observationDate": "2026-11-19",
-          "direction": "横ばい",
+          "value": 2.198,
+          "observationDate": "2026-11-20",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -3.3,
-            "fiveDay": 2.6,
-            "twentyDay": -7.4
+            "oneDay": -3.7,
+            "fiveDay": -6.4,
+            "twentyDay": -10.6
           }
         },
         "10y": {
-          "value": 2.87,
-          "observationDate": "2026-11-19",
-          "direction": "横ばい",
+          "value": 2.838,
+          "observationDate": "2026-11-20",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -4.6,
-            "fiveDay": 2.9,
-            "twentyDay": -5.3
+            "oneDay": -3.2,
+            "fiveDay": -6.1,
+            "twentyDay": -7.6
           }
         },
         "20y": {
-          "value": 3.745,
-          "observationDate": "2026-11-19",
+          "value": 3.717,
+          "observationDate": "2026-11-20",
           "direction": "横ばい",
           "changeBp": {
-            "oneDay": -5.2,
-            "fiveDay": 4.7,
-            "twentyDay": 1.9
+            "oneDay": -2.8,
+            "fiveDay": -4,
+            "twentyDay": 1
           }
         },
         "30y": {
-          "value": 4.03,
-          "observationDate": "2026-11-19",
-          "direction": "上昇",
+          "value": 4.014,
+          "observationDate": "2026-11-20",
+          "direction": "横ばい",
           "changeBp": {
-            "oneDay": -5.2,
-            "fiveDay": 5.6,
-            "twentyDay": 5
+            "oneDay": -1.6,
+            "fiveDay": -2.4,
+            "twentyDay": 6.2
           }
         }
       }
@@ -147,38 +147,38 @@
       },
       "japan2y10y": {
         "label": "日本2年-10年",
-        "spreadBp": 101.7,
+        "spreadBp": 101.2,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -2.7,
-          "fiveDay": 3.3,
-          "twentyDay": 0.8
+          "oneDay": -0.5,
+          "fiveDay": -0.5,
+          "twentyDay": 1.2
         }
       },
       "japan10y20y": {
         "label": "日本10年-20年",
-        "spreadBp": 87.5,
+        "spreadBp": 87.9,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -0.6,
-          "fiveDay": 1.8,
-          "twentyDay": 7.2
+          "oneDay": 0.4,
+          "fiveDay": 2.1,
+          "twentyDay": 8.6
         }
       },
       "japan10y30y": {
         "label": "日本10年-30年",
-        "spreadBp": 116,
+        "spreadBp": 117.6,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -0.6,
-          "fiveDay": 2.7,
-          "twentyDay": 10.3
+          "oneDay": 1.6,
+          "fiveDay": 3.7,
+          "twentyDay": 13.8
         }
       }
     },
     "currency": {
-      "usdJpy": 158.93,
-      "changePct": -0.49,
+      "usdJpy": 158.88,
+      "changePct": -0.03,
       "direction": "円高"
     },
     "marketImpact": {

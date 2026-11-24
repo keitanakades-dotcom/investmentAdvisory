@@ -3,7 +3,7 @@
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
   "as_of": "2026-11-20",
   "cross": "ALL",
-  "match_count": 23,
+  "match_count": 20,
   "records": [
     {
       "ticker": "1860",
@@ -20,6 +20,14 @@
       "type": "DC",
       "signal": "75日線/200日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A285A"
+    },
+    {
+      "ticker": "4092",
+      "name": "日本化学工業",
+      "date": "2026-11-20",
+      "type": "DC",
+      "signal": "5日線/200日線 デッドクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A4092"
     },
     {
       "ticker": "4183",
@@ -70,14 +78,6 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A6501"
     },
     {
-      "ticker": "7189",
-      "name": "西日本フィナンシャルホールディングス",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/25日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7189"
-    },
-    {
       "ticker": "7267",
       "name": "本田技研工業",
       "date": "2026-11-20",
@@ -126,22 +126,6 @@
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8031"
     },
     {
-      "ticker": "8053",
-      "name": "住友商事",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8053"
-    },
-    {
-      "ticker": "8308",
-      "name": "りそなホールディングス",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/200日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8308"
-    },
-    {
       "ticker": "8604",
       "name": "野村ホールディングス",
       "date": "2026-11-20",
@@ -156,14 +140,6 @@
       "type": "DC",
       "signal": "5日線/25日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8697"
-    },
-    {
-      "ticker": "8725",
-      "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
-      "date": "2026-11-20",
-      "type": "DC",
-      "signal": "5日線/25日線 デッドクロス",
-      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A8725"
     },
     {
       "ticker": "8729",
