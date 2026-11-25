@@ -3,7 +3,7 @@
   "data_scope": "自動銘柄診断の対象銘柄のみ。全上場銘柄の網羅一覧ではありません。",
   "as_of": "2026-11-25",
   "cross": "ALL",
-  "match_count": 13,
+  "match_count": 14,
   "records": [
     {
       "ticker": "4598",
@@ -68,6 +68,14 @@
       "type": "DC",
       "signal": "75日線/200日線 デッドクロス",
       "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7729"
+    },
+    {
+      "ticker": "7974",
+      "name": "任天堂",
+      "date": "2026-11-25",
+      "type": "GC",
+      "signal": "100日線/200日線 ゴールデンクロス",
+      "chart_url": "https://www.tradingview.com/chart/?symbol=TSE%3A7974"
     },
     {
       "ticker": "8306",
