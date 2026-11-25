@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T17:15:47.070Z",
-  "asOf": "2026-11-25",
-  "updatedAt": "2026/11/25 11:30:15",
-  "matched": 1,
+  "generatedAt": "2026-11-25T21:07:26.957Z",
+  "asOf": "2026-11-26",
+  "updatedAt": "2026/11/26 6:01:52",
+  "matched": 0,
   "total": 6,
   "summary": "更新待ち",
-  "caution": "日本証券金融の制度信用取引貸借残高(東証全体レベルの信用売り残を、各銘柄の融券残高株数×基準価格で金額換算し、全銘柄合計したもの)は条件未達、日経レバ信用倍率は条件未達、日本株の優位性(米国株比較)は要確認、日経平均理論値(EPS)は条件未達、海外投資家の売買は要確認。",
+  "caution": "日本証券金融の制度信用取引貸借残高(東証全体レベルの信用売り残を、各銘柄の融券残高株数×基準価格で金額換算し、全銘柄合計したもの)は条件未達、日経レバ信用倍率は条件未達、日本株の優位性(米国株比較)は要確認、日経平均理論値(EPS)は条件未達、海外投資家の売買は要確認、WTI-Brentスプレッドは要確認。",
   "tailwinds": [
-    "WTI-Brentスプレッドの縮小"
+    "要確認"
   ],
   "conditions": [
     {
       "label": "信用売り残",
       "status": "未達",
-      "value": "660,000百万円"
+      "value": "643,827百万円"
     },
     {
       "label": "日経レバ信用倍率",
       "status": "未達",
-      "value": "13.46倍"
+      "value": "13.55倍"
     },
     {
       "label": "日本株の相対優位",
@@ -29,7 +29,7 @@
     {
       "label": "日経平均理論値（EPS）",
       "status": "未達",
-      "value": "約3,952円"
+      "value": "約3,868円"
     },
     {
       "label": "海外投資家フロー",
@@ -38,8 +38,8 @@
     },
     {
       "label": "原油スプレッド",
-      "status": "達成",
-      "value": "約3.41ドル"
+      "status": "要確認",
+      "value": "要確認"
     }
   ],
   "trend": {
@@ -52,11 +52,12 @@
   },
   "strategy": {
     "policy": "守り・現金厚め",
-    "target": "中立・現金優先",
+    "target": "TOPIX主力・バリュー",
     "eventRisk": "中",
     "overheating": "低",
     "prefer": [
       "輸出大型・自動車・電機",
+      "資源・商社・石油",
       "現金厚め",
       "高流動性",
       "保有整理",
@@ -66,30 +67,32 @@
     "avoid": [
       "グロース・高PER",
       "半導体・電子部品",
+      "化学・空運・電力",
+      "高ベータ・信用買い残が多い銘柄",
       "新規大玉",
       "信用でのイベント跨ぎ",
       "薄商い銘柄",
       "買い理由が曖昧な銘柄"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 56,620.00 / -1.37% / 下落",
-      "NASDAQ: 23,733.54 / -1.48% / 下落",
-      "SOX指数: 8,832.50 / -7.88% / 下落",
+      "日経平均先物(CME円建て): 57,375.00 / -0.05% / 下落",
+      "NASDAQ: 23,585.80 / -0.62% / 下落",
+      "SOX指数: 8,774.86 / -0.65% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
       "グロースへ寄せる場合は、出来高増と決算通過を必須条件にする。"
     ]
   },
   "bondYieldEquityContext": {
-    "asOfDate": "2026-11-25",
-    "updatedAt": "2026/11/25 11:30:15",
+    "asOfDate": "2026-11-26",
+    "updatedAt": "2026/11/26 6:01:52",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
-    "summary": "金利方向は中立。5営業日の変化は限定的。株価・出来高・業種別反応を優先。",
+    "summary": "日米金利低下。日米10年金利が5営業日でともに低下。低下理由が景気懸念かを確認。",
     "stance": {
-      "label": "金利方向は中立",
-      "riskLevel": "low",
-      "reason": "5営業日の変化は限定的。株価・出来高・業種別反応を優先。"
+      "label": "日米金利低下",
+      "riskLevel": "medium",
+      "reason": "日米10年金利が5営業日でともに低下。低下理由が景気懸念かを確認。"
     },
     "rates": {
       "us": {
@@ -126,53 +129,53 @@
       },
       "japan": {
         "2y": {
-          "value": 1.826,
-          "observationDate": "2026-11-20",
+          "value": 1.783,
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -2.7,
-            "fiveDay": -5.6,
-            "twentyDay": -8.8
+            "oneDay": -4.3,
+            "fiveDay": -9.5,
+            "twentyDay": -8.9
           }
         },
         "5y": {
-          "value": 2.198,
-          "observationDate": "2026-11-20",
+          "value": 2.141,
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -3.7,
-            "fiveDay": -6.4,
-            "twentyDay": -10.6
+            "oneDay": -5.7,
+            "fiveDay": -12.9,
+            "twentyDay": -9.7
           }
         },
         "10y": {
-          "value": 2.838,
-          "observationDate": "2026-11-20",
+          "value": 2.781,
+          "observationDate": "2026-11-24",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -3.2,
-            "fiveDay": -6.1,
-            "twentyDay": -7.6
+            "oneDay": -5.7,
+            "fiveDay": -14.6,
+            "twentyDay": -5.6
           }
         },
         "20y": {
-          "value": 3.717,
-          "observationDate": "2026-11-20",
-          "direction": "横ばい",
+          "value": 3.668,
+          "observationDate": "2026-11-24",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -2.8,
-            "fiveDay": -4,
-            "twentyDay": 1
+            "oneDay": -4.9,
+            "fiveDay": -11.1,
+            "twentyDay": 2.3
           }
         },
         "30y": {
-          "value": 4.014,
-          "observationDate": "2026-11-20",
-          "direction": "横ばい",
+          "value": 3.99,
+          "observationDate": "2026-11-24",
+          "direction": "低下",
           "changeBp": {
-            "oneDay": -1.6,
-            "fiveDay": -2.4,
-            "twentyDay": 6.2
+            "oneDay": -2.4,
+            "fiveDay": -7.2,
+            "twentyDay": 8.6
           }
         }
       }
@@ -200,56 +203,62 @@
       },
       "japan2y10y": {
         "label": "日本2年-10年",
-        "spreadBp": 101.2,
-        "direction": "横ばい",
+        "spreadBp": 99.8,
+        "direction": "フラット化",
         "changeBp": {
-          "oneDay": -0.5,
-          "fiveDay": -0.5,
-          "twentyDay": 1.2
+          "oneDay": -1.4,
+          "fiveDay": -5.1,
+          "twentyDay": 3.3
         }
       },
       "japan10y20y": {
         "label": "日本10年-20年",
-        "spreadBp": 87.9,
+        "spreadBp": 88.7,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": 0.4,
-          "fiveDay": 2.1,
-          "twentyDay": 8.6
+          "oneDay": 0.8,
+          "fiveDay": 3.5,
+          "twentyDay": 7.9
         }
       },
       "japan10y30y": {
         "label": "日本10年-30年",
-        "spreadBp": 117.6,
-        "direction": "横ばい",
+        "spreadBp": 120.9,
+        "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 1.6,
-          "fiveDay": 3.7,
-          "twentyDay": 13.8
+          "oneDay": 3.3,
+          "fiveDay": 7.4,
+          "twentyDay": 14.2
         }
       }
     },
     "currency": {
-      "usdJpy": 159.26,
-      "changePct": 0.16,
+      "usdJpy": 159.21,
+      "changePct": 0.13,
       "direction": "円安"
     },
     "marketImpact": {
       "tailwind": [
+        "REIT",
+        "高PERグロース",
         "AI・半導体",
         "成長株",
         "自動車・電機など輸出大型株"
       ],
       "headwind": [
+        "銀行",
+        "銀行・保険の利ざや改善期待は後退（日本2年-10年がフラット化）",
         "半導体・AI"
       ],
       "watch": [
-        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先"
+        "日本金利低下が景気悪化懸念による場合は、グロース株を機械的に加点しない",
+        "米長期金利低下がリスクオフ起点なら、VIXと株価反応を優先",
+        "VIX上昇中は金利低下を成長株の買い材料と即断しない"
       ],
       "scoringPolicy": "試験運用中のため点数へ反映しません。"
     },
     "shadowValidation": {
-      "observations": 124,
+      "observations": 125,
       "minimumObservations": 10
     },
     "sources": []
@@ -312,8 +321,8 @@
     "sentiment": {
       "investorFlow": "海外 売り越し -3,124.9億円 / 個人 売り越し -3,614.7億円 / 投信 売り越し -176.8億円 / 信託銀行 買い越し +3,933.9億円 / 証券自己 買い越し +1,532.0億円",
       "investorFlowSeries": [],
-      "advanceDecline": "25日 81.44 (中立) / 15日 82.94 (中立) / 10日 82.3 (中立) / 6日 48.15 (売られすぎ)。6日が80未満で売られすぎ。",
-      "vixSqRisk": "VIX 26.36、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は中。"
+      "advanceDecline": "25日 84.58 (中立) / 15日 90.3 (中立) / 10日 77.81 (売られすぎ) / 6日 56.61 (売られすぎ)。10日・6日が80未満で売られすぎ。",
+      "vixSqRisk": "VIX 28.22、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
     },
     "technical": {
       "action": "更新待ち",
