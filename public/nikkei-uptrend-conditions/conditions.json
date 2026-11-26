@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T21:07:26.957Z",
+  "generatedAt": "2026-11-26T02:46:00.601Z",
   "asOf": "2026-11-26",
-  "updatedAt": "2026/11/26 6:01:52",
+  "updatedAt": "2026/11/26 11:41:57",
   "matched": 0,
   "total": 6,
   "summary": "更新待ち",
@@ -52,12 +52,10 @@
   },
   "strategy": {
     "policy": "守り・現金厚め",
-    "target": "TOPIX主力・バリュー",
+    "target": "中立・現金優先",
     "eventRisk": "中",
     "overheating": "低",
     "prefer": [
-      "輸出大型・自動車・電機",
-      "資源・商社・石油",
       "現金厚め",
       "高流動性",
       "保有整理",
@@ -67,7 +65,7 @@
     "avoid": [
       "グロース・高PER",
       "半導体・電子部品",
-      "化学・空運・電力",
+      "輸出大型・自動車・電機",
       "高ベータ・信用買い残が多い銘柄",
       "新規大玉",
       "信用でのイベント跨ぎ",
@@ -75,7 +73,7 @@
       "買い理由が曖昧な銘柄"
     ],
     "watch": [
-      "日経平均先物(CME円建て): 57,375.00 / -0.05% / 下落",
+      "日経平均先物(CME円建て): 57,880.00 / +0.93% / 上昇",
       "NASDAQ: 23,585.80 / -0.62% / 下落",
       "SOX指数: 8,774.86 / -0.65% / 下落",
       "イベント通過後に、主役が続くのか対角へ資金が移るのかを確認。",
@@ -84,7 +82,7 @@
   },
   "bondYieldEquityContext": {
     "asOfDate": "2026-11-26",
-    "updatedAt": "2026/11/26 6:01:52",
+    "updatedAt": "2026/11/26 11:41:57",
     "status": "ready",
     "mode": "shadow",
     "scoreApplied": false,
@@ -97,85 +95,85 @@
     "rates": {
       "us": {
         "2y": {
-          "value": 4.63,
-          "observationDate": "2026-11-24",
+          "value": 4.61,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": 0,
-            "fiveDay": -17,
-            "twentyDay": -5
-          }
-        },
-        "10y": {
-          "value": 4.91,
-          "observationDate": "2026-11-24",
-          "direction": "低下",
-          "changeBp": {
-            "oneDay": -1,
+            "oneDay": -2,
             "fiveDay": -19,
             "twentyDay": -9
           }
         },
-        "30y": {
-          "value": 5.3,
-          "observationDate": "2026-11-24",
+        "10y": {
+          "value": 4.85,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": 1,
-            "fiveDay": -16,
-            "twentyDay": -1
+            "oneDay": -6,
+            "fiveDay": -22,
+            "twentyDay": -14
+          }
+        },
+        "30y": {
+          "value": 5.24,
+          "observationDate": "2026-11-25",
+          "direction": "低下",
+          "changeBp": {
+            "oneDay": -6,
+            "fiveDay": -17,
+            "twentyDay": -6
           }
         }
       },
       "japan": {
         "2y": {
-          "value": 1.783,
-          "observationDate": "2026-11-24",
+          "value": 1.731,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -4.3,
-            "fiveDay": -9.5,
-            "twentyDay": -8.9
+            "oneDay": -5.2,
+            "fiveDay": -14.7,
+            "twentyDay": -15.7
           }
         },
         "5y": {
-          "value": 2.141,
-          "observationDate": "2026-11-24",
+          "value": 2.07,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -5.7,
-            "fiveDay": -12.9,
-            "twentyDay": -9.7
+            "oneDay": -7.1,
+            "fiveDay": -20.4,
+            "twentyDay": -17.1
           }
         },
         "10y": {
-          "value": 2.781,
-          "observationDate": "2026-11-24",
+          "value": 2.713,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -5.7,
-            "fiveDay": -14.6,
-            "twentyDay": -5.6
+            "oneDay": -6.8,
+            "fiveDay": -21.2,
+            "twentyDay": -11.1
           }
         },
         "20y": {
-          "value": 3.668,
-          "observationDate": "2026-11-24",
+          "value": 3.635,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -4.9,
-            "fiveDay": -11.1,
-            "twentyDay": 2.3
+            "oneDay": -3.3,
+            "fiveDay": -15.2,
+            "twentyDay": 0.5
           }
         },
         "30y": {
-          "value": 3.99,
-          "observationDate": "2026-11-24",
+          "value": 3.998,
+          "observationDate": "2026-11-25",
           "direction": "低下",
           "changeBp": {
-            "oneDay": -2.4,
-            "fiveDay": -7.2,
-            "twentyDay": 8.6
+            "oneDay": 0.8,
+            "fiveDay": -7.1,
+            "twentyDay": 11.4
           }
         }
       }
@@ -183,59 +181,59 @@
     "curves": {
       "us2y10y": {
         "label": "米国2年-10年",
-        "spreadBp": 28,
+        "spreadBp": 24,
         "direction": "横ばい",
         "changeBp": {
-          "oneDay": -1,
-          "fiveDay": -2,
-          "twentyDay": -4
+          "oneDay": -4,
+          "fiveDay": -3,
+          "twentyDay": -5
         }
       },
       "us10y30y": {
         "label": "米国10年-30年",
         "spreadBp": 39,
-        "direction": "横ばい",
+        "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 2,
-          "fiveDay": 3,
+          "oneDay": 0,
+          "fiveDay": 5,
           "twentyDay": 8
         }
       },
       "japan2y10y": {
         "label": "日本2年-10年",
-        "spreadBp": 99.8,
+        "spreadBp": 98.2,
         "direction": "フラット化",
         "changeBp": {
-          "oneDay": -1.4,
-          "fiveDay": -5.1,
-          "twentyDay": 3.3
+          "oneDay": -1.6,
+          "fiveDay": -6.5,
+          "twentyDay": 4.6
         }
       },
       "japan10y20y": {
         "label": "日本10年-20年",
-        "spreadBp": 88.7,
-        "direction": "横ばい",
+        "spreadBp": 92.2,
+        "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 0.8,
-          "fiveDay": 3.5,
-          "twentyDay": 7.9
+          "oneDay": 3.5,
+          "fiveDay": 6,
+          "twentyDay": 11.6
         }
       },
       "japan10y30y": {
         "label": "日本10年-30年",
-        "spreadBp": 120.9,
+        "spreadBp": 128.5,
         "direction": "スティープ化",
         "changeBp": {
-          "oneDay": 3.3,
-          "fiveDay": 7.4,
-          "twentyDay": 14.2
+          "oneDay": 7.6,
+          "fiveDay": 14.1,
+          "twentyDay": 22.5
         }
       }
     },
     "currency": {
-      "usdJpy": 159.21,
-      "changePct": 0.13,
-      "direction": "円安"
+      "usdJpy": 159.16,
+      "changePct": -0.06,
+      "direction": "円高"
     },
     "marketImpact": {
       "tailwind": [
@@ -243,11 +241,12 @@
         "高PERグロース",
         "AI・半導体",
         "成長株",
-        "自動車・電機など輸出大型株"
+        "内需・小売・電力ガス"
       ],
       "headwind": [
         "銀行",
         "銀行・保険の利ざや改善期待は後退（日本2年-10年がフラット化）",
+        "自動車・電機など輸出大型株",
         "半導体・AI"
       ],
       "watch": [
@@ -322,7 +321,7 @@
       "investorFlow": "海外 売り越し -3,124.9億円 / 個人 売り越し -3,614.7億円 / 投信 売り越し -176.8億円 / 信託銀行 買い越し +3,933.9億円 / 証券自己 買い越し +1,532.0億円",
       "investorFlowSeries": [],
       "advanceDecline": "25日 84.58 (中立) / 15日 90.3 (中立) / 10日 77.81 (売られすぎ) / 6日 56.61 (売られすぎ)。10日・6日が80未満で売られすぎ。",
-      "vixSqRisk": "VIX 28.22、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は低い。"
+      "vixSqRisk": "VIX 28.29、MACDはゴールデンクロス継続。今月はメジャーSQ月ではない。 SQ荒れ警戒は中。"
     },
     "technical": {
       "action": "更新待ち",
